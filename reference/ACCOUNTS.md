@@ -29,10 +29,5 @@
 - Journal of Petroleum Technology (jpt.spe.org)
 - Reuters Energy (reuters.com/business/energy)
 
-## What Signals Matter to WhiteSpace
-- Digital transformation / AI adoption in energy
-- New project announcements (especially planning-heavy: FEED, FID, concept selection)
-- Leadership changes at target accounts (new CTO, CDO, VP Digital)
-- Competitor product launches or partnerships
-- Energy transition moves that require complex planning
-- Capex decisions and budget changes
+## What Signals Matter
+See **reference/SIGNALS.md** for the full signal taxonomy, relevance scoring, and suggested actions per signal type.
