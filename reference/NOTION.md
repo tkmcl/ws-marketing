@@ -1,7 +1,18 @@
 # Notion Integration
 
 Ada writes structured marketing outputs to private Notion databases.
-API token is in environment variable `NOTION_TOKEN`.
+
+## Authentication
+
+Use the environment variable `$NOTION_API_KEY` for API calls:
+
+```bash
+curl -X POST "https://api.notion.com/v1/pages" \
+  -H "Authorization: Bearer $NOTION_API_KEY" \
+  -H "Content-Type: application/json" \
+  -H "Notion-Version: 2022-06-28" \
+  -d '{ ... }'
+```
 
 ## Databases
 
@@ -33,4 +44,4 @@ API token is in environment variable `NOTION_TOKEN`.
 
 - All Notion entries are internal drafts. Nothing public.
 - When writing to Notion, always send a short Telegram summary linking to the entry.
-- Set Status to `Draft` on creation. Michiel updates the status manually.
+- Status defaults to `Not started` on creation. Michiel updates it manually.

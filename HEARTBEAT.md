@@ -34,5 +34,6 @@ When you wake up for a heartbeat, work through this checklist.
 ## Housekeeping
 - Are any files getting too long? Consider archiving.
 - Any broken references or outdated info?
+- **Git Sync:** Commit all recent changes to the repository with a descriptive message.
 
 If nothing needs attention: HEARTBEAT_OK
