@@ -19,7 +19,7 @@ For delivery routing, see NOTION.md. General rule:
 3. **LinkedIn message variant** — Shorter, more casual version (2-3 sentences)
 4. **Suggested follow-up angle** — What Michiel could reference in a call or meeting
 
-**Tone:** See BRAND.md. Consultative, specific, never generic. Reference the exact signal.
+**Tone:** Use the Narrative Summary in BRAND.md for framing. Consultative, specific, never generic. Reference the exact signal.
 
 **Deliver:**
 - **Notion** → Marketing Intel entry. Type: `Account Brief`. Include all 4 elements.
@@ -37,7 +37,7 @@ For delivery routing, see NOTION.md. General rule:
 3. **Hashtag suggestions** — 3-5 relevant hashtags
 4. **Optional: blog outline** — If the theme is rich enough, suggest 3-4 section headers for a longer piece
 
-**Tone:** Thought leadership. Confident, insight-led, not reactive. Pattern: recognition → surprise → positive action.
+**Tone:** Use the Narrative Summary in BRAND.md — especially the pillars and taglines. Thought leadership. Confident, insight-led, not reactive. Pattern: recognition → surprise → positive action.
 
 **Deliver:**
 - **Notion** → Marketing Intel entry. Type: `Content Draft`. Include drafts + angle.
