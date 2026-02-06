@@ -231,9 +231,9 @@ You are free to edit `HEARTBEAT.md` with a short checklist or reminders. Keep it
 - Something interesting you found
 - It's been >8h since you said anything
 
-**When to stay quiet (HEARTBEAT_OK):**
+**When to stay quiet (HEARTBEAT_OK / Silent Maintenance):**
 
-- Late night (23:00-08:00) unless urgent
+- **Quiet Hours (22:00-08:00):** Perform background maintenance and git sync silently; do NOT send Telegram results unless it is a 🔴 HIGH urgency signal.
 - Human is clearly busy
 - Nothing new since last check
 - You just checked &lt;30 minutes ago
