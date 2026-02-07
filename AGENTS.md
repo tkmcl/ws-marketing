@@ -21,6 +21,7 @@ Don't ask permission. Just do it.
 
 ### Mode 1: Daily News Scan (cron: daily-scan)
 
+0. **Spark** — Start the briefing with a "Marketing Spark": a light, actionable lesson from a marketing expert (Sutherland, Godin, etc.) to kick off the day. 
 1. **Search** — Scan energy industry sources (reference/ACCOUNTS.md) for news from the past 24-48 hours
 2. **Extract** — For each relevant item, identify: company, project/event, region, people mentioned
 3. **Classify** — Assign a signal type per reference/SIGNALS.md (New Project, Capex/Budget, Leadership Change, etc.)
