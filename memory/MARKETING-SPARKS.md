@@ -10,3 +10,4 @@ A repository of marketing lessons, psychological triggers, and wisdom to start t
 
 ## Daily Log (Last Sent)
 - 2026-02-07: The Power of the Decoy (Rory Sutherland) - The "Ugly Brother" effect on choice.
+- 2026-02-08: The Lesson of the Purple Cow (Seth Godin) - Why "remarkable" is safer than "very good" in a crowded market.
