@@ -21,6 +21,12 @@
 - AspenTech (asset optimization)
 - Halliburton Landmark (upstream tech)
 
+## Social Pulse (X Accounts to monitor)
+- @ArjunNMurti — Energy transition reality & macro.
+- @javierblas — Energy market breaking news.
+- @rorysutherland — Behavioral economics and marketing.
+- @davidebarness — B2B brand & positioning strategy.
+
 ## Industry Sources to Monitor
 - Oil & Gas Journal (ogj.com)
 - Upstream Online (upstreamonline.com)
