@@ -8,6 +8,9 @@
 ## Content Strategy & Performance
 - **Strategic Precision over Volume (Equinor/Shell Feb 2026)**: Industry is shifting from volume growth to "precision growth." High-value optimization is the new priority as capex is tightened.
 - **Energy for AI Narrative**: Validated by Shell (CEO Wael Sawan). The link between energy security and AI infrastructure is a key strategic hook for 2026.
+- **BP Leadership Change (Feb 9, 2026)**: CEO Murray Auchincloss stepping down, interim Carol Howle, incoming Meg O'Neill (spring). Critical stakeholder refresh for WhiteSpace outreach.
+- **Equinor $4B Capex Cut (Feb 9, 2026)**: Shift to "high-grading" and precision growth. Messaging hook: "Clarity when trade-offs are mandatory."
+- **Palantir/Cognizant Partnership (Feb 9, 2026)**: Scaling AI implementation. Competitive threat: Palantir is moving toward broader execution services.
 - **High Resonance Content**: Linking macro earnings (Equinor capex cuts) to specific planning challenges.
 - **Upcoming Hooks**: BP results (Feb 10, 2026) are the next major focus for the "Planning survives reality" theme.
 
