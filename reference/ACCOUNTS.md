@@ -1,18 +1,37 @@
 # Target Accounts & Competitors
 
-## Tier 1 — Strategic (scan daily)
-- **Equinor** (equinor.com) — existing client, monitor for expansion signals
-- **Shell** (shell.com) — active prospect
-- **TotalEnergies** (totalenergies.com) — active prospect
-- **BP** (bp.com) — warm lead
+## Tier 0 — AIM (Existing Customers)
+- **Equinor**
+- **Harbour Energy**
+- **ConocoPhilips**
+- **Petoro**
+- **Petroleum Development Oman**
 
-## Tier 2 — Opportunistic (scan weekly or on-demand)
+## Tier 1 — AIM (Strategic Prospecting)
+- **Shell**
+- **TotalEnergies**
+- **ExxonMobil**
+- **Eni S.P.A.**
+- **BP**
+- **Chevron**
+- **PEMEX**
+- **Perenco**
+- **Petrobras**
+- **Ecopetrol S.A.**
+
+## Tier 2 — AIM (Opportunistic Prospecting)
+- **Aker BP**
+- **Petronas**
+- **Repsol**
+- **ADNOC**
+- **Saudi Aramco**
+- **Hilcorp**
+- **Hocol S.A.**
+- **Frontera Energy Colombia Corp Sucursal Colombia**
+- **PKN ORLEN**
+- **Sonatrach**
+- **PTTEP**
 - Woodside Energy
-- Petronas
-- ADNOC
-- Saudi Aramco
-- Eni
-- Repsol
 
 ## Competitors (monitor for positioning shifts)
 - Palantir (energy vertical)
