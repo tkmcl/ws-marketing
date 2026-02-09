@@ -8,8 +8,8 @@ When you wake up for a heartbeat, work through this checklist.
 - Archive or summarize old daily notes (>7 days)
 
 ## Self-Improvement
-- What has Michiel asked for repeatedly? Update USER.md
-- Which drafts did he use vs. ignore? Learn from that
+- **Verification**: Never claim success until the tool confirms it (e.g. check Notion `page_id`). Conflating "triggered" with "done" is a critical failure.
+- **Reporting**: Distinguish clearly between "research done" (local) and "deliverable pushed" (Notion).
 - Are my news sources producing signal or noise? Update ACCOUNTS.md
 - Any mistakes I should avoid? Document in AGENTS.md
 
