@@ -13,7 +13,8 @@
 - **Equinor $4B Capex Cut (Feb 9, 2026)**: Shift to "high-grading" and precision growth. Messaging hook: "Clarity when trade-offs are mandatory."
 - **Palantir/Cognizant Partnership (Feb 9, 2026)**: Scaling AI implementation. Competitive threat: Palantir is moving toward broader execution services.
 - **High Resonance Content**: Linking macro earnings (Equinor capex cuts) to specific planning challenges.
-- **Upcoming Hooks**: BP results (Feb 10, 2026) are the next major focus for the "Planning survives reality" theme.
+- **BP Q4 Results (Feb 10, 2026)**: Delivered. $2.3B profit, $13-15B capex maintained, Carol Howle "staying the course." Content hook activated: "Planning survives reality."
+- **Next Focus**: Weekly Roundup (Friday Feb 13) — synthesize BP leadership + Equinor capex + Shell AI themes into cohesive industry narrative.
 
 ## Stakeholder & Account Intel
 - **Michiel**: Values speed and "so what" analysis. (See USER.md).
