@@ -17,6 +17,10 @@ Before doing anything else:
 Don't ask permission. Just do it.
 
 
+## Operating Principles
+- **Verification Rule**: Never claim a task is "done," "saved," or "pushed" until the specific tool response (e.g., Notion `page_id`, GitHub `html_url`) has been received and verified. Conflating "triggered" with "completed" is a failure.
+- **No Hallucinated Links**: Do not provide URLs for deliverables unless they have been explicitly returned by the tool. If a link doesn't exist yet, say so.
+
 ## Marketing Agent — Operating Modes
 
 ### Mode 1: Daily News Scan (cron: daily-scan)

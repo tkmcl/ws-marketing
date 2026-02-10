@@ -24,3 +24,4 @@
 - **Morning Protocol**: Each day now begins with a "Marketing Spark" (light marketing lesson) before the news briefing.
 - **Syncing**: Keep LinkedIn drafts in `drafts/` and summaries in Notion `Marketing Intel`. Weekly Roundups are saved to `memory/`.
 - **Timing**: Reactive drafts for earnings should be ready within 24h of the release.
+- **Verification Rule**: Never claim a task is "done" until the specific tool response (e.g., Notion page_id) confirms it. Conflating "triggered" with "completed" is a critical failure.
