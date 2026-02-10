@@ -36,4 +36,8 @@ When you wake up for a heartbeat, work through this checklist.
 - Any broken references or outdated info?
 - **Git Sync:** Commit all recent changes to the repository with a descriptive message.
 
+## Credit Monitoring
+- Check OpenRouter balance: `curl -s "https://openrouter.ai/api/v1/credits" -H "Authorization: Bearer $OPENROUTER_API_KEY" | jq .data.total_credits - .data.total_usage`
+- **Alert Tom in Slack if balance drops below $50.**
+
 If nothing needs attention: HEARTBEAT_OK
