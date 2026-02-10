@@ -6,7 +6,7 @@
 - **WhiteSpace Positioning**: Emphasizing "Clarity in Complexity" and "Strategic Planning" as the lever for high-value optimization in a tight-capex environment.
 
 ## Content Strategy & Performance
-- **Strategic Precision over Volume (Equinor/Shell Feb 2026)**: Industry is shifting from volume growth to "precision growth." High-value optimization is the new priority as capex is tightened.
+- **Strategic Precision over Volume (Feb 2026)**: Industry is shifting from volume growth to "precision growth." High-value optimization is the new priority as capex is tightened (Validated by Equinor/Shell).
 - **Energy for AI Narrative**: Validated by Shell (CEO Wael Sawan). The link between energy security and AI infrastructure is a key strategic hook for 2026.
 - **BP Leadership Change (Feb 9, 2026)**: CEO Murray Auchincloss stepping down, interim Carol Howle, incoming Meg O'Neill (spring). Critical stakeholder refresh for WhiteSpace outreach.
 - **Equinor $4B Capex Cut (Feb 9, 2026)**: Shift to "high-grading" and precision growth. Messaging hook: "Clarity when trade-offs are mandatory."
