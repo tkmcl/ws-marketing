@@ -4,6 +4,7 @@
 - **Primary Market Shift**: Energy majors (Equinor, Shell) are pivoting from volume growth to "precision growth" and capital discipline. (Source: Weekly Roundup Feb 6, 2026)
 - **Key Narrative**: "Energy for AI" is becoming a critical industry signal (Shell CEO Wael Sawan). Powering 2026 infrastructure requires a move away from legacy planning tools.
 - **WhiteSpace Positioning**: Emphasizing "Clarity in Complexity" and "Strategic Planning" as the lever for high-value optimization in a tight-capex environment.
+- **BP Q4 Results (Feb 10, 2026)**: $2.3B profit, maintaining $13-15B capex frame. Interim CEO Carol Howle "staying the course" on cost reduction ($2B target by end-2026). Fresh $1.75B buyback announced.
 
 ## Content Strategy & Performance
 - **Strategic Precision over Volume (Feb 2026)**: Industry is shifting from volume growth to "precision growth." High-value optimization is the new priority as capex is tightened (Validated by Equinor/Shell).
