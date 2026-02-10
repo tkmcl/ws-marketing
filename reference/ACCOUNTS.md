@@ -38,7 +38,8 @@
 - Cognite (Data Fusion / industrial AI)
 - AVEVA (process optimization)
 - AspenTech (asset optimization)
-- Halliburton Landmark (upstream tech)
+- Halliburton Landmark (upstream tech - 360/Compass)
+- SLB (FDplan)
 
 ## Social Pulse (X Accounts to monitor)
 - @ArjunNMurti — Energy transition reality & macro.
