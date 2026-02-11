@@ -77,7 +77,17 @@ WhiteSpace doesn't just build tools. We deliver **strategic clarity by design**:
 
 ## Photography & Visual Guidelines
 
-> ⚠️ **Rule #1: No images that look AI-generated.** If using AI generation, outputs must be photorealistic and indistinguishable from real photography. When in doubt, source from stock libraries (Unsplash, Getty, etc.) or WhiteSpace's existing assets.
+### Style Principles
+Our brand's photographic style is defined as **sharp and precise**. When searching for fitting imagery, avoid blurred and overly stylized photos. Subjects should be clearly visible.
+
+### AI-Generated Imagery Policy
+AI-generated images are acceptable **only if** they meet these criteria:
+1. **Photorealistic** — indistinguishable from real photography
+2. **Sharp and precise** — consistent with our visual style (no blur, no over-stylization)
+3. **No AI artifacts** — no telltale signs (distorted hands, uncanny faces, plastic skin, impossible reflections)
+4. **Human-reviewed** — someone on the team confirms it passes the "real photo" test before use
+
+When in doubt, source from stock libraries (Unsplash, Getty, etc.) or WhiteSpace's existing assets. A mediocre stock photo is always preferable to an AI image that feels "off."
 
 ### Global Impact (Locations)
 These images capture large-scale industrial and infrastructural environments: wind farms, treatment plants, shipping ports, railway yards, expansive office complexes, and factories. Each photograph is taken from an aerial or high vantage point, emphasizing scale, systems, and interconnectedness. Instead of focusing on individuals, the subject is the magnitude of operations — landscapes of production, logistics, and energy that feel bigger than any one person.
