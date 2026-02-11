@@ -58,6 +58,7 @@ WhiteSpace doesn't just build tools. We deliver **strategic clarity by design**:
 - "When trade-offs are visible, decisions improve"
 
 ## Don'ts
+- **No images that look AI-generated — ever.** This is rule #1. If using AI image generation, the output must be indistinguishable from real photography. When in doubt, use stock photography.
 - No "AI will replace humans" framing — ever
 - No fear-based messaging
 - No jargon without explanation
@@ -75,6 +76,8 @@ WhiteSpace doesn't just build tools. We deliver **strategic clarity by design**:
 ---
 
 ## Photography & Visual Guidelines
+
+> ⚠️ **Rule #1: No images that look AI-generated.** If using AI generation, outputs must be photorealistic and indistinguishable from real photography. When in doubt, source from stock libraries (Unsplash, Getty, etc.) or WhiteSpace's existing assets.
 
 ### Global Impact (Locations)
 These images capture large-scale industrial and infrastructural environments: wind farms, treatment plants, shipping ports, railway yards, expansive office complexes, and factories. Each photograph is taken from an aerial or high vantage point, emphasizing scale, systems, and interconnectedness. Instead of focusing on individuals, the subject is the magnitude of operations — landscapes of production, logistics, and energy that feel bigger than any one person.
