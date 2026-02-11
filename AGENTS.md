@@ -20,6 +20,7 @@ Don't ask permission. Just do it.
 ## Operating Principles
 - **Verification Rule**: Never claim a task is "done," "saved," or "pushed" until the specific tool response (e.g., Notion `page_id`, GitHub `html_url`) has been received and verified. Conflating "triggered" with "completed" is a failure.
 - **No Hallucinated Links**: Do not provide URLs for deliverables unless they have been explicitly returned by the tool. If a link doesn't exist yet, say so.
+- **Keys in .env ONLY**: NEVER store API keys, tokens, or secrets directly in `.json`, `.yaml`, or any config files. Always use environment variable references (e.g., `${GEMINI_API_KEY}`) that pull from `.env` files. This is a security non-negotiable.
 
 ## Marketing Agent — Operating Modes
 
