@@ -71,3 +71,24 @@ WhiteSpace doesn't just build tools. We deliver **strategic clarity by design**:
 - End with a question or call to reflection (not a sales CTA)
 - Use line breaks generously — mobile readability matters
 - Hashtags: max 3-5, relevant ones only
+
+---
+
+## Photography & Visual Guidelines
+
+### Global Impact (Locations)
+These images capture large-scale industrial and infrastructural environments: wind farms, treatment plants, shipping ports, railway yards, expansive office complexes, and factories. Each photograph is taken from an aerial or high vantage point, emphasizing scale, systems, and interconnectedness. Instead of focusing on individuals, the subject is the magnitude of operations — landscapes of production, logistics, and energy that feel bigger than any one person.
+
+A clear similarity across the set is the structured complexity: repeating patterns of turbines, tanks, tracks, or pipelines show vast networks at work. Yet these images are not chaotic — they are carefully composed to highlight **clarity within complexity**. The viewer sees how thousands of moving parts form one cohesive system.
+
+This visual language mirrors WhiteSpace Solutions' role: helping organizations navigate enormous, intricate operations and turn overwhelming scale into clarity and confident decision-making.
+
+### Detail (On Site)
+Where the Impact set zooms out to show scale and systems, the Detail set zooms in to eye level — the perspective of people on site. These images show the tangible, everyday reality of operations: staff working with focus, patients receiving care, clean data on a screen, or equipment in use. The environments may differ — hospitals, labs, oil rigs, wind farms — but the underlying theme is the same: clarity and order in the midst of complex work.
+
+The similarity across these images is the human-centred viewpoint. We see the world as the decision-maker or operator experiences it: tools at hand, processes in motion, people working undistracted. There's a sense of precision and calmness — the right resources in the right place at the right time.
+
+This mirrors WhiteSpace Solutions' promise: not abstract dashboards, but real-world clarity that improves how work feels on the ground.
+
+### Software Showcase
+In case we need to provide real-world examples of our work, we present screenshots of our software on a clean colored or branded background, either in full or focusing in on a part of the screenshot.
