@@ -26,6 +26,10 @@
 - **Shell**: Validating the energy security/AI boom link. Groningen arbitration (Feb 12) signals aggressive asset protection strategy.
 - **TotalEnergies**: Third European major to cut buybacks. FIDs planned: Venus (Namibia), Ima (Nigeria), PNG LNG.
 - **Libya**: First licensing round since 2007. Tier 1 accounts participating (Chevron, Eni, Repsol). Emerging opportunity.
+- **Chevron**: Leviathan gas expansion FID (Feb 11, 2026). Subsea 7 won 17km subsea installation. Active project execution mode.
+
+## Market Patterns (Feb 2026)
+- **European Majors Buyback Wave**: BP (halted), Equinor (70% cut), TotalEnergies (halved) — all within 10 days. Synchronized capital discipline unprecedented since 2020.
 
 ## Operational Lessons
 - **Morning Protocol**: Each day now begins with a "Marketing Spark" (light marketing lesson) before the news briefing.
