@@ -18,7 +18,7 @@
 - **Palantir Competitive Signal (Feb 9-11, 2026)**: Cognizant partnership (Feb 9) + Daiwa upgrade (Feb 11) on 137% US commercial revenue growth. Repositioning from "AI adoption" to "operating system for business operations." Different market than WhiteSpace, but validates enterprise AI demand.
 - **High Resonance Content**: Linking macro earnings (Equinor capex cuts) to specific planning challenges.
 - **BP Q4 Results (Feb 10, 2026)**: Delivered. $2.3B profit, $13-15B capex maintained, Carol Howle "staying the course." Content hook activated: "Planning survives reality."
-- **Next Focus**: Weekly Roundup (Friday Feb 14) — synthesize BP buyback halt + leadership transition + Equinor capex + Shell resource gap + TotalEnergies buyback cut + Libya licensing into cohesive "capital discipline" narrative. Strong week for signals.
+- **Next Focus**: Weekly Roundup (Friday Feb 13) — synthesize BP buyback halt + leadership transition + Equinor capex + Shell resource gap + TotalEnergies buyback cut + Libya licensing into cohesive "capital discipline" narrative. Strong week for signals.
 
 ## Stakeholder & Account Intel
 - **Michiel**: Values speed and "so what" analysis. (See USER.md).
