@@ -1,5 +1,8 @@
 # MEMORY.md - Long-Term Memory (Ada)
 
+## Scope
+- **Upstream Only (Feb 13, 2026)**: Michiel confirmed focus is exploration, development, and production only. Exclude midstream, downstream, and renewables unless directly impacting upstream planning.
+
 ## Core Strategic Context (Feb 2026)
 - **Primary Market Shift**: Energy majors (Equinor, Shell) are pivoting from volume growth to "precision growth" and capital discipline. (Source: Weekly Roundup Feb 6, 2026)
 - **Key Narrative**: "Energy for AI" is becoming a critical industry signal (Shell CEO Wael Sawan). Powering 2026 infrastructure requires a move away from legacy planning tools.

@@ -1,5 +1,7 @@
 # Signal Taxonomy
 
+**Scope: Upstream Only** — Exploration, development, and production. Exclude midstream (pipelines, LNG terminals), downstream (refining, retail), and renewables/energy transition unless directly tied to upstream planning.
+
 When scanning news and sources, classify every relevant signal using this framework.
 The guiding question: **"What has changed that could justify a commercial action by WhiteSpace?"**
 
@@ -45,13 +47,8 @@ The guiding question: **"What has changed that could justify a commercial action
 | Adjacent (AspenTech, Halliburton Landmark) | 🟡 MEDIUM | Include in briefing with competitive context. |
 | New entrant | 🟡 MEDIUM | Flag if they're entering WhiteSpace's space. Research their offering. |
 
-### 6. Energy Transition Initiative
-**What counts:** CCS project, hydrogen investment, renewables pivot, net-zero commitment with concrete planning needs, decommissioning program.
-| Account Tier | Urgency | Action |
-|---|---|---|
-| Tier 1 | 🔴 HIGH | Flag in briefing. These projects are planning-heavy — core WhiteSpace territory. Draft outreach angle. |
-| Tier 2 | 🟡 MEDIUM | Include in briefing. |
-| Other | 🟢 LOW | Only if it signals new market opportunity for WhiteSpace. |
+### 6. ~~Energy Transition Initiative~~ (OUT OF SCOPE)
+**Excluded from upstream focus.** CCS, hydrogen, renewables, net-zero initiatives — skip unless they directly impact upstream asset planning or decommissioning timelines.
 
 ### 7. M&A / Asset Activity
 **What counts:** Acquisition, divestiture, joint venture, asset swap, portfolio restructuring.
