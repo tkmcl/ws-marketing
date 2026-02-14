@@ -38,6 +38,7 @@
 - **Chevron**: Leviathan gas expansion FID (Feb 11, 2026). Subsea 7 won 17km subsea installation. Active project execution mode.
 - **Aramco**: Deepening Microsoft AI partnership (Feb 13). Competitive positioning on industrial AI — WhiteSpace differentiation via planning focus remains intact.
 - **TPAO (Türkiye)**: Expanding partnerships with BP/Chevron (Feb 13). Priority: Iraq, Libya, Central Asia. Emerging player to watch.
+- **TenneT (Feb 14, 2026)**: Non-upstream opportunity. Dutch TSO. Michiel requested dashboard mockup for AI-assisted Portfolio Planning pitch. Awaiting Glu's input on design patterns. Proposed concept: Gantt-style timeline + Pareto chart + scenario selector + constraint indicators.
 
 ## Market Patterns (Feb 2026)
 - **European Majors Buyback Wave**: BP (halted), Equinor (70% cut), TotalEnergies (halved) — all within 10 days. Synchronized capital discipline unprecedented since 2020.
