@@ -43,8 +43,14 @@
 ## Market Patterns (Feb 2026)
 - **European Majors Buyback Wave**: BP (halted), Equinor (70% cut), TotalEnergies (halved) — all within 10 days. Synchronized capital discipline unprecedented since 2020.
 
+## Outstanding Actions (as of Feb 15, 2026)
+- [ ] **TenneT dashboard mockup** — Awaiting Glu's response on WhiteSpace design patterns
+- [ ] **Hibiscus contact names** — Needed for personalized outreach drafts
+- [ ] **SPE Stavanger/Aker attendee names** — Needed for follow-up emails
+
 ## Operational Lessons
 - **Morning Protocol**: Each day now begins with a "Marketing Spark" (light marketing lesson) before the news briefing.
 - **Syncing**: Keep LinkedIn drafts in `drafts/` and summaries in Notion `Marketing Intel`. Weekly Roundups are saved to `memory/`.
 - **Timing**: Reactive drafts for earnings should be ready within 24h of the release.
 - **Verification Rule**: Never claim a task is "done" until the specific tool response (e.g., Notion page_id) confirms it. Conflating "triggered" with "completed" is a critical failure.
+- **Memory Archival**: Daily files older than 7 days should be moved to `memory/archive/` after key insights are consolidated to MEMORY.md.
