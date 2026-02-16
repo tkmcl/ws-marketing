@@ -35,13 +35,18 @@
 - **Shell**: Validating the energy security/AI boom link. Groningen arbitration (Feb 12) signals aggressive asset protection strategy.
 - **TotalEnergies**: Third European major to cut buybacks. FIDs planned: Venus (Namibia), Ima (Nigeria), PNG LNG.
 - **Libya**: First licensing round since 2007. Tier 1 accounts participating (Chevron, Eni, Repsol). Emerging opportunity.
-- **Chevron**: Leviathan gas expansion FID (Feb 11, 2026). Subsea 7 won 17km subsea installation. Active project execution mode.
+- **Chevron**: Leviathan gas expansion FID (Feb 11, 2026). Subsea 7 won 17km subsea installation. Greece offshore contracts signed (Feb 16) — 4 blocks with HELLENiQ (~47K km²), first drilling in 40 years. Active project execution mode across multiple frontier regions.
+- **ConocoPhillips**: Greater Ekofisk $2B investment (Feb 16) — restart of 3 fields by end-2028. Tier 0 customer with fresh capex signal.
+- **Azule Energy (Eni-BP JV)**: 500M barrel Algaita-01 discovery offshore Angola (Feb 16). Tie-back to Olombendo FPSO. Infrastructure-led exploration exemplar.
+- **Harbour Energy**: Closed $3.2B LLOG acquisition (Feb 16). Tier 0 customer; M&A integration = planning complexity opportunity.
 - **Aramco**: Deepening Microsoft AI partnership (Feb 13). Competitive positioning on industrial AI — WhiteSpace differentiation via planning focus remains intact.
 - **TPAO (Türkiye)**: Expanding partnerships with BP/Chevron (Feb 13). Priority: Iraq, Libya, Central Asia. Emerging player to watch.
 - **TenneT (Feb 14, 2026)**: Non-upstream opportunity. Dutch TSO. Michiel requested dashboard mockup for AI-assisted Portfolio Planning pitch. Awaiting Glu's input on design patterns. Proposed concept: Gantt-style timeline + Pareto chart + scenario selector + constraint indicators.
 
 ## Market Patterns (Feb 2026)
 - **European Majors Buyback Wave**: BP (halted), Equinor (70% cut), TotalEnergies (halved) — all within 10 days. Synchronized capital discipline unprecedented since 2020.
+- **Infrastructure-Led Exploration (Feb 16)**: Majors prioritizing tie-backs over greenfield (Azule Algaita, ConocoP Ekofisk). Lower risk, faster monetization — precision growth in action.
+- **M&A for Optionality**: Harbour-LLOG, ADNOC fleet expansion, Aramco leasebacks — building resilience through consolidation rather than volume growth.
 
 ## Outstanding Actions (as of Feb 16, 2026)
 - [ ] **TenneT dashboard mockup** — Awaiting Glu's response on WhiteSpace design patterns
