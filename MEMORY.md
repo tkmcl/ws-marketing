@@ -54,6 +54,7 @@
 - [ ] **SPE Stavanger/Aker attendee names** — Needed for follow-up emails
 
 ## Operational Lessons
+- **Account Brief Updates (Feb 16, 2026)**: Every news item from daily scans that relates to a Tier account must be appended to that account's Notion Account Brief page. This builds a per-account knowledge base over time. Format: date header, summary, signal type, region, WhiteSpace angle, source.
 - **Morning Protocol**: Each day now begins with a "Marketing Spark" (light marketing lesson) before the news briefing.
 - **Syncing**: Keep LinkedIn drafts in `drafts/` and summaries in Notion `Marketing Intel`. Weekly Roundups are saved to `memory/`.
 - **Timing**: Reactive drafts for earnings should be ready within 24h of the release.

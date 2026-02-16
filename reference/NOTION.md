@@ -48,3 +48,21 @@ curl -X POST "https://api.notion.com/v1/pages" \
 - When writing to Notion, send a short Slack summary to #ada-marketing.
 - Status defaults to `Not started` on creation. Michiel updates it manually.
 - **Account Briefs are append-only**: Never replace content, only add new sections with date headers.
+
+## Account Brief Updates (Standard Practice)
+
+**Every news item from daily scans that relates to a Tier 0/1/2 account must be appended to that account's Account Brief page.**
+
+Format for each entry:
+```
+### YYYY-MM-DD — [Headline]
+
+[1-2 sentence summary]
+
+- Signal type: [Type] [Urgency emoji]
+- Region: [Geography]
+- WhiteSpace angle: [Why this matters for positioning]
+- Source: [Publication(s)]
+```
+
+This builds a knowledge base per account over time. Cross-reference JVs to both partners' briefs when relevant.
