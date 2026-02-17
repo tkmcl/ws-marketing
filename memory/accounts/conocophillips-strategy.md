@@ -19,3 +19,14 @@
 *   **The $1B Challenge:** The explicit goal of $1B in savings is the perfect hook for WhiteSpace's **asset optimization and efficiency** playbooks.
 *   **Planning Complexity in Permian:** The shift to 90% 2-mile laterals increases **drilling & completions (D&C) planning complexity**. WhiteSpace can offer solutions for optimized scheduling and resource allocation.
 *   **Free Cash Flow Inflection:** Management's focus on a $7B FCF "inflection" by 2029 requires precise **capital allocation and project oversight**, directly matching WhiteSpace's strategic planning capabilities.
+
+---
+
+## Recent Signals
+
+### Feb 16, 2026 — Greater Ekofisk $2B Investment
+- **Signal Type:** Capex/Budget
+- **Region:** Norway / North Sea
+- **Summary:** ConocoPhillips announced 20B NOK (~$2B) investment to restart 3 fields in the Greater Ekofisk area by end-2028.
+- **WhiteSpace Angle:** Tier 0 customer with fresh capex signal. Multi-field restart = complex planning. Opportunity to highlight integrated project scheduling capabilities.
+- **Source:** Daily Scan Feb 16, 2026

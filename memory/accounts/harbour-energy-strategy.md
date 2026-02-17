@@ -4,7 +4,7 @@
 Harbour has shifted from "Integration" to "High-Grade Hubs." Following the successful exit of the Wintershall Dea Transitional Services Agreement in Sept 2025, 2026 is their first year as a fully integrated global independent operator.
 
 ### Strategic Priorities
-*   **Asset High-Grading**: Aggressive reallocation of capital toward "International Growth Hubs" (Norway, Mexico, Indonesia) while "Harvesting" legacy UKCS assets. 
+*   **Asset High-Grading**: Aggressive reallocation of capital toward "International Growth Hubs" (Norway, Mexico, Indonesia) while "Harvesting" legacy UKCS assets.
 *   **Target**: Sustain >450 kboepd through 2027.
 *   **Capital Allocation**: "Prudent Growth." Reinvesting into high-return hubs while pursuing a $4-5B structural cost reduction target by 2027 (synergy realization from the Wintershall merger).
 *   **Digital/AI Approach**: Actively digitizing the **Work Program & Budget (WP&B)** and **Integrated Activity Planning (IAP)** processes to manage the complexity of 50+ partners across 7+ countries.
@@ -35,6 +35,17 @@ Harbour has shifted from "Integration" to "High-Grade Hubs." Following the succe
 
 ## 4. ENTRY HOOKS (Michiel)
 
-1.  **"The Zama Handover"**: *“With Harbour taking the lead at Zama from Pemex, the 2026 engineering phase is critical. AIM provides the planning clarity needed to ensure operatorship success from day one.”*
-2.  **"Synergy Realization"**: *“You're chasing $4-5B in structural cost reductions. That won't happen in spreadsheets. We automate the 'what-if' modeling for your Integrated Activity Plan.”*
-3.  **"Norway Hub Growth"**: *“Dvalin North hits peak activity this year. We help synchronize your drilling schedule with your 2027 financial targets.”*
+1.  **"The Zama Handover"**: *"With Harbour taking the lead at Zama from Pemex, the 2026 engineering phase is critical. AIM provides the planning clarity needed to ensure operatorship success from day one."*
+2.  **"Synergy Realization"**: *"You're chasing $4-5B in structural cost reductions. That won't happen in spreadsheets. We automate the 'what-if' modeling for your Integrated Activity Plan."*
+3.  **"Norway Hub Growth"**: *"Dvalin North hits peak activity this year. We help synchronize your drilling schedule with your 2027 financial targets."*
+
+---
+
+## Recent Signals
+
+### Feb 16, 2026 — $3.2B LLOG Acquisition Closed
+- **Signal Type:** M&A
+- **Region:** Gulf of Mexico
+- **Summary:** Harbour Energy completed the $3.2B acquisition of LLOG Exploration, significantly expanding their GoM deepwater footprint.
+- **WhiteSpace Angle:** M&A integration = planning complexity. New assets need to be integrated into existing WP&B and IAP processes. Perfect timing for "synergy realization" conversation—now they have even more to integrate.
+- **Source:** Daily Scan Feb 16, 2026

@@ -19,3 +19,21 @@
 *   **Cost Efficiency Target:** The 2026 deadline for $3-4B in savings is a prime hook for **asset optimization and digital workflow** implementation.
 *   **Execution Risk Mitigation:** Management's focus on "lower execution risk" suggests a need for **better project planning and predictive analytics**—a WhiteSpace sweet spot.
 *   **Cash Flow Consistency:** With a $50 Brent breakeven target, WhiteSpace can position itself as a partner in **sustaining low-cost operations** through superior resource planning.
+
+---
+
+## Recent Signals
+
+### Feb 16, 2026 — Greece Offshore Contracts Signed
+- **Signal Type:** New Project / Frontier Expansion
+- **Region:** Mediterranean / Greece
+- **Summary:** Chevron signed contracts with HELLENiQ Energy for 4 offshore blocks (~47,000 km²) in South Peloponnese, A2, South of Crete I & II. First drilling in Greece in 40 years; seismic planned for late 2026.
+- **WhiteSpace Angle:** Frontier exploration = high complexity, long planning horizons. Chevron actively expanding project execution footprint across multiple regions simultaneously (Greece + Leviathan).
+- **Source:** Daily Scan Feb 16, 2026
+
+### Feb 11, 2026 — Leviathan Gas Expansion FID
+- **Signal Type:** Capex/Budget
+- **Region:** Eastern Mediterranean / Israel
+- **Summary:** FID on Leviathan gas expansion. Subsea 7 awarded 17km subsea installation contract.
+- **WhiteSpace Angle:** Active project execution mode. Multiple simultaneous FIDs = planning complexity.
+- **Source:** Daily Scan Feb 11, 2026

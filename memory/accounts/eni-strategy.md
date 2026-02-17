@@ -19,3 +19,21 @@
 *   **The "Satellite" Challenge:** Eni's model of "Satellites" creates unique **portfolio management and carve-out planning** needs.
 *   **Time-to-Market Mandate:** Their "fast-track" priority is a direct hook for **efficiency in project planning and execution**.
 *   **Gas Hub Optimization:** Eni's focus on new gas hubs in Africa requires complex **integrated field development planning**—a WhiteSpace core competency.
+
+---
+
+## Recent Signals
+
+### Feb 16, 2026 — Azule Energy 500M Barrel Angola Discovery
+- **Signal Type:** New Project / Discovery
+- **Region:** West Africa / Angola
+- **Summary:** Azule Energy (Eni-BP JV) confirmed Algaita-01 discovery in Block 15/06 offshore Angola. 500M barrels oil-in-place. Tie-back to Olombendo FPSO planned.
+- **WhiteSpace Angle:** Infrastructure-led exploration = precision growth exemplar. Tie-back planning = complex integration with existing FPSO. Perfect case study for "doing more with existing assets."
+- **Source:** Daily Scan Feb 16, 2026
+
+### Feb 12, 2026 — Libya Licensing Round Win
+- **Signal Type:** New Exploration
+- **Region:** North Africa / Libya
+- **Summary:** Eni+QatarEnergy won Offshore Area 01 in Libya's first licensing round since 2007.
+- **WhiteSpace Angle:** Frontier re-entry with strategic partner. Exploration planning opportunity.
+- **Source:** Daily Scan Feb 12, 2026
