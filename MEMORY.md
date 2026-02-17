@@ -39,7 +39,9 @@
 - **ConocoPhillips**: Greater Ekofisk $2B investment (Feb 16) — restart of 3 fields by end-2028. Tier 0 customer with fresh capex signal.
 - **Azule Energy (Eni-BP JV)**: 500M barrel Algaita-01 discovery offshore Angola (Feb 16). Tie-back to Olombendo FPSO. Infrastructure-led exploration exemplar.
 - **Harbour Energy**: Closed $3.2B LLOG acquisition (Feb 16). Tier 0 customer; M&A integration = planning complexity opportunity.
-- **Aramco**: Deepening Microsoft AI partnership (Feb 13). Competitive positioning on industrial AI — WhiteSpace differentiation via planning focus remains intact.
+- **Saudi Aramco**: Jafurah Phase 1 exports began (Feb 16). Microsoft AI partnership deepening (Feb 13). Competitive positioning on industrial AI — WhiteSpace differentiation via planning focus remains intact.
+- **ADNOC**: Record 2024 results + LNG fleet expansion announced (Feb 16). Aggressive growth posture.
+- **Petronas**: Oman Block 18 award + Malaysia Bid Round 2026 announced (Feb 16). Southeast Asia expansion.
 - **TPAO (Türkiye)**: Expanding partnerships with BP/Chevron (Feb 13). Priority: Iraq, Libya, Central Asia. Emerging player to watch.
 - **TenneT (Feb 14, 2026)**: Non-upstream opportunity. Dutch TSO. Michiel requested dashboard mockup for AI-assisted Portfolio Planning pitch. Awaiting Glu's input on design patterns. Proposed concept: Gantt-style timeline + Pareto chart + scenario selector + constraint indicators.
 
@@ -47,6 +49,7 @@
 - **European Majors Buyback Wave**: BP (halted), Equinor (70% cut), TotalEnergies (halved) — all within 10 days. Synchronized capital discipline unprecedented since 2020.
 - **Infrastructure-Led Exploration (Feb 16)**: Majors prioritizing tie-backs over greenfield (Azule Algaita, ConocoP Ekofisk). Lower risk, faster monetization — precision growth in action.
 - **M&A for Optionality**: Harbour-LLOG, ADNOC fleet expansion, Aramco leasebacks — building resilience through consolidation rather than volume growth.
+- **Bearish Macro (Feb 16)**: IEA demand growth cut to 850K bpd, 3.73M bpd supply surplus projected (~4% of demand). Brent at ~$67.70, second consecutive weekly drop. Capex discipline reinforced.
 
 ## Outstanding Actions (as of Feb 16, 2026)
 - [ ] **TenneT dashboard mockup** — Awaiting Glu's response on WhiteSpace design patterns
