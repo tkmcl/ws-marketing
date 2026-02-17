@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhiteSpace AIO - Portfolio Planning Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0a1628 0%, #1a2744 100%);
+            color: #e8eef5;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 24px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #00d4aa;
+        }
+        
+        .logo span {
+            color: #fff;
+        }
+        
+        .nav-tabs {
+            display: flex;
+            gap: 24px;
+        }
+        
+        .nav-tab {
+            color: #7a8ba3;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        
+        .nav-tab.active {
+            color: #00d4aa;
+            border-bottom: 2px solid #00d4aa;
+            padding-bottom: 4px;
+        }
+        
+        .user-section {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .user-avatar {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, #00d4aa, #0088cc);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+        }
+        
+        .dashboard {
+            display: grid;
+            grid-template-columns: 280px 1fr 320px;
+            gap: 20px;
+            height: calc(100vh - 140px);
+        }
+        
+        .panel {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 20px;
+        }
+        
+        .panel-title {
+            font-size: 14px;
+            color: #7a8ba3;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+        
+        /* Left Panel - KPIs */
+        .kpi-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+        }
+        
+        .kpi-label {
+            font-size: 12px;
+            color: #7a8ba3;
+            margin-bottom: 4px;
+        }
+        
+        .kpi-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: #fff;
+        }
+        
+        .kpi-value.positive {
+            color: #00d4aa;
+        }
+        
+        .kpi-value.warning {
+            color: #ffaa00;
+        }
+        
+        .kpi-value.danger {
+            color: #ff4466;
+        }
+        
+        .kpi-subtext {
+            font-size: 12px;
+            color: #7a8ba3;
+            margin-top: 4px;
+        }
+        
+        .progress-bar {
+            height: 6px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 3px;
+            margin-top: 8px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #00d4aa, #0088cc);
+            border-radius: 3px;
+        }
+        
+        .progress-fill.warning {
+            background: linear-gradient(90deg, #ffaa00, #ff6600);
+        }
+        
+        /* Center Panel - Heatmap */
+        .heatmap-container {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .heatmap-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+        
+        .filter-pills {
+            display: flex;
+            gap: 8px;
+        }
+        
+        .filter-pill {
+            padding: 6px 12px;
+            background: rgba(255,255,255,0.08);
+            border-radius: 20px;
+            font-size: 12px;
+            color: #7a8ba3;
+            cursor: pointer;
+        }
+        
+        .filter-pill.active {
+            background: #00d4aa;
+            color: #0a1628;
+        }
+        
+        .heatmap-grid {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 120px repeat(8, 1fr);
+            grid-template-rows: 40px repeat(12, 1fr);
+            gap: 3px;
+            overflow: hidden;
+        }
+        
+        .grid-header {
+            font-size: 11px;
+            color: #7a8ba3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255,255,255,0.03);
+            border-radius: 4px;
+        }
+        
+        .grid-row-label {
+            font-size: 11px;
+            color: #7a8ba3;
+            display: flex;
+            align-items: center;
+            padding-left: 8px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 4px;
+        }
+        
+        .grid-cell {
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .grid-cell:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 10;
+        }
+        
+        .grid-cell.critical { background: linear-gradient(135deg, #ff3355, #cc2244); color: #fff; }
+        .grid-cell.high { background: linear-gradient(135deg, #ff6644, #dd4422); color: #fff; }
+        .grid-cell.medium { background: linear-gradient(135deg, #ffaa00, #dd8800); color: #0a1628; }
+        .grid-cell.low { background: linear-gradient(135deg, #44cc88, #22aa66); color: #0a1628; }
+        .grid-cell.optimal { background: linear-gradient(135deg, #00d4aa, #00aa88); color: #0a1628; }
+        .grid-cell.na { background: rgba(255,255,255,0.03); color: #4a5a6a; }
+        
+        /* Right Panel - Scenarios */
+        .scenario-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            border: 2px solid transparent;
+            cursor: pointer;
+            transition: border-color 0.2s;
+        }
+        
+        .scenario-card.selected {
+            border-color: #00d4aa;
+        }
+        
+        .scenario-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        
+        .scenario-name {
+            font-weight: 600;
+            font-size: 14px;
+        }
+        
+        .scenario-badge {
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 10px;
+            font-weight: 600;
+        }
+        
+        .scenario-badge.recommended {
+            background: #00d4aa;
+            color: #0a1628;
+        }
+        
+        .scenario-badge.baseline {
+            background: rgba(255,255,255,0.2);
+            color: #fff;
+        }
+        
+        .scenario-badge.aggressive {
+            background: #ffaa00;
+            color: #0a1628;
+        }
+        
+        .scenario-metrics {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }
+        
+        .scenario-metric {
+            text-align: center;
+        }
+        
+        .scenario-metric-value {
+            font-size: 18px;
+            font-weight: 700;
+            color: #fff;
+        }
+        
+        .scenario-metric-label {
+            font-size: 10px;
+            color: #7a8ba3;
+        }
+        
+        .scenario-metric-delta {
+            font-size: 11px;
+            margin-top: 2px;
+        }
+        
+        .delta-positive { color: #00d4aa; }
+        .delta-negative { color: #ff4466; }
+        
+        /* Bottom Alerts */
+        .alerts-strip {
+            margin-top: 20px;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 16px;
+        }
+        
+        .alerts-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        
+        .alerts-title {
+            font-size: 14px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .alert-count {
+            background: #ff4466;
+            color: #fff;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 11px;
+        }
+        
+        .alerts-list {
+            display: flex;
+            gap: 12px;
+            overflow-x: auto;
+        }
+        
+        .alert-item {
+            flex-shrink: 0;
+            background: rgba(255,68,102,0.1);
+            border: 1px solid rgba(255,68,102,0.3);
+            border-radius: 8px;
+            padding: 12px 16px;
+            min-width: 280px;
+        }
+        
+        .alert-item.warning {
+            background: rgba(255,170,0,0.1);
+            border-color: rgba(255,170,0,0.3);
+        }
+        
+        .alert-title {
+            font-weight: 600;
+            font-size: 13px;
+            margin-bottom: 4px;
+        }
+        
+        .alert-desc {
+            font-size: 11px;
+            color: #7a8ba3;
+        }
+        
+        .alert-impact {
+            font-size: 11px;
+            color: #ff4466;
+            margin-top: 6px;
+            font-weight: 600;
+        }
+        
+        .alert-item.warning .alert-impact {
+            color: #ffaa00;
+        }
+        
+        /* Legend */
+        .legend {
+            display: flex;
+            gap: 16px;
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255,255,255,0.08);
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 11px;
+            color: #7a8ba3;
+        }
+        
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 3px;
+        }
+        
+        .legend-color.critical { background: #ff3355; }
+        .legend-color.high { background: #ff6644; }
+        .legend-color.medium { background: #ffaa00; }
+        .legend-color.low { background: #44cc88; }
+        .legend-color.optimal { background: #00d4aa; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">White<span>Space</span> <span style="font-weight: 400; font-size: 16px; color: #7a8ba3; margin-left: 8px;">AIO</span></div>
+        <div class="nav-tabs">
+            <div class="nav-tab">Overview</div>
+            <div class="nav-tab active">Portfolio Planning</div>
+            <div class="nav-tab">Scenarios</div>
+            <div class="nav-tab">Analytics</div>
+            <div class="nav-tab">Reports</div>
+        </div>
+        <div class="user-section">
+            <span style="font-size: 12px; color: #7a8ba3;">Last sync: 2 min ago</span>
+            <div class="user-avatar">TN</div>
+        </div>
+    </div>
+    
+    <div class="dashboard">
+        <!-- Left Panel - KPIs -->
+        <div class="panel">
+            <div class="panel-title">Inventory Overview</div>
+            
+            <div class="kpi-card">
+                <div class="kpi-label">Total Inventory Value</div>
+                <div class="kpi-value">€847M</div>
+                <div class="kpi-subtext">Across 12 facilities</div>
+            </div>
+            
+            <div class="kpi-card">
+                <div class="kpi-label">Reduction Opportunity</div>
+                <div class="kpi-value positive">€127M</div>
+                <div class="kpi-subtext">15% optimization potential</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 15%"></div>
+                </div>
+            </div>
+            
+            <div class="kpi-card">
+                <div class="kpi-label">BOM Completeness</div>
+                <div class="kpi-value warning">73%</div>
+                <div class="kpi-subtext">847 of 1,160 items mapped</div>
+                <div class="progress-bar">
+                    <div class="progress-fill warning" style="width: 73%"></div>
+                </div>
+            </div>
+            
+            <div class="kpi-card">
+                <div class="kpi-label">Critical Stockout Risk</div>
+                <div class="kpi-value danger">24</div>
+                <div class="kpi-subtext">Items below safety threshold</div>
+            </div>
+            
+            <div class="kpi-card">
+                <div class="kpi-label">Overstock Items</div>
+                <div class="kpi-value">156</div>
+                <div class="kpi-subtext">€43M in excess inventory</div>
+            </div>
+        </div>
+        
+        <!-- Center Panel - Heatmap -->
+        <div class="panel">
+            <div class="heatmap-container">
+                <div class="heatmap-header">
+                    <div class="panel-title" style="margin-bottom: 0">Criticality Matrix — Parts × Facilities</div>
+                    <div class="filter-pills">
+                        <div class="filter-pill active">All</div>
+                        <div class="filter-pill">Critical</div>
+                        <div class="filter-pill">Transformers</div>
+                        <div class="filter-pill">Cables</div>
+                    </div>
+                </div>
+                
+                <div class="heatmap-grid">
+                    <!-- Header row -->
+                    <div class="grid-header"></div>
+                    <div class="grid-header">Eems</div>
+                    <div class="grid-header">Doetinchem</div>
+                    <div class="grid-header">Zwolle</div>
+                    <div class="grid-header">Ens</div>
+                    <div class="grid-header">Diemen</div>
+                    <div class="grid-header">Krimpen</div>
+                    <div class="grid-header">Borssele</div>
+                    <div class="grid-header">Maasvlakte</div>
+                    
+                    <!-- Row 1 -->
+                    <div class="grid-row-label">380kV Trans.</div>
+                    <div class="grid-cell critical">2</div>
+                    <div class="grid-cell high">5</div>
+                    <div class="grid-cell optimal">12</div>
+                    <div class="grid-cell medium">7</div>
+                    <div class="grid-cell critical">1</div>
+                    <div class="grid-cell low">9</div>
+                    <div class="grid-cell optimal">14</div>
+                    <div class="grid-cell medium">6</div>
+                    
+                    <!-- Row 2 -->
+                    <div class="grid-row-label">220kV Trans.</div>
+                    <div class="grid-cell optimal">11</div>
+                    <div class="grid-cell low">8</div>
+                    <div class="grid-cell medium">6</div>
+                    <div class="grid-cell optimal">15</div>
+                    <div class="grid-cell high">4</div>
+                    <div class="grid-cell optimal">13</div>
+                    <div class="grid-cell low">9</div>
+                    <div class="grid-cell critical">2</div>
+                    
+                    <!-- Row 3 -->
+                    <div class="grid-row-label">Circuit Breakers</div>
+                    <div class="grid-cell medium">7</div>
+                    <div class="grid-cell critical">1</div>
+                    <div class="grid-cell high">4</div>
+                    <div class="grid-cell low">10</div>
+                    <div class="grid-cell optimal">16</div>
+                    <div class="grid-cell medium">5</div>
+                    <div class="grid-cell high">3</div>
+                    <div class="grid-cell optimal">12</div>
+                    
+                    <!-- Row 4 -->
+                    <div class="grid-row-label">Disconnectors</div>
+                    <div class="grid-cell low">9</div>
+                    <div class="grid-cell optimal">14</div>
+                    <div class="grid-cell optimal">11</div>
+                    <div class="grid-cell critical">2</div>
+                    <div class="grid-cell medium">6</div>
+                    <div class="grid-cell high">4</div>
+                    <div class="grid-cell optimal">15</div>
+                    <div class="grid-cell low">8</div>
+                    
+                    <!-- Row 5 -->
+                    <div class="grid-row-label">CT/VT Units</div>
+                    <div class="grid-cell high">3</div>
+                    <div class="grid-cell medium">7</div>
+                    <div class="grid-cell low">10</div>
+                    <div class="grid-cell optimal">13</div>
+                    <div class="grid-cell optimal">12</div>
+                    <div class="grid-cell critical">1</div>
+                    <div class="grid-cell medium">5</div>
+                    <div class="grid-cell high">4</div>
+                    
+                    <!-- Row 6 -->
+                    <div class="grid-row-label">Surge Arresters</div>
+                    <div class="grid-cell optimal">15</div>
+                    <div class="grid-cell low">9</div>
+                    <div class="grid-cell critical">2</div>
+                    <div class="grid-cell high">4</div>
+                    <div class="grid-cell low">8</div>
+                    <div class="grid-cell optimal">14</div>
+                    <div class="grid-cell optimal">11</div>
+                    <div class="grid-cell medium">6</div>
+                    
+                    <!-- Row 7 -->
+                    <div class="grid-row-label">Busbars 380kV</div>
+                    <div class="grid-cell medium">6</div>
+                    <div class="grid-cell optimal">12</div>
+                    <div class="grid-cell high">5</div>
+                    <div class="grid-cell low">9</div>
+                    <div class="grid-cell critical">1</div>
+                    <div class="grid-cell medium">7</div>
+                    <div class="grid-cell low">10</div>
+                    <div class="grid-cell optimal">13</div>
+                    
+                    <!-- Row 8 -->
+                    <div class="grid-row-label">Insulators</div>
+                    <div class="grid-cell optimal">14</div>
+                    <div class="grid-cell high">3</div>
+                    <div class="grid-cell optimal">11</div>
+                    <div class="grid-cell medium">6</div>
+                    <div class="grid-cell optimal">16</div>
+                    <div class="grid-cell low">8</div>
+                    <div class="grid-cell critical">2</div>
+                    <div class="grid-cell high">5</div>
+                    
+                    <!-- Row 9 -->
+                    <div class="grid-row-label">Control Panels</div>
+                    <div class="grid-cell low">8</div>
+                    <div class="grid-cell optimal">13</div>
+                    <div class="grid-cell medium">7</div>
+                    <div class="grid-cell optimal">15</div>
+                    <div class="grid-cell high">4</div>
+                    <div class="grid-cell optimal">11</div>
+                    <div class="grid-cell medium">6</div>
+                    <div class="grid-cell low">9</div>
+                    
+                    <!-- Row 10 -->
+                    <div class="grid-row-label">Protection Relays</div>
+                    <div class="grid-cell critical">1</div>
+                    <div class="grid-cell medium">5</div>
+                    <div class="grid-cell optimal">14</div>
+                    <div class="grid-cell high">3</div>
+                    <div class="grid-cell low">10</div>
+                    <div class="grid-cell critical">2</div>
+                    <div class="grid-cell high">4</div>
+                    <div class="grid-cell optimal">12</div>
+                    
+                    <!-- Row 11 -->
+                    <div class="grid-row-label">XLPE Cables</div>
+                    <div class="grid-cell optimal">12</div>
+                    <div class="grid-cell low">9</div>
+                    <div class="grid-cell critical">2</div>
+                    <div class="grid-cell optimal">11</div>
+                    <div class="grid-cell medium">7</div>
+                    <div class="grid-cell high">5</div>
+                    <div class="grid-cell optimal">13</div>
+                    <div class="grid-cell critical">1</div>
+                    
+                    <!-- Row 12 -->
+                    <div class="grid-row-label">SF6 Equipment</div>
+                    <div class="grid-cell high">4</div>
+                    <div class="grid-cell critical">2</div>
+                    <div class="grid-cell low">8</div>
+                    <div class="grid-cell optimal">14</div>
+                    <div class="grid-cell optimal">13</div>
+                    <div class="grid-cell medium">6</div>
+                    <div class="grid-cell low">10</div>
+                    <div class="grid-cell high">3</div>
+                </div>
+                
+                <div class="legend">
+                    <div class="legend-item"><div class="legend-color critical"></div> Critical (&lt;3 units)</div>
+                    <div class="legend-item"><div class="legend-color high"></div> High (3-5 units)</div>
+                    <div class="legend-item"><div class="legend-color medium"></div> Medium (6-7 units)</div>
+                    <div class="legend-item"><div class="legend-color low"></div> Low (8-10 units)</div>
+                    <div class="legend-item"><div class="legend-color optimal"></div> Optimal (&gt;10 units)</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Right Panel - Scenarios -->
+        <div class="panel">
+            <div class="panel-title">Scenario Comparison</div>
+            
+            <div class="scenario-card">
+                <div class="scenario-header">
+                    <div class="scenario-name">Current State</div>
+                    <div class="scenario-badge baseline">BASELINE</div>
+                </div>
+                <div class="scenario-metrics">
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">€847M</div>
+                        <div class="scenario-metric-label">Inventory Value</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">24</div>
+                        <div class="scenario-metric-label">Stockout Risk</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">94.2%</div>
+                        <div class="scenario-metric-label">Coverage Ratio</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">156</div>
+                        <div class="scenario-metric-label">Overstock Items</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scenario-card selected">
+                <div class="scenario-header">
+                    <div class="scenario-name">Optimized Balance</div>
+                    <div class="scenario-badge recommended">RECOMMENDED</div>
+                </div>
+                <div class="scenario-metrics">
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">€720M</div>
+                        <div class="scenario-metric-label">Inventory Value</div>
+                        <div class="scenario-metric-delta delta-positive">↓ €127M (15%)</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">8</div>
+                        <div class="scenario-metric-label">Stockout Risk</div>
+                        <div class="scenario-metric-delta delta-positive">↓ 16 items</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">97.8%</div>
+                        <div class="scenario-metric-label">Coverage Ratio</div>
+                        <div class="scenario-metric-delta delta-positive">↑ 3.6%</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">42</div>
+                        <div class="scenario-metric-label">Overstock Items</div>
+                        <div class="scenario-metric-delta delta-positive">↓ 114 items</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scenario-card">
+                <div class="scenario-header">
+                    <div class="scenario-name">Aggressive Reduction</div>
+                    <div class="scenario-badge aggressive">HIGH RISK</div>
+                </div>
+                <div class="scenario-metrics">
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">€612M</div>
+                        <div class="scenario-metric-label">Inventory Value</div>
+                        <div class="scenario-metric-delta delta-positive">↓ €235M (28%)</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">47</div>
+                        <div class="scenario-metric-label">Stockout Risk</div>
+                        <div class="scenario-metric-delta delta-negative">↑ 23 items</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">89.1%</div>
+                        <div class="scenario-metric-label">Coverage Ratio</div>
+                        <div class="scenario-metric-delta delta-negative">↓ 5.1%</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">12</div>
+                        <div class="scenario-metric-label">Overstock Items</div>
+                        <div class="scenario-metric-delta delta-positive">↓ 144 items</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="margin-top: 16px; padding: 12px; background: rgba(0,212,170,0.1); border-radius: 8px; border: 1px solid rgba(0,212,170,0.3);">
+                <div style="font-size: 12px; font-weight: 600; color: #00d4aa; margin-bottom: 4px;">💡 AI Recommendation</div>
+                <div style="font-size: 11px; color: #7a8ba3; line-height: 1.5;">Optimized Balance achieves 15% cost reduction while improving service levels. Focus rebalancing on Eems and Diemen facilities first.</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bottom Alerts -->
+    <div class="alerts-strip">
+        <div class="alerts-header">
+            <div class="alerts-title">
+                ⚠️ BOM Gap Alerts
+                <span class="alert-count">7 Critical</span>
+            </div>
+            <div style="font-size: 12px; color: #7a8ba3; cursor: pointer;">View All →</div>
+        </div>
+        <div class="alerts-list">
+            <div class="alert-item">
+                <div class="alert-title">380kV Transformer — Eemshaven</div>
+                <div class="alert-desc">Only 2 units remaining. Lead time: 18 months. No approved alternative supplier.</div>
+                <div class="alert-impact">Impact: €4.2M/day potential outage cost</div>
+            </div>
+            <div class="alert-item">
+                <div class="alert-title">Protection Relay Type PR-42 — Krimpen</div>
+                <div class="alert-desc">End-of-life component. Last manufacturer stock: Q2 2026.</div>
+                <div class="alert-impact">Impact: Affects 34 substations</div>
+            </div>
+            <div class="alert-item warning">
+                <div class="alert-title">SF6 Circuit Breaker — Doetinchem</div>
+                <div class="alert-desc">Supplier delivery delayed 6 weeks. Current stock covers 4 weeks demand.</div>
+                <div class="alert-impact">Impact: Medium — buffer available</div>
+            </div>
+            <div class="alert-item">
+                <div class="alert-title">XLPE Cable 380kV — Maasvlakte</div>
+                <div class="alert-desc">BOM mapping incomplete. 12 variants unclassified.</div>
+                <div class="alert-impact">Impact: Unable to optimize accurately</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -51,7 +51,7 @@
 - **M&A for Optionality**: Harbour-LLOG, ADNOC fleet expansion, Aramco leasebacks — building resilience through consolidation rather than volume growth.
 - **Bearish Macro (Feb 16)**: IEA demand growth cut to 850K bpd, 3.73M bpd supply surplus projected (~4% of demand). Brent at ~$67.70, second consecutive weekly drop. Capex discipline reinforced.
 
-## Outstanding Actions (as of Feb 16, 2026)
+## Outstanding Actions (as of Feb 17, 2026)
 - [ ] **TenneT dashboard mockup** — Awaiting Glu's response on WhiteSpace design patterns
 - [ ] **Hibiscus contact names** — Needed for personalized outreach drafts
 - [ ] **SPE Stavanger/Aker attendee names** — Needed for follow-up emails

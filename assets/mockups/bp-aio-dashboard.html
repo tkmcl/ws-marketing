@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BP Global Inventory Optimization — WhiteSpace AIO</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0a1628 0%, #1a2744 100%);
+            color: #e8eef5;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 24px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #00d4aa;
+        }
+        
+        .logo span {
+            color: #fff;
+        }
+        
+        .client-badge {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 8px 16px;
+            background: rgba(0,166,81,0.15);
+            border: 1px solid rgba(0,166,81,0.4);
+            border-radius: 8px;
+        }
+        
+        .client-badge img {
+            height: 24px;
+        }
+        
+        .client-name {
+            font-weight: 600;
+            color: #00a651;
+            font-size: 14px;
+        }
+        
+        .nav-tabs {
+            display: flex;
+            gap: 24px;
+        }
+        
+        .nav-tab {
+            color: #7a8ba3;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        
+        .nav-tab.active {
+            color: #00d4aa;
+            border-bottom: 2px solid #00d4aa;
+            padding-bottom: 4px;
+        }
+        
+        .user-section {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .user-avatar {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, #00d4aa, #0088cc);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+        }
+        
+        .dashboard {
+            display: grid;
+            grid-template-columns: 280px 1fr 320px;
+            gap: 20px;
+            height: calc(100vh - 140px);
+        }
+        
+        .panel {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 20px;
+        }
+        
+        .panel-title {
+            font-size: 14px;
+            color: #7a8ba3;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+        
+        /* Left Panel - KPIs */
+        .kpi-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+        }
+        
+        .kpi-label {
+            font-size: 12px;
+            color: #7a8ba3;
+            margin-bottom: 4px;
+        }
+        
+        .kpi-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: #fff;
+        }
+        
+        .kpi-value.positive {
+            color: #00d4aa;
+        }
+        
+        .kpi-value.warning {
+            color: #ffaa00;
+        }
+        
+        .kpi-value.danger {
+            color: #ff4466;
+        }
+        
+        .kpi-subtext {
+            font-size: 12px;
+            color: #7a8ba3;
+            margin-top: 4px;
+        }
+        
+        .progress-bar {
+            height: 6px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 3px;
+            margin-top: 8px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #00d4aa, #0088cc);
+            border-radius: 3px;
+        }
+        
+        .progress-fill.warning {
+            background: linear-gradient(90deg, #ffaa00, #ff6600);
+        }
+        
+        /* Center Panel - Heatmap */
+        .heatmap-container {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .heatmap-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+        
+        .filter-pills {
+            display: flex;
+            gap: 8px;
+        }
+        
+        .filter-pill {
+            padding: 6px 12px;
+            background: rgba(255,255,255,0.08);
+            border-radius: 20px;
+            font-size: 12px;
+            color: #7a8ba3;
+            cursor: pointer;
+        }
+        
+        .filter-pill.active {
+            background: #00d4aa;
+            color: #0a1628;
+        }
+        
+        .heatmap-grid {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 140px repeat(6, 1fr);
+            grid-template-rows: 40px repeat(12, 1fr);
+            gap: 3px;
+            overflow: hidden;
+        }
+        
+        .grid-header {
+            font-size: 10px;
+            color: #7a8ba3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: rgba(255,255,255,0.03);
+            border-radius: 4px;
+            padding: 2px;
+        }
+        
+        .grid-row-label {
+            font-size: 11px;
+            color: #7a8ba3;
+            display: flex;
+            align-items: center;
+            padding-left: 8px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 4px;
+        }
+        
+        .grid-cell {
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .grid-cell:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 10;
+        }
+        
+        .grid-cell.critical { background: linear-gradient(135deg, #ff3355, #cc2244); color: #fff; }
+        .grid-cell.high { background: linear-gradient(135deg, #ff6644, #dd4422); color: #fff; }
+        .grid-cell.medium { background: linear-gradient(135deg, #ffaa00, #dd8800); color: #0a1628; }
+        .grid-cell.low { background: linear-gradient(135deg, #44cc88, #22aa66); color: #0a1628; }
+        .grid-cell.optimal { background: linear-gradient(135deg, #00d4aa, #00aa88); color: #0a1628; }
+        .grid-cell.na { background: rgba(255,255,255,0.03); color: #4a5a6a; }
+        
+        /* Right Panel - Scenarios */
+        .scenario-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            border: 2px solid transparent;
+            cursor: pointer;
+            transition: border-color 0.2s;
+        }
+        
+        .scenario-card.selected {
+            border-color: #00d4aa;
+        }
+        
+        .scenario-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        
+        .scenario-name {
+            font-weight: 600;
+            font-size: 14px;
+        }
+        
+        .scenario-badge {
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 10px;
+            font-weight: 600;
+        }
+        
+        .scenario-badge.recommended {
+            background: #00d4aa;
+            color: #0a1628;
+        }
+        
+        .scenario-badge.baseline {
+            background: rgba(255,255,255,0.2);
+            color: #fff;
+        }
+        
+        .scenario-badge.aggressive {
+            background: #ffaa00;
+            color: #0a1628;
+        }
+        
+        .scenario-metrics {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }
+        
+        .scenario-metric {
+            text-align: center;
+        }
+        
+        .scenario-metric-value {
+            font-size: 18px;
+            font-weight: 700;
+            color: #fff;
+        }
+        
+        .scenario-metric-label {
+            font-size: 10px;
+            color: #7a8ba3;
+        }
+        
+        .scenario-metric-delta {
+            font-size: 11px;
+            margin-top: 2px;
+        }
+        
+        .delta-positive { color: #00d4aa; }
+        .delta-negative { color: #ff4466; }
+        
+        /* Bottom Alerts */
+        .alerts-strip {
+            margin-top: 20px;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 16px;
+        }
+        
+        .alerts-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        
+        .alerts-title {
+            font-size: 14px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .alert-count {
+            background: #ff4466;
+            color: #fff;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 11px;
+        }
+        
+        .alerts-list {
+            display: flex;
+            gap: 12px;
+            overflow-x: auto;
+        }
+        
+        .alert-item {
+            flex-shrink: 0;
+            background: rgba(255,68,102,0.1);
+            border: 1px solid rgba(255,68,102,0.3);
+            border-radius: 8px;
+            padding: 12px 16px;
+            min-width: 280px;
+        }
+        
+        .alert-item.warning {
+            background: rgba(255,170,0,0.1);
+            border-color: rgba(255,170,0,0.3);
+        }
+        
+        .alert-title {
+            font-weight: 600;
+            font-size: 13px;
+            margin-bottom: 4px;
+        }
+        
+        .alert-desc {
+            font-size: 11px;
+            color: #7a8ba3;
+        }
+        
+        .alert-impact {
+            font-size: 11px;
+            color: #ff4466;
+            margin-top: 6px;
+            font-weight: 600;
+        }
+        
+        .alert-item.warning .alert-impact {
+            color: #ffaa00;
+        }
+        
+        /* Legend */
+        .legend {
+            display: flex;
+            gap: 16px;
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255,255,255,0.08);
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 11px;
+            color: #7a8ba3;
+        }
+        
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 3px;
+        }
+        
+        .legend-color.critical { background: #ff3355; }
+        .legend-color.high { background: #ff6644; }
+        .legend-color.medium { background: #ffaa00; }
+        .legend-color.low { background: #44cc88; }
+        .legend-color.optimal { background: #00d4aa; }
+        
+        .region-tag {
+            display: inline-block;
+            padding: 2px 6px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 4px;
+            font-size: 9px;
+            color: #7a8ba3;
+            margin-left: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">White<span>Space</span> <span style="font-weight: 400; font-size: 16px; color: #7a8ba3; margin-left: 8px;">AIO</span></div>
+        <div class="nav-tabs">
+            <div class="nav-tab">Overview</div>
+            <div class="nav-tab active">Inventory Optimization</div>
+            <div class="nav-tab">BOM Analysis</div>
+            <div class="nav-tab">Scenarios</div>
+            <div class="nav-tab">Reports</div>
+        </div>
+        <div class="user-section">
+            <div class="client-badge">
+                <svg width="40" height="24" viewBox="0 0 40 24" fill="none">
+                    <rect width="40" height="24" rx="4" fill="#00a651"/>
+                    <text x="20" y="16" text-anchor="middle" fill="white" font-size="12" font-weight="bold" font-family="Arial">bp</text>
+                </svg>
+                <span class="client-name">Global Inventory</span>
+            </div>
+            <span style="font-size: 12px; color: #7a8ba3;">VOR 4PT</span>
+            <div class="user-avatar">BP</div>
+        </div>
+    </div>
+    
+    <div class="dashboard">
+        <!-- Left Panel - KPIs -->
+        <div class="panel">
+            <div class="panel-title">Inventory Overview</div>
+            
+            <div class="kpi-card">
+                <div class="kpi-label">Total Inventory Value</div>
+                <div class="kpi-value">$1.42B</div>
+                <div class="kpi-subtext">Across 6 regions, 847 facilities</div>
+            </div>
+            
+            <div class="kpi-card">
+                <div class="kpi-label">Reduction Opportunity</div>
+                <div class="kpi-value positive">$213M</div>
+                <div class="kpi-subtext">15% optimization potential</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 15%"></div>
+                </div>
+            </div>
+            
+            <div class="kpi-card">
+                <div class="kpi-label">BOM Completeness</div>
+                <div class="kpi-value warning">68%</div>
+                <div class="kpi-subtext">12,847 of 18,893 items linked</div>
+                <div class="progress-bar">
+                    <div class="progress-fill warning" style="width: 68%"></div>
+                </div>
+            </div>
+            
+            <div class="kpi-card">
+                <div class="kpi-label">Critical Sparing Gaps</div>
+                <div class="kpi-value danger">47</div>
+                <div class="kpi-subtext">High-criticality items below threshold</div>
+            </div>
+            
+            <div class="kpi-card">
+                <div class="kpi-label">Dead Stock Value</div>
+                <div class="kpi-value">$89M</div>
+                <div class="kpi-subtext">No movement >24 months</div>
+            </div>
+            
+            <div class="kpi-card">
+                <div class="kpi-label">Stock Turns (Avg)</div>
+                <div class="kpi-value">1.8x</div>
+                <div class="kpi-subtext">Target: 2.5x</div>
+            </div>
+        </div>
+        
+        <!-- Center Panel - Heatmap -->
+        <div class="panel">
+            <div class="heatmap-container">
+                <div class="heatmap-header">
+                    <div class="panel-title" style="margin-bottom: 0">Sparing Criticality Matrix — Equipment × Hub</div>
+                    <div class="filter-pills">
+                        <div class="filter-pill active">All</div>
+                        <div class="filter-pill">Critical</div>
+                        <div class="filter-pill">Rotating</div>
+                        <div class="filter-pill">Safety</div>
+                    </div>
+                </div>
+                
+                <div class="heatmap-grid">
+                    <!-- Header row - BP Global Hubs -->
+                    <div class="grid-header"></div>
+                    <div class="grid-header">Thunder Horse<br><span class="region-tag">GoM</span></div>
+                    <div class="grid-header">Atlantis<br><span class="region-tag">GoM</span></div>
+                    <div class="grid-header">Clair Ridge<br><span class="region-tag">UK</span></div>
+                    <div class="grid-header">Central Azeri<br><span class="region-tag">AZE</span></div>
+                    <div class="grid-header">Mad Dog<br><span class="region-tag">GoM</span></div>
+                    <div class="grid-header">ETAP<br><span class="region-tag">UK</span></div>
+                    
+                    <!-- Row 1 - Rotating Equipment -->
+                    <div class="grid-row-label">Gas Turbines</div>
+                    <div class="grid-cell critical">2</div>
+                    <div class="grid-cell high">4</div>
+                    <div class="grid-cell optimal">11</div>
+                    <div class="grid-cell medium">6</div>
+                    <div class="grid-cell critical">1</div>
+                    <div class="grid-cell low">8</div>
+                    
+                    <!-- Row 2 -->
+                    <div class="grid-row-label">Centrifugal Pumps</div>
+                    <div class="grid-cell optimal">14</div>
+                    <div class="grid-cell low">9</div>
+                    <div class="grid-cell medium">7</div>
+                    <div class="grid-cell optimal">12</div>
+                    <div class="grid-cell high">5</div>
+                    <div class="grid-cell optimal">13</div>
+                    
+                    <!-- Row 3 -->
+                    <div class="grid-row-label">Compressors</div>
+                    <div class="grid-cell medium">6</div>
+                    <div class="grid-cell critical">2</div>
+                    <div class="grid-cell high">4</div>
+                    <div class="grid-cell low">9</div>
+                    <div class="grid-cell optimal">15</div>
+                    <div class="grid-cell medium">7</div>
+                    
+                    <!-- Row 4 -->
+                    <div class="grid-row-label">Subsea Valves</div>
+                    <div class="grid-cell low">8</div>
+                    <div class="grid-cell optimal">12</div>
+                    <div class="grid-cell optimal">11</div>
+                    <div class="grid-cell critical">1</div>
+                    <div class="grid-cell medium">6</div>
+                    <div class="grid-cell high">4</div>
+                    
+                    <!-- Row 5 -->
+                    <div class="grid-row-label">BOP Components</div>
+                    <div class="grid-cell high">3</div>
+                    <div class="grid-cell medium">7</div>
+                    <div class="grid-cell low">9</div>
+                    <div class="grid-cell optimal">14</div>
+                    <div class="grid-cell optimal">13</div>
+                    <div class="grid-cell critical">2</div>
+                    
+                    <!-- Row 6 -->
+                    <div class="grid-row-label">ESPs</div>
+                    <div class="grid-cell optimal">12</div>
+                    <div class="grid-cell low">8</div>
+                    <div class="grid-cell critical">1</div>
+                    <div class="grid-cell high">5</div>
+                    <div class="grid-cell low">9</div>
+                    <div class="grid-cell optimal">11</div>
+                    
+                    <!-- Row 7 -->
+                    <div class="grid-row-label">Heat Exchangers</div>
+                    <div class="grid-cell medium">7</div>
+                    <div class="grid-cell optimal">13</div>
+                    <div class="grid-cell high">4</div>
+                    <div class="grid-cell low">8</div>
+                    <div class="grid-cell critical">2</div>
+                    <div class="grid-cell medium">6</div>
+                    
+                    <!-- Row 8 -->
+                    <div class="grid-row-label">Generators</div>
+                    <div class="grid-cell optimal">11</div>
+                    <div class="grid-cell high">5</div>
+                    <div class="grid-cell optimal">14</div>
+                    <div class="grid-cell medium">7</div>
+                    <div class="grid-cell optimal">12</div>
+                    <div class="grid-cell low">9</div>
+                    
+                    <!-- Row 9 -->
+                    <div class="grid-row-label">Control Valves</div>
+                    <div class="grid-cell low">9</div>
+                    <div class="grid-cell optimal">11</div>
+                    <div class="grid-cell medium">6</div>
+                    <div class="grid-cell optimal">15</div>
+                    <div class="grid-cell high">3</div>
+                    <div class="grid-cell optimal">13</div>
+                    
+                    <!-- Row 10 -->
+                    <div class="grid-row-label">Safety Systems</div>
+                    <div class="grid-cell critical">2</div>
+                    <div class="grid-cell medium">6</div>
+                    <div class="grid-cell optimal">12</div>
+                    <div class="grid-cell high">4</div>
+                    <div class="grid-cell low">8</div>
+                    <div class="grid-cell critical">1</div>
+                    
+                    <!-- Row 11 -->
+                    <div class="grid-row-label">Instrumentation</div>
+                    <div class="grid-cell optimal">13</div>
+                    <div class="grid-cell low">8</div>
+                    <div class="grid-cell critical">2</div>
+                    <div class="grid-cell optimal">11</div>
+                    <div class="grid-cell medium">6</div>
+                    <div class="grid-cell high">5</div>
+                    
+                    <!-- Row 12 -->
+                    <div class="grid-row-label">Bearings & Seals</div>
+                    <div class="grid-cell high">4</div>
+                    <div class="grid-cell critical">1</div>
+                    <div class="grid-cell low">9</div>
+                    <div class="grid-cell optimal">14</div>
+                    <div class="grid-cell optimal">12</div>
+                    <div class="grid-cell medium">7</div>
+                </div>
+                
+                <div class="legend">
+                    <div class="legend-item"><div class="legend-color critical"></div> Critical Gap (&lt;3)</div>
+                    <div class="legend-item"><div class="legend-color high"></div> High Risk (3-5)</div>
+                    <div class="legend-item"><div class="legend-color medium"></div> Medium (6-7)</div>
+                    <div class="legend-item"><div class="legend-color low"></div> Adequate (8-10)</div>
+                    <div class="legend-item"><div class="legend-color optimal"></div> Optimal (&gt;10)</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Right Panel - Scenarios -->
+        <div class="panel">
+            <div class="panel-title">Scenario Comparison</div>
+            
+            <div class="scenario-card">
+                <div class="scenario-header">
+                    <div class="scenario-name">Current State</div>
+                    <div class="scenario-badge baseline">BASELINE</div>
+                </div>
+                <div class="scenario-metrics">
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">$1.42B</div>
+                        <div class="scenario-metric-label">Inventory Value</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">47</div>
+                        <div class="scenario-metric-label">Sparing Gaps</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">91.2%</div>
+                        <div class="scenario-metric-label">Criticality Coverage</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">1.8x</div>
+                        <div class="scenario-metric-label">Stock Turns</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scenario-card selected">
+                <div class="scenario-header">
+                    <div class="scenario-name">Optimized Balance</div>
+                    <div class="scenario-badge recommended">RECOMMENDED</div>
+                </div>
+                <div class="scenario-metrics">
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">$1.21B</div>
+                        <div class="scenario-metric-label">Inventory Value</div>
+                        <div class="scenario-metric-delta delta-positive">↓ $213M (15%)</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">12</div>
+                        <div class="scenario-metric-label">Sparing Gaps</div>
+                        <div class="scenario-metric-delta delta-positive">↓ 35 items</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">97.4%</div>
+                        <div class="scenario-metric-label">Criticality Coverage</div>
+                        <div class="scenario-metric-delta delta-positive">↑ 6.2%</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">2.4x</div>
+                        <div class="scenario-metric-label">Stock Turns</div>
+                        <div class="scenario-metric-delta delta-positive">↑ 0.6x</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scenario-card">
+                <div class="scenario-header">
+                    <div class="scenario-name">Regional Pooling</div>
+                    <div class="scenario-badge aggressive">AGGRESSIVE</div>
+                </div>
+                <div class="scenario-metrics">
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">$1.08B</div>
+                        <div class="scenario-metric-label">Inventory Value</div>
+                        <div class="scenario-metric-delta delta-positive">↓ $340M (24%)</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">31</div>
+                        <div class="scenario-metric-label">Sparing Gaps</div>
+                        <div class="scenario-metric-delta delta-negative">↑ 19 items</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">93.1%</div>
+                        <div class="scenario-metric-label">Criticality Coverage</div>
+                        <div class="scenario-metric-delta delta-positive">↑ 1.9%</div>
+                    </div>
+                    <div class="scenario-metric">
+                        <div class="scenario-metric-value">2.9x</div>
+                        <div class="scenario-metric-label">Stock Turns</div>
+                        <div class="scenario-metric-delta delta-positive">↑ 1.1x</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="margin-top: 16px; padding: 12px; background: rgba(0,212,170,0.1); border-radius: 8px; border: 1px solid rgba(0,212,170,0.3);">
+                <div style="font-size: 12px; font-weight: 600; color: #00d4aa; margin-bottom: 4px;">💡 GLU Recommendation</div>
+                <div style="font-size: 11px; color: #7a8ba3; line-height: 1.5;">Optimized Balance closes 35 critical gaps while reducing inventory $213M. Prioritize Thunder Horse gas turbines and Atlantis BOP components — lead times exceed 18 months.</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bottom Alerts -->
+    <div class="alerts-strip">
+        <div class="alerts-header">
+            <div class="alerts-title">
+                ⚠️ BOM Gap & Sparing Alerts
+                <span class="alert-count">9 Critical</span>
+            </div>
+            <div style="font-size: 12px; color: #7a8ba3; cursor: pointer;">View All →</div>
+        </div>
+        <div class="alerts-list">
+            <div class="alert-item">
+                <div class="alert-title">Gas Turbine Rotor Assembly — Thunder Horse</div>
+                <div class="alert-desc">Only 2 units remaining. Lead time: 22 months. Single-source supplier (GE).</div>
+                <div class="alert-impact">Impact: $12.4M/day potential production loss</div>
+            </div>
+            <div class="alert-item">
+                <div class="alert-title">Subsea Valve Actuator — Central Azeri</div>
+                <div class="alert-desc">Critical sparing gap. BOM shows 0 linked — manual verification required.</div>
+                <div class="alert-impact">Impact: Well shutdown risk, 43,000 b/d exposure</div>
+            </div>
+            <div class="alert-item warning">
+                <div class="alert-title">Compressor Seal Kit — Atlantis</div>
+                <div class="alert-desc">Supplier lead time extended 8 weeks. Current stock covers 6 weeks demand.</div>
+                <div class="alert-impact">Impact: Medium — expedite order recommended</div>
+            </div>
+            <div class="alert-item">
+                <div class="alert-title">BOP Ram Assembly — ETAP</div>
+                <div class="alert-desc">Safety-critical. Only 1 unit stocked. OEM recommends minimum 3.</div>
+                <div class="alert-impact">Impact: Drilling operations, regulatory compliance</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
