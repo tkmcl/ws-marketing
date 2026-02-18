@@ -58,7 +58,7 @@
 - **Bearish Macro (Feb 16-18)**: IEA demand growth cut to 850K bpd, 3.73M bpd supply surplus projected (~4% of demand). Brent at ~$67.24, third consecutive daily drop (Feb 18). US-Iran nuclear talks eroding risk premium.
 - **Gas as Strategic Bridge (Feb 18)**: Multiple majors positioning gas as transition-resilient. Eni Calao (5 Tcf), Exxon Guyana gas-to-shore, Equinor Gullfaks compression. Content hook for WhiteSpace.
 
-## Outstanding Actions (as of Feb 17, 2026)
+## Outstanding Actions (as of Feb 18, 2026)
 - [ ] **TenneT dashboard mockup** — Awaiting Glu's response on WhiteSpace design patterns
 - [ ] **Hibiscus contact names** — Needed for personalized outreach drafts
 - [ ] **SPE Stavanger/Aker attendee names** — Needed for follow-up emails
