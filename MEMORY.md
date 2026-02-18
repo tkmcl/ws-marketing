@@ -17,6 +17,11 @@
 - **Argentina LNG JDA (Feb 13, 2026)**: YPF, Eni, and ADNOC's XRG signed binding agreement for 12 mtpa project. FID expected H2 2026. Major South American LNG play.
 - **Aramco-Microsoft AI Partnership (Feb 13, 2026)**: Deepening industrial AI partnership on Azure. Focus: operational optimization, data sovereignty, workforce development. Competitive signal for WhiteSpace positioning.
 - **IEA Bearish Outlook (Feb 13, 2026)**: 2026 demand growth cut to 850K bpd. Supply surplus of 3.73M bpd projected (~4% of demand). Brent tumbled $1+ on news.
+- **Eni Calao South Discovery (Feb 18, 2026)**: Murene South-1X well, Block CI-501 offshore Côte d'Ivoire. Up to 5.0 Tcf gas + 450M bbl condensate (~1.4B boe). Second-largest discovery in country after Baleine. Tie-back to Baleine infrastructure planned.
+- **Equinor Granat Discovery (Feb 18, 2026)**: Oil/gas discovery near Gullfaks (1.3-3.8 MMboe). Tie-back to existing infrastructure. OneSubsea EPC contract for subsea compression upgrade on Gullfaks.
+- **ExxonMobil Guyana Gas Signal (Feb 18, 2026)**: Dan Ammann: "committed to moving fast" on gas development. Hammerhead ($6.8B) designed with gas-to-shore pipeline. Guyana-Suriname joint gas project discussions "on target."
+- **Shell Energy Addition Mode (Feb 18, 2026)**: IE Week positioning validates "Energy for AI" thesis. Shell explicitly framing itself as in "energy addition mode" — growth narrative intact despite resource gap concerns.
+- **ADNOC/Aramco India Pullback (Feb 18, 2026)**: ADNOC exiting Ratnagiri refinery; Aramco seeking new terms. Consistent with European buyback cuts — capital discipline spreading to Gulf majors.
 
 ## Content Strategy & Performance
 - **Strategic Precision over Volume (Feb 2026)**: Industry is shifting from volume growth to "precision growth." High-value optimization is the new priority as capex is tightened (Validated by Equinor/Shell).
@@ -28,6 +33,7 @@
 - **BP Q4 Results (Feb 10, 2026)**: Delivered. $2.3B profit, $13-15B capex maintained, Carol Howle "staying the course." Content hook activated: "Planning survives reality."
 - **Weekly Roundup Delivered (Feb 13, 2026)**: Synthesized BP buyback halt + leadership transition + Equinor capex + Shell resource gap + TotalEnergies buyback cut + Libya licensing into "capital discipline" narrative. Notion: 3061cf93fe6281f8a95bd18849e1574f.
 - **Next Focus (Week of Feb 17)**: BP Meg O'Neill transition (April), Shell M&A (Sprng outcome + BP speculation), Equinor precision growth messaging validation.
+- **Shell Energy for AI Validated (Feb 18)**: IE Week "energy addition mode" messaging confirms thesis. Strong content hook.
 
 ## Stakeholder & Account Intel
 - **Michiel**: Values speed and "so what" analysis. (See USER.md).
@@ -36,7 +42,7 @@
 - **TotalEnergies**: Third European major to cut buybacks. FIDs planned: Venus (Namibia), Ima (Nigeria), PNG LNG.
 - **Libya**: First licensing round since 2007. Tier 1 accounts participating (Chevron, Eni, Repsol). Emerging opportunity.
 - **Chevron**: Leviathan gas expansion FID (Feb 11, 2026). Subsea 7 won 17km subsea installation. Greece offshore contracts signed (Feb 16) — 4 blocks with HELLENiQ (~47K km²), first drilling in 40 years. Active project execution mode across multiple frontier regions.
-- **ConocoPhillips**: Greater Ekofisk $2B investment (Feb 16) — restart of 3 fields by end-2028. Tier 0 customer with fresh capex signal.
+- **ConocoPhillips**: Greater Ekofisk $2B investment (Feb 16) — restart of 3 fields by end-2028. Tier 0 customer with fresh capex signal. Alaska drilling "no impact" after rig collapse (Feb 18); targeting $1B cost cut. Capital discipline at Tier 0.
 - **Azule Energy (Eni-BP JV)**: 500M barrel Algaita-01 discovery offshore Angola (Feb 16). Tie-back to Olombendo FPSO. Infrastructure-led exploration exemplar.
 - **Harbour Energy**: Closed $3.2B LLOG acquisition (Feb 16). Tier 0 customer; M&A integration = planning complexity opportunity.
 - **Saudi Aramco**: Jafurah Phase 1 exports began (Feb 16). Microsoft AI partnership deepening (Feb 13). Competitive positioning on industrial AI — WhiteSpace differentiation via planning focus remains intact.
@@ -49,7 +55,8 @@
 - **European Majors Buyback Wave**: BP (halted), Equinor (70% cut), TotalEnergies (halved) — all within 10 days. Synchronized capital discipline unprecedented since 2020.
 - **Infrastructure-Led Exploration (Feb 16)**: Majors prioritizing tie-backs over greenfield (Azule Algaita, ConocoP Ekofisk). Lower risk, faster monetization — precision growth in action.
 - **M&A for Optionality**: Harbour-LLOG, ADNOC fleet expansion, Aramco leasebacks — building resilience through consolidation rather than volume growth.
-- **Bearish Macro (Feb 16)**: IEA demand growth cut to 850K bpd, 3.73M bpd supply surplus projected (~4% of demand). Brent at ~$67.70, second consecutive weekly drop. Capex discipline reinforced.
+- **Bearish Macro (Feb 16-18)**: IEA demand growth cut to 850K bpd, 3.73M bpd supply surplus projected (~4% of demand). Brent at ~$67.24, third consecutive daily drop (Feb 18). US-Iran nuclear talks eroding risk premium.
+- **Gas as Strategic Bridge (Feb 18)**: Multiple majors positioning gas as transition-resilient. Eni Calao (5 Tcf), Exxon Guyana gas-to-shore, Equinor Gullfaks compression. Content hook for WhiteSpace.
 
 ## Outstanding Actions (as of Feb 17, 2026)
 - [ ] **TenneT dashboard mockup** — Awaiting Glu's response on WhiteSpace design patterns
