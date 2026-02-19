@@ -22,6 +22,10 @@
 - **ExxonMobil Guyana Gas Signal (Feb 18, 2026)**: Dan Ammann: "committed to moving fast" on gas development. Hammerhead ($6.8B) designed with gas-to-shore pipeline. Guyana-Suriname joint gas project discussions "on target."
 - **Shell Energy Addition Mode (Feb 18, 2026)**: IE Week positioning validates "Energy for AI" thesis. Shell explicitly framing itself as in "energy addition mode" — growth narrative intact despite resource gap concerns.
 - **ADNOC/Aramco India Pullback (Feb 18, 2026)**: ADNOC exiting Ratnagiri refinery; Aramco seeking new terms. Consistent with European buyback cuts — capital discipline spreading to Gulf majors.
+- **Big Oil Growth Pivot (Feb 19, 2026)**: After years of prioritizing shareholder returns, supermajors pivoting to growth. Shell CEO Sawan: "I wish we had not walked away from Guyana" — now "hungry for growth" and talking acquisitions. BP making discoveries in Angola. Equinor planning major international expansion. RBC analyst: "investors likely to focus more on growth than distributions." IEA walking back peak oil demand predictions. Shareholders now pushing for growth over distributions.
+- **Eni Trading JV Exploration (Feb 19, 2026)**: CEO Descalzi told FT Eni exploring return to oil/gas trading via JV with commodity houses (incl. Mercuria). "BP, Shell, Total are big traders, and they make billions from that." Operational transformation alongside exploration execution.
+- **Chevron Greece Blocks (Feb 19, 2026)**: Signed leases for 4 blocks covering 47,000 km² offshore Greece (South Crete + Peloponnese) with Helleniq Energy (30%). First Greek offshore exploration in 40+ years. Adds to Mediterranean portfolio: Libya S4 + Leviathan + Cyprus + Egypt.
+- **Trinidad-Venezuela Gas Progress (Feb 19, 2026)**: Trinidad Energy Minister optimistic Shell/BP/NGC Dragon gas field and Atlantic LNG feedstock projects will proceed despite Venezuela political changes.
 
 ## Content Strategy & Performance
 - **Strategic Precision over Volume (Feb 2026)**: Industry is shifting from volume growth to "precision growth." High-value optimization is the new priority as capex is tightened (Validated by Equinor/Shell).
@@ -34,6 +38,7 @@
 - **Weekly Roundup Delivered (Feb 13, 2026)**: Synthesized BP buyback halt + leadership transition + Equinor capex + Shell resource gap + TotalEnergies buyback cut + Libya licensing into "capital discipline" narrative. Notion: 3061cf93fe6281f8a95bd18849e1574f.
 - **Next Focus (Week of Feb 17)**: BP Meg O'Neill transition (April), Shell M&A (Sprng outcome + BP speculation), Equinor precision growth messaging validation.
 - **Shell Energy for AI Validated (Feb 18)**: IE Week "energy addition mode" messaging confirms thesis. Strong content hook.
+- **Growth > Distributions Content Theme (Feb 19)**: Big Oil's pivot from buybacks to drilling is a major content opportunity. Planning complexity intensifies when companies simultaneously optimize production AND scout acquisitions. LinkedIn draft ready.
 
 ## Stakeholder & Account Intel
 - **Michiel**: Values speed and "so what" analysis. (See USER.md).
@@ -48,6 +53,7 @@
 - **Saudi Aramco**: Jafurah Phase 1 exports began (Feb 16). Microsoft AI partnership deepening (Feb 13). Competitive positioning on industrial AI — WhiteSpace differentiation via planning focus remains intact.
 - **ADNOC**: Record 2024 results + LNG fleet expansion announced (Feb 16). Aggressive growth posture.
 - **Petronas**: Oman Block 18 award + Malaysia Bid Round 2026 announced (Feb 16). Southeast Asia expansion.
+- **Eni (Feb 19)**: Dual-track strategy confirmed — exploration (Calao South, Algaita) + potential trading transformation via commodity house JV. Complex organization with multiple African projects across regulatory regimes.
 - **TPAO (Türkiye)**: Expanding partnerships with BP/Chevron (Feb 13). Priority: Iraq, Libya, Central Asia. Emerging player to watch.
 - **TenneT (Feb 14, 2026)**: Non-upstream opportunity. Dutch TSO. Michiel requested dashboard mockup for AI-assisted Portfolio Planning pitch. Awaiting Glu's input on design patterns. Proposed concept: Gantt-style timeline + Pareto chart + scenario selector + constraint indicators.
 
