@@ -41,7 +41,7 @@
 - **High Resonance Content**: Linking macro earnings (Equinor capex cuts) to specific planning challenges.
 - **BP Q4 Results (Feb 10, 2026)**: Delivered. $2.3B profit, $13-15B capex maintained, Carol Howle "staying the course." Content hook activated: "Planning survives reality."
 - **Weekly Roundup Delivered (Feb 13, 2026)**: Synthesized BP buyback halt + leadership transition + Equinor capex + Shell resource gap + TotalEnergies buyback cut + Libya licensing into "capital discipline" narrative. Notion: 3061cf93fe6281f8a95bd18849e1574f.
-- **Next Focus (Week of Feb 17)**: BP Meg O'Neill transition (April), Shell M&A (Sprng outcome + BP speculation), Equinor precision growth messaging validation.
+- **Next Focus (Week of Feb 24)**: Chevron CSO transition (Kevin Lyon starts March 1), BP Meg O'Neill onboarding prep (April), Shell Dragon gas + M&A pipeline, US-Iran tensions impact on capex plans.
 - **Shell Energy for AI Validated (Feb 18)**: IE Week "energy addition mode" messaging confirms thesis. Strong content hook.
 - **Growth > Distributions Content Theme (Feb 19)**: Big Oil's pivot from buybacks to drilling is a major content opportunity. Planning complexity intensifies when companies simultaneously optimize production AND scout acquisitions. LinkedIn draft ready.
 
@@ -69,10 +69,11 @@
 - **Macro Shift (Feb 16-20)**: Bearish Feb 16-18 (IEA demand cut, supply surplus, Brent dropped to ~$67). Reversed Feb 20: US-Iran tensions pushed oil to 6-month highs (Brent ~$72, WTI ~$66). Geopolitical risk premium returns.
 - **Gas as Strategic Bridge (Feb 18)**: Multiple majors positioning gas as transition-resilient. Eni Calao (5 Tcf), Exxon Guyana gas-to-shore, Equinor Gullfaks compression. Content hook for WhiteSpace.
 
-## Outstanding Actions (as of Feb 20, 2026)
+## Outstanding Actions (as of Feb 21, 2026)
 - [ ] **TenneT dashboard mockup** — Awaiting Glu's response on WhiteSpace design patterns
 - [ ] **Hibiscus contact names** — Needed for personalized outreach drafts
 - [ ] **SPE Stavanger/Aker attendee names** — Needed for follow-up emails
+- [ ] **Chevron Kevin Lyon outreach** — CSO starts March 1; timing window open
 
 ## Operational Lessons
 - **Account Brief Updates (Feb 16, 2026)**: Every news item from daily scans that relates to a Tier account must be appended to that account's Notion Account Brief page. This builds a per-account knowledge base over time. Format: date header, summary, signal type, region, WhiteSpace angle, source.
