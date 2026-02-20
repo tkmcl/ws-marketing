@@ -26,6 +26,11 @@
 - **Eni Trading JV Exploration (Feb 19, 2026)**: CEO Descalzi told FT Eni exploring return to oil/gas trading via JV with commodity houses (incl. Mercuria). "BP, Shell, Total are big traders, and they make billions from that." Operational transformation alongside exploration execution.
 - **Chevron Greece Blocks (Feb 19, 2026)**: Signed leases for 4 blocks covering 47,000 km² offshore Greece (South Crete + Peloponnese) with Helleniq Energy (30%). First Greek offshore exploration in 40+ years. Adds to Mediterranean portfolio: Libya S4 + Leviathan + Cyprus + Egypt.
 - **Trinidad-Venezuela Gas Progress (Feb 19, 2026)**: Trinidad Energy Minister optimistic Shell/BP/NGC Dragon gas field and Atlantic LNG feedstock projects will proceed despite Venezuela political changes.
+- **Chevron CSO Change (Feb 20, 2026)**: Kevin Lyon promoted to Chief Strategy Officer effective March 1, replacing Molly Laegeler. Lyon was Hess integration leader; 35+ years upstream operations. Outreach opportunity triggered (Playbook 3).
+- **Shell Dragon Gas US License (Feb 20, 2026)**: US general licenses granted for Venezuela exploration. Shell can progress Dragon gas field (Trinidad cross-border project). Venezuela reopening to IOCs; Shell moving first on gas.
+- **Shell-TPAO Black Sea Partnership (Feb 20, 2026)**: Partnership for Block 1-26 Khan Tervel offshore Bulgaria. Shell operates; TPAO joins exploration. Expands TPAO's recent MoU activity (BP, Chevron, ExxonMobil).
+- **Oil Prices 6-Month High (Feb 20, 2026)**: WTI ~$66, Brent ~$72 on US-Iran tensions. Trump gave Iran 15-day ultimatum. Strait of Hormuz closure risk could push oil >$100. Geopolitical risk premium returning.
+- **Mubadala-Eni Egypt Nargis Farm-In (Feb 20, 2026)**: Mubadala acquired 15% from Eni in Nargis Offshore Area. Chevron operates (45%); Eni retains 30%. Eastern Mediterranean gas consolidation continues.
 
 ## Content Strategy & Performance
 - **Strategic Precision over Volume (Feb 2026)**: Industry is shifting from volume growth to "precision growth." High-value optimization is the new priority as capex is tightened (Validated by Equinor/Shell).
@@ -46,7 +51,7 @@
 - **Shell**: Validating the energy security/AI boom link. Groningen arbitration (Feb 12) signals aggressive asset protection strategy.
 - **TotalEnergies**: Third European major to cut buybacks. FIDs planned: Venus (Namibia), Ima (Nigeria), PNG LNG.
 - **Libya**: First licensing round since 2007. Tier 1 accounts participating (Chevron, Eni, Repsol). Emerging opportunity.
-- **Chevron**: Leviathan gas expansion FID (Feb 11, 2026). Subsea 7 won 17km subsea installation. Greece offshore contracts signed (Feb 16) — 4 blocks with HELLENiQ (~47K km²), first drilling in 40 years. Active project execution mode across multiple frontier regions.
+- **Chevron**: Leviathan gas expansion FID (Feb 11, 2026). Subsea 7 won 17km subsea installation. Greece offshore contracts signed (Feb 16) — 4 blocks with HELLENiQ (~47K km²), first drilling in 40 years. **Kevin Lyon promoted to CSO (March 1, 2026)** — former Hess integration leader. Egypt Nargis operator (45%). Active project execution mode across multiple frontier regions.
 - **ConocoPhillips**: Greater Ekofisk $2B investment (Feb 16) — restart of 3 fields by end-2028. Tier 0 customer with fresh capex signal. Alaska drilling "no impact" after rig collapse (Feb 18); targeting $1B cost cut. Capital discipline at Tier 0.
 - **Azule Energy (Eni-BP JV)**: 500M barrel Algaita-01 discovery offshore Angola (Feb 16). Tie-back to Olombendo FPSO. Infrastructure-led exploration exemplar.
 - **Harbour Energy**: Closed $3.2B LLOG acquisition (Feb 16). Tier 0 customer; M&A integration = planning complexity opportunity.
@@ -54,17 +59,17 @@
 - **ADNOC**: Record 2024 results + LNG fleet expansion announced (Feb 16). Aggressive growth posture.
 - **Petronas**: Oman Block 18 award + Malaysia Bid Round 2026 announced (Feb 16). Southeast Asia expansion.
 - **Eni (Feb 19)**: Dual-track strategy confirmed — exploration (Calao South, Algaita) + potential trading transformation via commodity house JV. Complex organization with multiple African projects across regulatory regimes.
-- **TPAO (Türkiye)**: Expanding partnerships with BP/Chevron (Feb 13). Priority: Iraq, Libya, Central Asia. Emerging player to watch.
+- **TPAO (Türkiye)**: Expanding partnerships with BP/Chevron (Feb 13), now Shell (Black Sea, Feb 20). Priority: Iraq, Libya, Central Asia, Black Sea. Emerging regional player.
 - **TenneT (Feb 14, 2026)**: Non-upstream opportunity. Dutch TSO. Michiel requested dashboard mockup for AI-assisted Portfolio Planning pitch. Awaiting Glu's input on design patterns. Proposed concept: Gantt-style timeline + Pareto chart + scenario selector + constraint indicators.
 
 ## Market Patterns (Feb 2026)
 - **European Majors Buyback Wave**: BP (halted), Equinor (70% cut), TotalEnergies (halved) — all within 10 days. Synchronized capital discipline unprecedented since 2020.
 - **Infrastructure-Led Exploration (Feb 16)**: Majors prioritizing tie-backs over greenfield (Azule Algaita, ConocoP Ekofisk). Lower risk, faster monetization — precision growth in action.
 - **M&A for Optionality**: Harbour-LLOG, ADNOC fleet expansion, Aramco leasebacks — building resilience through consolidation rather than volume growth.
-- **Bearish Macro (Feb 16-18)**: IEA demand growth cut to 850K bpd, 3.73M bpd supply surplus projected (~4% of demand). Brent at ~$67.24, third consecutive daily drop (Feb 18). US-Iran nuclear talks eroding risk premium.
+- **Macro Shift (Feb 16-20)**: Bearish Feb 16-18 (IEA demand cut, supply surplus, Brent dropped to ~$67). Reversed Feb 20: US-Iran tensions pushed oil to 6-month highs (Brent ~$72, WTI ~$66). Geopolitical risk premium returns.
 - **Gas as Strategic Bridge (Feb 18)**: Multiple majors positioning gas as transition-resilient. Eni Calao (5 Tcf), Exxon Guyana gas-to-shore, Equinor Gullfaks compression. Content hook for WhiteSpace.
 
-## Outstanding Actions (as of Feb 19, 2026)
+## Outstanding Actions (as of Feb 20, 2026)
 - [ ] **TenneT dashboard mockup** — Awaiting Glu's response on WhiteSpace design patterns
 - [ ] **Hibiscus contact names** — Needed for personalized outreach drafts
 - [ ] **SPE Stavanger/Aker attendee names** — Needed for follow-up emails
