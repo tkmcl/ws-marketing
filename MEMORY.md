@@ -69,7 +69,7 @@
 - **Macro Shift (Feb 16-20)**: Bearish Feb 16-18 (IEA demand cut, supply surplus, Brent dropped to ~$67). Reversed Feb 20: US-Iran tensions pushed oil to 6-month highs (Brent ~$72, WTI ~$66). Geopolitical risk premium returns.
 - **Gas as Strategic Bridge (Feb 18)**: Multiple majors positioning gas as transition-resilient. Eni Calao (5 Tcf), Exxon Guyana gas-to-shore, Equinor Gullfaks compression. Content hook for WhiteSpace.
 
-## Outstanding Actions (as of Feb 21, 2026)
+## Outstanding Actions (as of Feb 22, 2026)
 - [ ] **TenneT dashboard mockup** — Awaiting Glu's response on WhiteSpace design patterns
 - [ ] **Hibiscus contact names** — Needed for personalized outreach drafts
 - [ ] **SPE Stavanger/Aker attendee names** — Needed for follow-up emails
