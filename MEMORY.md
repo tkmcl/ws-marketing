@@ -37,6 +37,11 @@
 - **Shell North West Shelf Stake Sale (Feb 18-19, 2026)**: Exploring sale of 16.67% stake in Australia's largest LNG facility (~$2B). XRG (ADNOC) emerged as potential bidder alongside Japanese suitors.
 - **Repsol Venezuela Expansion (Feb 19, 2026)**: Plans to triple output to ~135,000 bpd in 3 years. 50% increase within 12 months. Note: owed $5.4B by Venezuela.
 - **XRG/ADNOC International Expansion (Feb 23, 2026)**: Pursuing NWS stake (Australia), €38B cumulative European investments, Central Asia gas. Exiting Ratnagiri refinery (India). Emerging as major international player.
+- **Chevron West Qurna 2 Iraq Deal (Feb 24, 2026)**: Signed preliminary agreements to replace Lukoil at Iraq's second-largest oil complex (~400,000 bpd, 10% of Iraq crude). Exclusive talks with Basra Oil Company. Combined with Libya S4, Greece, Egypt Nargis — multi-frontier expansion under new CSO Kevin Lyon.
+- **Eni Ndungu Field Start-Up (Feb 24, 2026)**: Block 15/06 Angola, full-field production started. Peak 60,000 bpd expected. Agogo+Ndungu hub targeting 175,000 bpd. 6 months from first oil to full-field — fast-track execution validates dual-track strategy.
+- **Aramco Jafurah First Exports (Feb 24, 2026)**: First condensate deals from $100B shale gas project. Buyers: Chevron, ExxonMobil, Indian Oil Corp. Target: 2 Bcf/d gas + 630,000 bpd liquids by 2030. CEO linked to AI infrastructure ambitions.
+- **UK vs Norway North Sea Divergence (Feb 24, 2026)**: Westwood data — Norway plans 41 wells, UK plans 3 (7x resource divergence). Policy-driven divergence creating planning complexity for UK-focused operators.
+- **Oil Prices 7-Month High (Feb 24, 2026)**: Brent ~$72, WTI ~$67 on US-Iran tensions. European energy stocks hit all-time highs, surpassing 2007 level.
 
 ## Content Strategy & Performance
 - **Strategic Precision over Volume (Feb 2026)**: Industry is shifting from volume growth to "precision growth." High-value optimization is the new priority as capex is tightened (Validated by Equinor/Shell).
@@ -57,14 +62,14 @@
 - **Shell**: Validating the energy security/AI boom link. Groningen arbitration (Feb 12) signals aggressive asset protection strategy.
 - **TotalEnergies**: Third European major to cut buybacks. FIDs planned: Venus (Namibia), Ima (Nigeria), PNG LNG.
 - **Libya**: First licensing round since 2007. Tier 1 accounts participating (Chevron, Eni, Repsol). Emerging opportunity.
-- **Chevron**: Leviathan gas expansion FID (Feb 11, 2026). Subsea 7 won 17km subsea installation. Greece offshore contracts signed (Feb 16) — 4 blocks with HELLENiQ (~47K km²), first drilling in 40 years. **Kevin Lyon promoted to CSO (March 1, 2026)** — former Hess integration leader. Egypt Nargis operator (45%). Active project execution mode across multiple frontier regions.
+- **Chevron**: Leviathan gas expansion FID (Feb 11, 2026). Subsea 7 won 17km subsea installation. Greece offshore contracts signed (Feb 16) — 4 blocks with HELLENiQ (~47K km²), first drilling in 40 years. **Kevin Lyon promoted to CSO (March 1, 2026)** — former Hess integration leader. Egypt Nargis operator (45%). **West Qurna 2 Iraq (Feb 24)** — replacing Lukoil at 400K bpd complex. Multi-frontier expansion accelerating.
 - **ConocoPhillips**: Greater Ekofisk $2B investment (Feb 16) — restart of 3 fields by end-2028. Tier 0 customer with fresh capex signal. Alaska drilling "no impact" after rig collapse (Feb 18); targeting $1B cost cut. Capital discipline at Tier 0.
 - **Azule Energy (Eni-BP JV)**: 500M barrel Algaita-01 discovery offshore Angola (Feb 16). Tie-back to Olombendo FPSO. Infrastructure-led exploration exemplar.
 - **Harbour Energy**: Closed $3.2B LLOG acquisition (Feb 16). Tier 0 customer; M&A integration = planning complexity opportunity.
 - **Saudi Aramco**: Jafurah Phase 1 exports began (Feb 16). Microsoft AI partnership deepening (Feb 13). Competitive positioning on industrial AI — WhiteSpace differentiation via planning focus remains intact.
 - **ADNOC**: Record 2024 results + LNG fleet expansion announced (Feb 16). Aggressive growth posture.
 - **Petronas**: Oman Block 18 award + Malaysia Bid Round 2026 announced (Feb 16). Southeast Asia expansion.
-- **Eni (Feb 19)**: Dual-track strategy confirmed — exploration (Calao South, Algaita) + potential trading transformation via commodity house JV. Complex organization with multiple African projects across regulatory regimes.
+- **Eni (Feb 19-24)**: Dual-track strategy confirmed and executing — exploration (Calao South, Algaita, Ndungu start-up Feb 24) + potential trading transformation via commodity house JV. Ndungu achieved full-field in 6 months. Complex organization with multiple African projects across regulatory regimes.
 - **TPAO (Türkiye)**: Expanding partnerships with BP/Chevron (Feb 13), now Shell (Black Sea, Feb 20). Priority: Iraq, Libya, Central Asia, Black Sea. Emerging regional player.
 - **TenneT (Feb 14, 2026)**: Non-upstream opportunity. Dutch TSO. Michiel requested dashboard mockup for AI-assisted Portfolio Planning pitch. Awaiting Glu's input on design patterns. Proposed concept: Gantt-style timeline + Pareto chart + scenario selector + constraint indicators.
 
@@ -80,12 +85,12 @@
 - **XRG Emergence (Feb 2026)**: ADNOC's investment arm becoming global acquirer across Australia, Central Asia, Europe. New major player to track alongside traditional supermajors.
 
 ## Outstanding Actions (as of Feb 24, 2026)
+- [ ] **Chevron Kevin Lyon outreach** — CSO starts March 1 (5 days); West Qurna 2 timing hook added
+- [ ] **BP Tiber-Guadalupe outreach** — Playbook 1 candidate; deepwater planning angle
+- [ ] **ConocoPhillips engagement** — Tier 0 customer in portfolio review mode ($2B Permian sale)
 - [ ] **TenneT dashboard mockup** — Awaiting Glu's response on WhiteSpace design patterns
 - [ ] **Hibiscus contact names** — Needed for personalized outreach drafts
 - [ ] **SPE Stavanger/Aker attendee names** — Needed for follow-up emails
-- [ ] **Chevron Kevin Lyon outreach** — CSO starts March 1; timing window open
-- [ ] **BP Tiber-Guadalupe outreach** — Playbook 1 candidate; deepwater planning angle
-- [ ] **ConocoPhillips engagement** — Tier 0 customer now in portfolio review mode
 
 ## Operational Lessons
 - **Account Brief Updates (Feb 16, 2026)**: Every news item from daily scans that relates to a Tier account must be appended to that account's Notion Account Brief page. This builds a per-account knowledge base over time. Format: date header, summary, signal type, region, WhiteSpace angle, source.
