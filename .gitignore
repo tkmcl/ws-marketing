@@ -3,3 +3,4 @@
 *.pem
 secrets*
 *.pdf
+.openclaw/
