@@ -1,7 +1,9 @@
 {
   "lastChecks": {
     "memoryScan": 1740402000,
-    "creditCheck": 1740402000
+    "creditCheck": 1740409200,
+    "creditAlertSent": true,
+    "creditAlertCount": 4
   },
-  "lastHeartbeat": "2026-02-24T15:00:00+01:00"
+  "lastHeartbeat": "2026-02-24T18:00:00+01:00"
 }
