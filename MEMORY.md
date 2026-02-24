@@ -79,7 +79,7 @@
 - **Portfolio Optimization Cycle (Feb 23)**: ConocoPhillips ($2B Permian sale), Shell (NWS stake), Equinor (Vaca Muerta exit) — majors actively reshaping portfolios. M&A activity = stakeholder disruption and planning needs.
 - **XRG Emergence (Feb 2026)**: ADNOC's investment arm becoming global acquirer across Australia, Central Asia, Europe. New major player to track alongside traditional supermajors.
 
-## Outstanding Actions (as of Feb 23, 2026)
+## Outstanding Actions (as of Feb 24, 2026)
 - [ ] **TenneT dashboard mockup** — Awaiting Glu's response on WhiteSpace design patterns
 - [ ] **Hibiscus contact names** — Needed for personalized outreach drafts
 - [ ] **SPE Stavanger/Aker attendee names** — Needed for follow-up emails
