@@ -1,15 +1,16 @@
 {
   "lastChecks": {
-    "memoryScan": 1740434400,
-    "creditCheck": 1740438000
+    "memoryScan": 1771984856,
+    "creditCheck": 1771984856
   },
-  "lastHeartbeat": "2026-02-25T00:00:00+01:00",
+  "lastHeartbeat": "2026-02-25T03:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
       "alertedAt": "2026-02-25T00:00:00+01:00",
-      "balance": 21.79,
+      "balance": 19.63,
       "threshold": 50,
-      "status": "BELOW_THRESHOLD"
+      "status": "BELOW_THRESHOLD",
+      "note": "Balance dropped from $21.79 at midnight to $19.63 at 03:00. Tom alerted at midnight, no re-alert needed."
     }
   }
 }
