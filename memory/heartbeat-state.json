@@ -1,16 +1,22 @@
 {
   "lastChecks": {
-    "memoryScan": 1772157600,
-    "creditCheck": 1772157600
+    "memoryScan": 1772179200,
+    "creditCheck": 1772179200
   },
-  "lastHeartbeat": "2026-02-25T12:00:00+01:00",
+  "lastHeartbeat": "2026-02-25T15:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "alertedAt": "2026-02-25T00:00:00+01:00",
-      "balance": 250.75,
+      "lastChecked": "2026-02-25T15:00:00+01:00",
+      "balance": 248.48,
       "threshold": 50,
       "status": "OK",
-      "note": "Balance $250.75 at 12:00. Stable. Tom topped up earlier (was $18.60 at 06:00, recovered to $260.28 at 09:04)."
+      "note": "Balance $248.48 at 15:00. Stable."
+    }
+  },
+  "urgentFlags": {
+    "chevronKevinLyon": {
+      "flaggedAt": "2026-02-25T15:00:00+01:00",
+      "note": "Kevin Lyon starts as CSO on March 1 — 4 days away. Outreach window closing. West Qurna 2 Iraq + Libya S4 timing hook. Playbook 3. Action required NOW."
     }
   }
 }
