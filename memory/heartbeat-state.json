@@ -1,23 +1,28 @@
 {
   "lastChecks": {
-    "memoryScan": 1772200800,
-    "creditCheck": 1772200800
+    "memoryScan": 1772229600,
+    "creditCheck": 1772229600
   },
-  "lastHeartbeat": "2026-02-25T18:00:00+01:00",
+  "lastHeartbeat": "2026-02-25T21:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-02-25T18:00:00+01:00",
-      "balance": 227.88,
+      "lastChecked": "2026-02-25T21:00:00+01:00",
+      "balance": 225.71,
       "threshold": 50,
       "status": "OK",
-      "note": "Balance $227.88 at 18:00. Stable."
+      "note": "Balance $225.71 at 21:00. Stable."
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon starts as CSO on March 1 — NOW 4 days away. Outreach window closing fast. West Qurna 2 Iraq + Libya S4 timing hook. Playbook 3. Action required: draft outreach or alert Michiel.",
-      "status": "OPEN"
+      "note": "Kevin Lyon starts as CSO on March 1 — 4 days away. Outreach window closing fast. West Qurna 2 Iraq + Libya S4 timing hook. Playbook 3. Action required: draft outreach or alert Michiel.",
+      "status": "OPEN — Michiel must act before March 1"
     }
+  },
+  "memoryMaintenance": {
+    "lastRun": "2026-02-25T21:00:00+01:00",
+    "archivedFiles": ["weekly-roundup-2026-02-20.md → archive/"],
+    "memoryStatus": "MEMORY.md up to date through Feb 25. Daily files Feb 23-25 current. All older files in archive."
   }
 }
