@@ -84,6 +84,13 @@
 - **Portfolio Optimization Cycle (Feb 23)**: ConocoPhillips ($2B Permian sale), Shell (NWS stake), Equinor (Vaca Muerta exit) — majors actively reshaping portfolios. M&A activity = stakeholder disruption and planning needs.
 - **XRG Emergence (Feb 2026)**: ADNOC's investment arm becoming global acquirer across Australia, Central Asia, Europe. New major player to track alongside traditional supermajors.
 
+## Operational Costs & Budget
+- **OpenRouter Credit Alert (Feb 25, 2026)**: Balance dropped to ~$19.63 at 03:00, then $18.60 at 06:00. Well below $50 threshold. Tom alerted via Slack at midnight (Feb 25). Balance consuming ~$1/session. Keep monitoring — may need top-up.
+
+## Content Drafts In Progress
+- **FDT Asia 2026 LinkedIn Post** (`drafts/fdt-asia-2026-data-to-decision-ready.md`): Thought leadership piece on AI in energy ("less than 1% of operational data is used for decisions"). Status: DRAFT, awaiting Michiel review.
+- **Woodside (Feb 24)**: Record production 198.8 MMboe in 2025, CEO search ongoing, 2026 capex $4-4.5B. Tier 2 account. Medium signal for planning complexity narrative.
+
 ## Outstanding Actions (as of Feb 24, 2026)
 - [ ] **Chevron Kevin Lyon outreach** — CSO starts March 1 (5 days); West Qurna 2 timing hook added
 - [ ] **BP Tiber-Guadalupe outreach** — Playbook 1 candidate; deepwater planning angle
