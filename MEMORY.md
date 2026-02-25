@@ -85,14 +85,16 @@
 - **XRG Emergence (Feb 2026)**: ADNOC's investment arm becoming global acquirer across Australia, Central Asia, Europe. New major player to track alongside traditional supermajors.
 
 ## Operational Costs & Budget
-- **OpenRouter Credit Alert (Feb 25, 2026)**: Balance dropped to ~$19.63 at 03:00, then $18.60 at 06:00. Well below $50 threshold. Tom alerted via Slack at midnight (Feb 25). Balance consuming ~$1/session. Keep monitoring — may need top-up.
+- **OpenRouter Credit Resolved (Feb 25, 2026)**: Balance dropped to $18.60 at 06:00 (Tom alerted at midnight). By 09:04 balance recovered to $260.28 — Tom topped it up. Alert resolved. Monitor for future drops below $50.
 
 ## Content Drafts In Progress
 - **FDT Asia 2026 LinkedIn Post** (`drafts/fdt-asia-2026-data-to-decision-ready.md`): Thought leadership piece on AI in energy ("less than 1% of operational data is used for decisions"). Status: DRAFT, awaiting Michiel review.
-- **Woodside (Feb 24)**: Record production 198.8 MMboe in 2025, CEO search ongoing, 2026 capex $4-4.5B. Tier 2 account. Medium signal for planning complexity narrative.
+- **Woodside (Feb 24-25)**: Record production 198.8 MMboe in 2025, CEO search ongoing, 2026 capex $4-4.5B. Tier 2 account. Medium signal for planning complexity narrative.
+- **Harbour Energy — Talos Well Pause (Feb 25, 2026)**: Post-$3.2B LLOG acquisition closed Feb 2026, Talos (newly acquired US Gulf asset) paused a well. Early operational signal post-acquisition. Notion Account Brief updated.
+- **Woodside Profit Slump (Feb 25, 2026)**: FY2025 profit -24% to $2.72B; underlying NPAT -8% at $2.65B despite record production. Liz Westcott incoming; Stonepeak/BP/Williams stakeholders noted. CEO search ongoing (Meg O'Neill took BP role April 2026). Notion Account Brief updated.
 
-## Outstanding Actions (as of Feb 24, 2026)
-- [ ] **Chevron Kevin Lyon outreach** — CSO starts March 1 (5 days); West Qurna 2 timing hook added
+## Outstanding Actions (as of Feb 25, 2026)
+- [ ] **Chevron Kevin Lyon outreach** — CSO starts March 1 (4 days); West Qurna 2 timing hook added — **URGENT**
 - [ ] **BP Tiber-Guadalupe outreach** — Playbook 1 candidate; deepwater planning angle
 - [ ] **ConocoPhillips engagement** — Tier 0 customer in portfolio review mode ($2B Permian sale)
 - [ ] **TenneT dashboard mockup** — Awaiting Glu's response on WhiteSpace design patterns
