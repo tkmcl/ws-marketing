@@ -1,30 +1,30 @@
 {
   "lastChecks": {
-    "memoryScan": 1772380980,
-    "creditCheck": 1772380980
+    "memoryScan": 1772395200,
+    "creditCheck": 1772395200
   },
-  "lastHeartbeat": "2026-02-26T12:00:00+01:00",
+  "lastHeartbeat": "2026-02-26T15:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-02-26T12:00:00+01:00",
-      "balance": 201.74,
+      "lastChecked": "2026-02-26T15:00:00+01:00",
+      "balance": 199.28,
       "threshold": 50,
       "status": "OK",
-      "note": "Balance $201.74 at 12:00. Healthy."
+      "note": "Balance $199.28 at 15:00. Healthy."
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
       "note": "Kevin Lyon starts as CSO on March 1 (Saturday). TODAY is Feb 26 — last business day before start date. Outreach window closing. West Qurna 2 Iraq + Libya S4 timing hook. Playbook 3. Action required: Michiel must review/approve outreach draft NOW.",
-      "status": "OPEN — CRITICAL, starts THIS Saturday (March 1)"
+      "status": "OPEN — CRITICAL, starts THIS Saturday (March 1). TODAY is the final business day for outreach."
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-02-26T12:00:00+01:00",
+    "lastRun": "2026-02-26T15:00:00+01:00",
     "archivedFiles": [],
-    "memoryStatus": "Heartbeat maintenance at 12:00 Feb 26. Credit balance $201.74 OK. Kevin Lyon CSO urgency escalated (starts Saturday March 1, today is last business day). No new signals since morning scan.",
-    "creditBalance": 201.74,
+    "memoryStatus": "Heartbeat maintenance at 15:00 Feb 26. Credit balance $199.28 OK. Memory files current and well-maintained. Kevin Lyon CSO urgency remains open — today is last business day.",
+    "creditBalance": 199.28,
     "nextArchivalDate": "2026-03-02 (Feb 23 file eligible)"
   }
 }
