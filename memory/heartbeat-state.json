@@ -1,29 +1,30 @@
 {
   "lastChecks": {
-    "memoryScan": 1772348400,
-    "creditCheck": 1772348400
+    "memoryScan": 1772359200,
+    "creditCheck": 1772359200
   },
-  "lastHeartbeat": "2026-02-26T03:00:00+01:00",
+  "lastHeartbeat": "2026-02-26T06:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-02-26T03:00:00+01:00",
-      "balance": 220.22,
+      "lastChecked": "2026-02-26T06:00:00+01:00",
+      "balance": 217.96,
       "threshold": 50,
       "status": "OK",
-      "note": "Balance $220.22 at 03:00. Stable."
+      "note": "Balance $217.96 at 06:00. Stable."
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
       "note": "Kevin Lyon starts as CSO on March 1 — NOW 3 days away. Outreach window closing fast. West Qurna 2 Iraq + Libya S4 timing hook. Playbook 3. Action required: Michiel must review/approve outreach draft before March 1.",
-      "status": "OPEN — URGENT, 3 days remaining"
+      "status": "OPEN — URGENT, 3 days remaining (March 1 is Saturday)"
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-02-26T03:00:00+01:00",
+    "lastRun": "2026-02-26T06:00:00+01:00",
     "archivedFiles": [],
-    "memoryStatus": "MEMORY.md current through Feb 25. Daily files Feb 23-25 active. Feb 26 daily scan pending (morning cron 07:30). Archive is clean — all pre-Feb 22 files already archived. No new consolidation needed.",
-    "creditBalance": 220.22
+    "memoryStatus": "MEMORY.md current through Feb 25. Daily files Feb 23-25 active (within 7-day window). Archive clean. No new consolidation needed. Credit balance $217.96 OK.",
+    "creditBalance": 217.96,
+    "nextArchivalDate": "2026-03-02 (Feb 23 file eligible)"
   }
 }
