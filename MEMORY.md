@@ -93,7 +93,7 @@
 
 ## Operational Costs & Budget
 - **OpenRouter Credit Resolved (Feb 25, 2026)**: Balance dropped to $18.60 at 06:00 (Tom alerted at midnight). By 09:04 balance recovered to $260.28 — Tom topped it up. Alert resolved. Monitor for future drops below $50.
-- **OpenRouter Balance (Feb 26, 2026 12:00)**: $201.74 — healthy, well above $50 threshold.
+- **OpenRouter Balance (Feb 26, 2026 18:00)**: $197.05 — healthy, well above $50 threshold.
 
 ## Content Drafts In Progress
 - **FDT Asia 2026 LinkedIn Post** (`drafts/fdt-asia-2026-data-to-decision-ready.md`): Thought leadership piece on AI in energy ("less than 1% of operational data is used for decisions"). Status: DRAFT, awaiting Michiel review.
@@ -102,7 +102,7 @@
 - **Woodside Profit Slump (Feb 25, 2026)**: FY2025 profit -24% to $2.72B; underlying NPAT -8% at $2.65B despite record production. Liz Westcott incoming; Stonepeak/BP/Williams stakeholders noted. CEO search ongoing (Meg O'Neill took BP role April 2026). Notion Account Brief updated.
 
 ## Outstanding Actions (as of Feb 26, 2026)
-- [ ] **Chevron Kevin Lyon outreach** — CSO starts March 1 (3 days); West Qurna 2 timing hook added — **URGENT**
+- [ ] **Chevron Kevin Lyon outreach** — CSO starts March 1 (TOMORROW); West Qurna 2 timing hook added — **🔴 URGENT: window closes soon**
 - [ ] **BP Tiber-Guadalupe outreach** — Playbook 1 candidate; deepwater planning angle
 - [ ] **ConocoPhillips engagement** — Tier 0 customer in portfolio review mode ($2B Permian sale)
 - [ ] **TenneT dashboard mockup** — Awaiting Glu's response on WhiteSpace design patterns
