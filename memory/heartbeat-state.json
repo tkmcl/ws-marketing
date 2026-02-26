@@ -3,28 +3,28 @@
     "memoryScan": 1772380980,
     "creditCheck": 1772380980
   },
-  "lastHeartbeat": "2026-02-26T09:03:00+01:00",
+  "lastHeartbeat": "2026-02-26T12:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-02-26T09:03:00+01:00",
-      "balance": 205.30,
+      "lastChecked": "2026-02-26T12:00:00+01:00",
+      "balance": 201.74,
       "threshold": 50,
       "status": "OK",
-      "note": "Balance $205.30 at 09:03. Healthy."
+      "note": "Balance $201.74 at 12:00. Healthy."
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon starts as CSO on March 1 — NOW 3 days away (Saturday). Outreach window closing fast. West Qurna 2 Iraq + Libya S4 timing hook. Playbook 3. Action required: Michiel must review/approve outreach draft before March 1.",
-      "status": "OPEN — CRITICAL, 3 days remaining (March 1 is Saturday)"
+      "note": "Kevin Lyon starts as CSO on March 1 (Saturday). TODAY is Feb 26 — last business day before start date. Outreach window closing. West Qurna 2 Iraq + Libya S4 timing hook. Playbook 3. Action required: Michiel must review/approve outreach draft NOW.",
+      "status": "OPEN — CRITICAL, starts THIS Saturday (March 1)"
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-02-26T09:03:00+01:00",
+    "lastRun": "2026-02-26T12:00:00+01:00",
     "archivedFiles": [],
-    "memoryStatus": "MEMORY.md updated with Feb 26 morning scan signals (6 items: Shell NWS divestment, Kashagan arbitration, Papua LNG FID, Mozambique marine services, Aramco Jafurah detail, Woodside Scarborough). Outstanding actions updated to Feb 26. Credit balance $205.30 OK.",
-    "creditBalance": 205.30,
+    "memoryStatus": "Heartbeat maintenance at 12:00 Feb 26. Credit balance $201.74 OK. Kevin Lyon CSO urgency escalated (starts Saturday March 1, today is last business day). No new signals since morning scan.",
+    "creditBalance": 201.74,
     "nextArchivalDate": "2026-03-02 (Feb 23 file eligible)"
   }
 }
