@@ -84,8 +84,16 @@
 - **Portfolio Optimization Cycle (Feb 23)**: ConocoPhillips ($2B Permian sale), Shell (NWS stake), Equinor (Vaca Muerta exit) — majors actively reshaping portfolios. M&A activity = stakeholder disruption and planning needs.
 - **XRG Emergence (Feb 2026)**: ADNOC's investment arm becoming global acquirer across Australia, Central Asia, Europe. New major player to track alongside traditional supermajors.
 
+- **Shell NWS LNG Divestment (Feb 26, 2026)**: $3B stake sale talks advancing with ADNOC/XRG and Midocean as buyers. M&A signal. Shell exiting due to tolling model mismatch. Notion updated.
+- **Kashagan Arbitration (Feb 26, 2026)**: $50B project arbitration ruling — $4.6B fine against Shell/ExxonMobil/TotalEnergies/Eni consortium. Phase 2A expansion frozen. Major capex disruption for four Tier 1 accounts. Notion updated.
+- **TotalEnergies Papua LNG FID Target (Feb 26, 2026)**: FID targeted mid-2026. Capex optimised from $18B → $14-15B. New Project signal. Notion updated.
+- **Mozambique Joint Marine Services (Feb 26, 2026)**: TotalEnergies + ExxonMobil running joint marine services bid (380 LNG loadings/year). ISM security risk active near Afungi. New Project/Procurement signal. Notion updated.
+- **Saudi Aramco Jafurah Deepened (Feb 26, 2026)**: $100B programme detail: 80% production growth target by 2030, Phase 1 starting Feb 2026. Linked to AI infrastructure ambitions. Notion updated.
+- **Woodside Scarborough Confirmed Q4 2026 (Feb 26, 2026)**: First cargo confirmed Q4 2026, 94% complete. Pluto Train 2 tie-in ongoing. Notion updated.
+
 ## Operational Costs & Budget
 - **OpenRouter Credit Resolved (Feb 25, 2026)**: Balance dropped to $18.60 at 06:00 (Tom alerted at midnight). By 09:04 balance recovered to $260.28 — Tom topped it up. Alert resolved. Monitor for future drops below $50.
+- **OpenRouter Balance (Feb 26, 2026 09:03)**: $205.30 — healthy, well above $50 threshold.
 
 ## Content Drafts In Progress
 - **FDT Asia 2026 LinkedIn Post** (`drafts/fdt-asia-2026-data-to-decision-ready.md`): Thought leadership piece on AI in energy ("less than 1% of operational data is used for decisions"). Status: DRAFT, awaiting Michiel review.
@@ -93,8 +101,8 @@
 - **Harbour Energy — Talos Well Pause (Feb 25, 2026)**: Post-$3.2B LLOG acquisition closed Feb 2026, Talos (newly acquired US Gulf asset) paused a well. Early operational signal post-acquisition. Notion Account Brief updated.
 - **Woodside Profit Slump (Feb 25, 2026)**: FY2025 profit -24% to $2.72B; underlying NPAT -8% at $2.65B despite record production. Liz Westcott incoming; Stonepeak/BP/Williams stakeholders noted. CEO search ongoing (Meg O'Neill took BP role April 2026). Notion Account Brief updated.
 
-## Outstanding Actions (as of Feb 25, 2026)
-- [ ] **Chevron Kevin Lyon outreach** — CSO starts March 1 (4 days); West Qurna 2 timing hook added — **URGENT**
+## Outstanding Actions (as of Feb 26, 2026)
+- [ ] **Chevron Kevin Lyon outreach** — CSO starts March 1 (3 days); West Qurna 2 timing hook added — **URGENT**
 - [ ] **BP Tiber-Guadalupe outreach** — Playbook 1 candidate; deepwater planning angle
 - [ ] **ConocoPhillips engagement** — Tier 0 customer in portfolio review mode ($2B Permian sale)
 - [ ] **TenneT dashboard mockup** — Awaiting Glu's response on WhiteSpace design patterns
