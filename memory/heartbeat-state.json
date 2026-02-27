@@ -1,30 +1,30 @@
 {
   "lastChecks": {
-    "memoryScan": 1772553600,
-    "creditCheck": 1772553600
+    "memoryScan": 1772168463,
+    "creditCheck": 1772168463
   },
-  "lastHeartbeat": "2026-02-27T03:00:00+01:00",
+  "lastHeartbeat": "2026-02-27T06:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-02-27T03:00:00+01:00",
-      "balance": 189.03,
+      "lastChecked": "2026-02-27T06:00:00+01:00",
+      "balance": 186.81,
       "threshold": 50,
       "status": "OK",
-      "note": "Balance $189.03 at 03:00 Feb 27. Healthy."
+      "note": "Balance $186.81 at 06:00 Feb 27. Healthy."
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon starts as CSO on March 1 (Saturday). Feb 26 was last business day. Outreach window has passed unless Michiel acts over weekend. Follow up Monday March 2 if no outreach sent.",
-      "status": "MONITOR — Kevin Lyon starts Saturday March 1. First business day: Monday March 2. Flag for Michiel at morning briefing."
+      "note": "Kevin Lyon starts as CSO on Saturday March 1. First business day: Monday March 2. Flag for Michiel at morning briefing Monday if no outreach sent.",
+      "status": "MONITOR — Kevin Lyon starts Saturday March 1. Monday March 2 = first business day for follow-up."
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-02-27T03:00:00+01:00",
+    "lastRun": "2026-02-27T06:00:00+01:00",
     "archivedFiles": [],
-    "memoryStatus": "3AM heartbeat Feb 27. Credit balance $189.03 OK. Memory files current. Archive through Feb 20 complete. Feb 23 file eligible for archival March 2. Weekly Roundup due today (Friday). Kevin Lyon CSO starts Saturday March 1 — flag Monday if no outreach.",
-    "creditBalance": 189.03,
+    "memoryStatus": "6AM heartbeat Feb 27. Credit balance $186.81 OK. MEMORY.md fully current through Feb 26. No new signals to consolidate. Feb 23 file eligible for archival March 2. Weekly Roundup cron due today (Friday). Kevin Lyon CSO starts Saturday March 1 — flag Monday March 2 if no outreach.",
+    "creditBalance": 186.81,
     "nextArchivalDate": "2026-03-02 (Feb 23 file eligible)"
   }
 }
