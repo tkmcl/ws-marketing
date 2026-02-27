@@ -1,16 +1,16 @@
 {
   "lastChecks": {
-    "memoryScan": 1772179380,
-    "creditCheck": 1772179380
+    "memoryScan": 1772193600,
+    "creditCheck": 1772193600
   },
-  "lastHeartbeat": "2026-02-27T12:00:00+01:00",
+  "lastHeartbeat": "2026-02-27T15:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-02-27T12:00:00+01:00",
-      "balance": 172.35,
+      "lastChecked": "2026-02-27T15:00:00+01:00",
+      "balance": 169.70,
       "threshold": 50,
       "status": "OK",
-      "note": "Balance $172.35 at 12:00 Feb 27. Healthy. Weekly Roundup cron running today will consume additional credits."
+      "note": "Balance $169.70 at 15:00 Feb 27. Healthy. Weekly Roundup cron running today consuming credits."
     }
   },
   "urgentFlags": {
@@ -21,10 +21,10 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-02-27T12:00:00+01:00",
+    "lastRun": "2026-02-27T15:00:00+01:00",
     "archivedFiles": [],
-    "memoryStatus": "12:00 maintenance heartbeat Feb 27 (Friday). Credit balance $172.35 OK. MEMORY.md fully current through all Feb 27 signals. Archive: Feb 23 file eligible on March 2. Weekly Roundup cron due today. Kevin Lyon CSO starts TOMORROW (Saturday March 1). Monday March 2 = first business day for outreach.",
-    "creditBalance": 172.35,
+    "memoryStatus": "15:00 maintenance heartbeat Feb 27 (Friday). Credit balance $169.70 OK. MEMORY.md fully current through all Feb 27 signals. Archive: Feb 23 file eligible on March 2. Weekly Roundup cron due today. Kevin Lyon CSO starts TOMORROW (Saturday March 1). Monday March 2 = first business day for outreach.",
+    "creditBalance": 169.70,
     "nextArchivalDate": "2026-03-02 (Feb 23 file eligible)",
     "weekSummary": "Strong week: 15+ Tier 1 signals captured and Notion-logged. FIDs: BP Tiber-Guadalupe, TotalEnergies GranMorgu. M&A: Shell NWS, ConocoPhillips Permian. Kashagan arbitration ($4.6B). Chevron Iraq/multi-frontier expansion. BP BPX shale growth. Eni Q4 record results. Palantir competitive repositioning."
   }
