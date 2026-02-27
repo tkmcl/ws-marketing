@@ -101,13 +101,24 @@
 - **Harbour Energy — Talos Well Pause (Feb 25, 2026)**: Post-$3.2B LLOG acquisition closed Feb 2026, Talos (newly acquired US Gulf asset) paused a well. Early operational signal post-acquisition. Notion Account Brief updated.
 - **Woodside Profit Slump (Feb 25, 2026)**: FY2025 profit -24% to $2.72B; underlying NPAT -8% at $2.65B despite record production. Liz Westcott incoming; Stonepeak/BP/Williams stakeholders noted. CEO search ongoing (Meg O'Neill took BP role April 2026). Notion Account Brief updated.
 
-## Outstanding Actions (as of Feb 26, 2026)
-- [ ] **Chevron Kevin Lyon outreach** — CSO starts March 1 (Saturday). Feb 26 was last business day. Window effectively closed — follow up Monday if no outreach sent.
-- [ ] **BP Tiber-Guadalupe outreach** — Playbook 1 candidate; deepwater planning angle
+## Weekly Roundup (Feb 27, 2026)
+- Weekly Roundup delivered and committed to `memory/2026-02-27-weekly-roundup.md`
+- Top signals: BP Tiber-Guadalupe FID, TotalEnergies GranMorgu FID ($10.5B), Chevron West Qurna 2 + Kevin Lyon CSO, Kashagan $4.6B arbitration (4 Tier 1 accounts disrupted), Papua LNG FID target, Palantir agentic AI repositioning, Eni Q4 + $15B Petronas JV
+- Key patterns: Greenfield FID wave accelerating; Shell in full upstream pivot; AI confidence divide widening; Chevron CSO + FID = maximum outreach window
+- Content opportunities: "FID Wave" post, "Kashagan JV complexity" post, Palantir counter-narrative
+- OpenRouter balance: $164.03 (healthy)
+
+## Outstanding Actions (as of Feb 27, 2026 EOD)
+- [ ] **Chevron Kevin Lyon outreach** — CSO starts March 1 (Saturday). MONDAY MARCH 2 = first business day. Draft must be ready Monday morning. Highest priority.
+- [ ] **BP outreach** — Two angles: Tiber-Guadalupe (deepwater FID) + BPX international capex growth. Michiel to choose contact first.
+- [ ] **Eni multi-project outreach** — Playbook 1; 6 projects + $15B JV + EUR 7B capex = strongest pipeline signal of the week
+- [ ] **TotalEnergies Papua LNG outreach** — FID target mid-2026; window open now
+- [ ] **Palantir counter-narrative** — Playbook 4; draft before it becomes a sales objection
 - [ ] **ConocoPhillips engagement** — Tier 0 customer in portfolio review mode ($2B Permian sale)
 - [ ] **TenneT dashboard mockup** — Awaiting Glu's response on WhiteSpace design patterns
 - [ ] **Hibiscus contact names** — Needed for personalized outreach drafts
 - [ ] **SPE Stavanger/Aker attendee names** — Needed for follow-up emails
+- [ ] **Archive Feb 23 memory file** — Eligible for archival on March 2 (7-day rule)
 
 ## Operational Lessons
 - **Account Brief Updates (Feb 16, 2026)**: Every news item from daily scans that relates to a Tier account must be appended to that account's Notion Account Brief page. This builds a per-account knowledge base over time. Format: date header, summary, signal type, region, WhiteSpace angle, source.
