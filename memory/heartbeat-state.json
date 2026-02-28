@@ -1,31 +1,31 @@
 {
   "lastChecks": {
-    "memoryScan": 1772344800,
-    "creditCheck": 1772344800
+    "memoryScan": 1772431200,
+    "creditCheck": 1772431200
   },
-  "lastHeartbeat": "2026-02-28T21:00:00+01:00",
+  "lastHeartbeat": "2026-03-01T00:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-02-28T21:00:00+01:00",
-      "balance": 132.99,
+      "lastChecked": "2026-03-01T00:00:00+01:00",
+      "balance": 130.41,
       "threshold": 50,
       "status": "OK",
-      "note": "Balance $132.99 at 21:00 Feb 28 (Saturday). Healthy."
+      "note": "Balance $130.41 at 00:00 March 1 (Sunday). Healthy."
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon started as CSO TODAY (Saturday Feb 28). First business day: Monday March 2. Outreach draft must be ready Monday morning.",
-      "status": "ACTIVE — Kevin Lyon officially started TODAY (Saturday Feb 28). Monday March 2 = first business day for outreach. HIGHEST PRIORITY for Monday morning briefing."
+      "note": "Kevin Lyon started as CSO Saturday Feb 28 / March 1. First business day: Monday March 2. Outreach draft must be ready Monday morning.",
+      "status": "ACTIVE — Monday March 2 = first business day for Lyon outreach. HIGHEST PRIORITY."
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-02-28T21:00:00+01:00",
-    "archivedFiles": [],
-    "memoryStatus": "21:00 heartbeat Feb 28 (Saturday). Balance $132.99 OK. MEMORY.md fully current through weekly roundup + Feb 28 log. All outstanding actions current. Kevin Lyon CSO started today. Next archival: March 2 (Feb 23 file).",
-    "creditBalance": 132.99,
-    "nextArchivalDate": "2026-03-02 (Feb 23 file eligible)",
-    "weekSummary": "Strong week: 15+ Tier 1 signals captured and Notion-logged. FIDs: BP Tiber-Guadalupe, TotalEnergies GranMorgu. M&A: Shell NWS, ConocoPhillips Permian. Kashagan arbitration ($4.6B, 4 Tier 1 accounts). Chevron Iraq/CSO transition. BP BPX shale growth. Eni Q4 record results. Palantir competitive repositioning. Weekly Roundup committed."
+    "lastRun": "2026-03-01T00:00:00+01:00",
+    "archivedFiles": ["2026-02-23.md"],
+    "memoryStatus": "Midnight heartbeat March 1. Balance $130.41 OK. MEMORY.md fully current. Feb 23 archived. March 1 log initialized. Kevin Lyon CSO first business day tomorrow (Monday March 2).",
+    "creditBalance": 130.41,
+    "nextArchivalDate": "2026-03-03 (Feb 24 file eligible)",
+    "weekSummary": "Week ending Feb 28: strong signal capture across all Tier 1 accounts. Kevin Lyon CSO transition highest priority for next week."
   }
 }
