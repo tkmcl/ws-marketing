@@ -1,16 +1,16 @@
 {
   "lastChecks": {
-    "memoryScan": 1772319600,
-    "creditCheck": 1772319600
+    "memoryScan": 1772344800,
+    "creditCheck": 1772344800
   },
-  "lastHeartbeat": "2026-02-28T18:00:00+01:00",
+  "lastHeartbeat": "2026-02-28T21:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-02-28T18:00:00+01:00",
-      "balance": 135.26,
+      "lastChecked": "2026-02-28T21:00:00+01:00",
+      "balance": 132.99,
       "threshold": 50,
       "status": "OK",
-      "note": "Balance $135.26 at 18:00 Feb 28 (Saturday). Healthy."
+      "note": "Balance $132.99 at 21:00 Feb 28 (Saturday). Healthy."
     }
   },
   "urgentFlags": {
@@ -21,10 +21,10 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-02-28T18:00:00+01:00",
+    "lastRun": "2026-02-28T21:00:00+01:00",
     "archivedFiles": [],
-    "memoryStatus": "18:00 heartbeat Feb 28 (Saturday). Balance $135.26 OK. MEMORY.md fully current through weekly roundup + Feb 28 log. All outstanding actions current. Kevin Lyon CSO started today. Next archival: March 2 (Feb 23 file).",
-    "creditBalance": 135.26,
+    "memoryStatus": "21:00 heartbeat Feb 28 (Saturday). Balance $132.99 OK. MEMORY.md fully current through weekly roundup + Feb 28 log. All outstanding actions current. Kevin Lyon CSO started today. Next archival: March 2 (Feb 23 file).",
+    "creditBalance": 132.99,
     "nextArchivalDate": "2026-03-02 (Feb 23 file eligible)",
     "weekSummary": "Strong week: 15+ Tier 1 signals captured and Notion-logged. FIDs: BP Tiber-Guadalupe, TotalEnergies GranMorgu. M&A: Shell NWS, ConocoPhillips Permian. Kashagan arbitration ($4.6B, 4 Tier 1 accounts). Chevron Iraq/CSO transition. BP BPX shale growth. Eni Q4 record results. Palantir competitive repositioning. Weekly Roundup committed."
   }
