@@ -1,32 +1,32 @@
 {
   "lastChecks": {
-    "memoryScan": 1772553600,
-    "creditCheck": 1772575200
+    "memoryScan": 1772640000,
+    "creditCheck": 1772640000
   },
-  "lastHeartbeat": "2026-03-01T21:00:00+01:00",
+  "lastHeartbeat": "2026-03-02T00:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-01T21:00:00+01:00",
-      "balance": 104.78,
+      "lastChecked": "2026-03-02T00:00:00+01:00",
+      "balance": 102.17,
       "totalCredits": 750.00,
-      "totalUsage": 645.22,
+      "totalUsage": 647.83,
       "threshold": 50,
       "status": "OK",
-      "note": "Balance $104.78 at 21:00 March 1 (Sunday). Usage $645.22 of $750.00. Healthy."
+      "note": "Balance $102.17 at midnight March 2 (Monday). Usage $647.83 of $750.00. Healthy."
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon started as CSO March 1 (Saturday). First business day: TOMORROW Monday March 2. Outreach draft READY at drafts/outreach-chevron-kevin-lyon.md. Highest priority for Michiel tomorrow morning.",
-      "status": "READY — outreach draft committed. Michiel to send Monday March 2."
+      "note": "Kevin Lyon started as CSO Saturday March 1. TODAY (Monday March 2) is his first business day. Outreach draft READY at drafts/outreach-chevron-kevin-lyon.md. Michiel should send this morning.",
+      "status": "READY — outreach draft committed. Michiel to send TODAY March 2 morning."
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-01T21:00:00+01:00",
-    "archivedFiles": ["2026-02-23.md"],
-    "memoryStatus": "9:00 PM heartbeat March 1. Balance $104.78/$750 OK. MEMORY.md fully current. Chevron outreach draft committed. Kevin Lyon CSO first business day TOMORROW (Monday March 2). Outreach draft ready to send.",
-    "nextArchivalDate": "2026-03-03 (Feb 24 file eligible)",
-    "weekSummary": "Week ending Feb 28: strong signal capture across all Tier 1 accounts. Kevin Lyon CSO transition highest priority for Monday morning. Outreach draft in drafts/ folder, committed to repo."
+    "lastRun": "2026-03-02T00:00:00+01:00",
+    "archivedFiles": ["2026-02-23.md", "2026-02-24.md"],
+    "memoryStatus": "Midnight heartbeat March 2. Balance $102.17/$750 OK. MEMORY.md fully current. Feb 24 archived (7-day rule). Kevin Lyon CSO first business day TODAY. Outreach draft ready.",
+    "nextArchivalDate": "2026-03-04 (Feb 25 file eligible)",
+    "weekSummary": "New week begins March 2. Highest priority: Kevin Lyon outreach. Daily scan scheduled this morning. Weekly priority: BP outreach, Eni multi-project, Papua LNG FID window."
   }
 }
