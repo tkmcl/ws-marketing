@@ -1,16 +1,16 @@
 {
   "lastChecks": {
-    "memoryScan": 1772431200,
-    "creditCheck": 1772431200
+    "memoryScan": 1772452800,
+    "creditCheck": 1772452800
   },
-  "lastHeartbeat": "2026-03-01T03:00:00+01:00",
+  "lastHeartbeat": "2026-03-01T06:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-01T03:00:00+01:00",
-      "balance": 126.68,
+      "lastChecked": "2026-03-01T06:00:00+01:00",
+      "balance": 124.33,
       "threshold": 50,
       "status": "OK",
-      "note": "Balance $126.68 at 03:00 March 1 (Sunday). Healthy."
+      "note": "Balance $124.33 at 06:00 March 1 (Sunday). Healthy. Cumulative usage $625.67 of $750.00."
     }
   },
   "urgentFlags": {
@@ -21,11 +21,11 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-01T00:00:00+01:00",
+    "lastRun": "2026-03-01T06:00:00+01:00",
     "archivedFiles": ["2026-02-23.md"],
-    "memoryStatus": "3 AM heartbeat March 1. Balance $126.68 OK. MEMORY.md fully current. No new signals. Kevin Lyon CSO first business day tomorrow (Monday March 2).",
-    "creditBalance": 126.68,
+    "memoryStatus": "6 AM heartbeat March 1. Balance $124.33 OK. MEMORY.md fully current. No new signals. Kevin Lyon CSO first business day TOMORROW (Monday March 2). Outreach draft is top priority.",
+    "creditBalance": 124.33,
     "nextArchivalDate": "2026-03-03 (Feb 24 file eligible)",
-    "weekSummary": "Week ending Feb 28: strong signal capture across all Tier 1 accounts. Kevin Lyon CSO transition highest priority for next week."
+    "weekSummary": "Week ending Feb 28: strong signal capture across all Tier 1 accounts. Kevin Lyon CSO transition highest priority for Monday morning."
   }
 }
