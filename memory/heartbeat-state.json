@@ -1,32 +1,31 @@
 {
   "lastChecks": {
     "memoryScan": 1772553600,
-    "creditCheck": 1772553600
+    "creditCheck": 1772575200
   },
-  "lastHeartbeat": "2026-03-01T15:00:00+01:00",
+  "lastHeartbeat": "2026-03-01T21:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-01T15:00:00+01:00",
-      "dailyRemaining": 85.72,
-      "dailyLimit": 100,
-      "cumulativeUsage": 636.18,
+      "lastChecked": "2026-03-01T21:00:00+01:00",
+      "balance": 104.78,
+      "totalCredits": 750.00,
+      "totalUsage": 645.22,
       "threshold": 50,
       "status": "OK",
-      "note": "Balance $85.72 remaining today (daily limit $100) at 15:00 March 1 (Sunday). Cumulative usage $636.18. Healthy. Note: /api/v1/credits shows $0 usage (reporting lag) — real balance confirmed via /api/v1/auth/key."
+      "note": "Balance $104.78 at 21:00 March 1 (Sunday). Usage $645.22 of $750.00. Healthy."
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon started as CSO March 1 (today). First business day: TOMORROW Monday March 2. Outreach draft READY at drafts/outreach-chevron-kevin-lyon.md. Highest priority for Michiel tomorrow morning.",
+      "note": "Kevin Lyon started as CSO March 1 (Saturday). First business day: TOMORROW Monday March 2. Outreach draft READY at drafts/outreach-chevron-kevin-lyon.md. Highest priority for Michiel tomorrow morning.",
       "status": "READY — outreach draft committed. Michiel to send Monday March 2."
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-01T15:00:00+01:00",
+    "lastRun": "2026-03-01T21:00:00+01:00",
     "archivedFiles": ["2026-02-23.md"],
-    "memoryStatus": "3:00 PM heartbeat March 1. Daily balance $85.72/$100 OK. MEMORY.md fully current. Chevron outreach draft committed. Kevin Lyon CSO first business day TOMORROW (Monday March 2). Outreach draft ready to send.",
-    "dailyRemaining": 85.72,
+    "memoryStatus": "9:00 PM heartbeat March 1. Balance $104.78/$750 OK. MEMORY.md fully current. Chevron outreach draft committed. Kevin Lyon CSO first business day TOMORROW (Monday March 2). Outreach draft ready to send.",
     "nextArchivalDate": "2026-03-03 (Feb 24 file eligible)",
     "weekSummary": "Week ending Feb 28: strong signal capture across all Tier 1 accounts. Kevin Lyon CSO transition highest priority for Monday morning. Outreach draft in drafts/ folder, committed to repo."
   }
