@@ -108,17 +108,27 @@
 - Content opportunities: "FID Wave" post, "Kashagan JV complexity" post, Palantir counter-narrative
 - OpenRouter balance: $164.03 (healthy)
 
-## Outstanding Actions (as of Feb 27, 2026 EOD)
-- [ ] **Chevron Kevin Lyon outreach** — CSO starts March 1 (Saturday). MONDAY MARCH 2 = first business day. Draft must be ready Monday morning. Highest priority.
-- [ ] **BP outreach** — Two angles: Tiber-Guadalupe (deepwater FID) + BPX international capex growth. Michiel to choose contact first.
-- [ ] **Eni multi-project outreach** — Playbook 1; 6 projects + $15B JV + EUR 7B capex = strongest pipeline signal of the week
+## Week of March 2, 2026 — Opening Signals
+- **Hormuz Crisis (March 1-2, 2026)**: US-Israel strikes on Iran prompted Strait of Hormuz closure. Brent jumped 13% to $82 at market open. 150+ tankers anchored. Analysts: $100+ possible. OPEC+ approved 206K bpd increase but supply is Strait-dependent. Trump: conflict could last 4 weeks. Macro capex disruption risk across all Gulf-exposed Tier 1/2 accounts. Content activation opportunity: scenario planning under price volatility.
+- **BP BPX Shale Expansion (March 1, 2026)**: BPX Energy CEO Koontz confirmed 8% shale production growth to 500K boe/d in 2026, targeting 650K by 2030 with $800M lower capex. Capital freed for global projects (Tiber-Guadalupe FID live). Incoming Meg O'Neill takes over April 2026. Reinforces BP outreach urgency.
+- **Eni Indonesia FID (March 2026)**: SKK Migas confirmed Eni expected to take FID on Geng North + Gendalo-Gendang gas projects (Kutei Basin) this month. ~$15B via Eni-Petronas JV. Target: ~2 Bcf/d gas + 80K bopd condensate. Most active development pipeline of any Tier 1 account.
+- **TotalEnergies PEL104 Namibia (March 2026)**: Acquired 42.5% operated interest in offshore Namibia PEL104 (~11,000 km²). Partners: Petrobras (42.5%), Namcor (10%). Third concurrent Namibia project alongside Venus + Mopane.
+- **Petronas Capex Discipline (Feb 27 / March 2, 2026)**: FY25 capex cut 23% to RM41.6B. Shifting domestic spend to Peninsular Malaysia. 60% international growth over 10 years. Revenue -17%, profit -18%. 'Value over volume' strategy confirmed.
+- **PTTEP Malaysia SK405B FID (March 2026)**: First greenfield Malaysia development FID. Sirung + Chenda fields, Sarawak. ~15K bpd, first oil 2028. Petronas Carigali partner (25%).
+- **Equinor Norwegian Sea Discovery (March 2026)**: PL 124B, Othello South prospect near Heidrun. 0.95-12.6 MMboe preliminary range. Åre Formation, 208m thickness.
+- **Chevron Yoyo-Yolanda (March 2026)**: Unitisation agreement signed with EG + Cameroon for 2.5 Tcf cross-border gas field. Feeds Alen infrastructure + Punta Europa LNG. Adds to Kevin Lyon's first-week portfolio complexity.
+
+## Outstanding Actions (as of March 2, 2026)
+- [ ] **Chevron Kevin Lyon outreach** — 🔴 TODAY is his first business day. Draft at `drafts/outreach-chevron-kevin-lyon.md`. Send this morning.
+- [ ] **BP outreach** — Two angles: Tiber-Guadalupe (deepwater FID) + BPX shale expansion (8% growth, $800M capex savings). Michiel to choose contact before Meg O'Neill arrives (April).
+- [ ] **Eni multi-project outreach** — Playbook 1; Indonesia FID (Geng North + Gendalo-Gendang) gives a fresh, specific hook. $15B JV with Petronas. Do this week.
 - [ ] **TotalEnergies Papua LNG outreach** — FID target mid-2026; window open now
-- [ ] **Palantir counter-narrative** — Playbook 4; draft before it becomes a sales objection
+- [ ] **Palantir counter-narrative** — Playbook 4; still outstanding
 - [ ] **ConocoPhillips engagement** — Tier 0 customer in portfolio review mode ($2B Permian sale)
 - [ ] **TenneT dashboard mockup** — Awaiting Glu's response on WhiteSpace design patterns
 - [ ] **Hibiscus contact names** — Needed for personalized outreach drafts
 - [ ] **SPE Stavanger/Aker attendee names** — Needed for follow-up emails
-- [ ] **Archive Feb 23 memory file** — Eligible for archival on March 2 (7-day rule)
+- [ ] **Hormuz content piece** — Playbook 2; LinkedIn post on real-time scenario planning triggered by $80+ Brent spike
 
 ## Operational Lessons
 - **Account Brief Updates (Feb 16, 2026)**: Every news item from daily scans that relates to a Tier account must be appended to that account's Notion Account Brief page. This builds a per-account knowledge base over time. Format: date header, summary, signal type, region, WhiteSpace angle, source.
