@@ -1,35 +1,37 @@
 {
   "lastChecks": {
-    "memoryScan": 1772701200,
-    "creditCheck": 1772787600
+    "memoryScan": 1772787600,
+    "creditCheck": 1772874000
   },
-  "lastHeartbeat": "2026-03-02T21:00:00+01:00",
+  "lastHeartbeat": "2026-03-03T00:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-02T21:00:00+01:00",
-      "balance": 75.89,
+      "lastChecked": "2026-03-03T00:00:00+01:00",
+      "balance": 70.90,
       "totalCredits": 750.0,
-      "totalUsage": 674.11,
+      "totalUsage": 679.10,
       "threshold": 50,
       "status": "WATCH",
-      "note": "Balance $75.89 at 9 PM March 2. Usage $674.11 of $750.00. Trending down ~$2.41 in 3h since 6 PM. If this rate holds overnight, could approach $50 threshold by tomorrow midday. Flag Tom if balance drops below $60 at next check."
+      "note": "Balance $70.90 at midnight March 3. Down ~$5 since 9 PM March 2. Flag Tom if balance drops below $60 at next morning check."
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Day 1 complete (March 2). Send outreach Tuesday March 3 morning if not already sent. Draft at drafts/outreach-chevron-kevin-lyon.md.",
-      "status": "READY — send Tuesday March 3 morning if not sent today."
+      "note": "Kevin Lyon CSO at Chevron. Day 2 (March 3). Send outreach Tuesday morning — still in first-week window. Draft at drafts/outreach-chevron-kevin-lyon.md.",
+      "status": "URGENT — send today (March 3)"
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-02T21:00:00+01:00",
+    "lastRun": "2026-03-03T00:00:00+01:00",
     "archivedFiles": [
       "2026-02-23.md",
-      "2026-02-24.md"
+      "2026-02-24.md",
+      "2026-02-25.md",
+      "2026-02-26.md"
     ],
-    "memoryStatus": "9 PM heartbeat March 2. Balance $75.89/$750 — watch closely, trending down. MEMORY.md fully current. No archival action needed (Feb 25 eligible March 4). Kevin Lyon CSO day 1 complete — outreach send Tuesday morning.",
-    "nextArchivalDate": "2026-03-04 (Feb 25 file eligible)",
-    "weekSummary": "Week of March 2. Top priority: Kevin Lyon outreach (day 1 done, send day 2). Outstanding: BP outreach, Eni multi-project, Papua LNG FID, Palantir counter-narrative, ConocoPhillips engagement, Hormuz content piece."
+    "memoryStatus": "Midnight heartbeat March 3. Balance $70.90/$750 — watch. Feb 25+26 archived. MEMORY.md fully current. Kevin Lyon outreach day 2 — send this morning.",
+    "nextArchivalDate": "2026-03-06 (Feb 27 files eligible)",
+    "weekSummary": "Week of March 2. Top priority: Kevin Lyon outreach (day 2, send morning). Outstanding: BP outreach, Eni multi-project, Papua LNG FID, Palantir counter-narrative, ConocoPhillips engagement, Hormuz content piece."
   }
 }
