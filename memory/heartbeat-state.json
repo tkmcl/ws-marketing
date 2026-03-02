@@ -1,18 +1,18 @@
 {
   "lastChecks": {
-    "memoryScan": 1772650800,
-    "creditCheck": 1772650800
+    "memoryScan": 1772661600,
+    "creditCheck": 1772661600
   },
-  "lastHeartbeat": "2026-03-02T03:00:00+01:00",
+  "lastHeartbeat": "2026-03-02T06:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-02T03:00:00+01:00",
-      "balance": 99.05,
+      "lastChecked": "2026-03-02T06:00:00+01:00",
+      "balance": 96.67,
       "totalCredits": 750.00,
-      "totalUsage": 650.95,
+      "totalUsage": 653.33,
       "threshold": 50,
       "status": "OK",
-      "note": "Balance $99.05 at 3 AM March 2. Usage $650.95 of $750.00. Healthy."
+      "note": "Balance $96.67 at 6 AM March 2. Usage $653.33 of $750.00. Healthy."
     }
   },
   "urgentFlags": {
@@ -23,9 +23,9 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-02T03:00:00+01:00",
+    "lastRun": "2026-03-02T06:00:00+01:00",
     "archivedFiles": ["2026-02-23.md", "2026-02-24.md"],
-    "memoryStatus": "3 AM heartbeat March 2. Balance $99.05/$750 OK. MEMORY.md fully current. No archival action needed (Feb 25 eligible March 4). Kevin Lyon CSO first business day TODAY. Outreach draft ready.",
+    "memoryStatus": "6 AM heartbeat March 2. Balance $96.67/$750 OK. MEMORY.md fully current. No archival action needed (Feb 25 eligible March 4). Kevin Lyon CSO first business day TODAY. Outreach draft ready.",
     "nextArchivalDate": "2026-03-04 (Feb 25 file eligible)",
     "weekSummary": "New week begins March 2. Highest priority: Kevin Lyon outreach. Daily scan scheduled this morning. Weekly priority: BP outreach, Eni multi-project, Papua LNG FID window."
   }
