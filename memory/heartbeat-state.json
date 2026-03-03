@@ -3,17 +3,17 @@
     "memoryScan": 1772956800,
     "creditCheck": 1772956800
   },
-  "lastHeartbeat": "2026-03-03T12:00:00+01:00",
+  "lastHeartbeat": "2026-03-03T15:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-03T12:00:00+01:00",
-      "balance": 39.41,
+      "lastChecked": "2026-03-03T15:00:00+01:00",
+      "balance": 34.86,
       "totalCredits": 750.0,
-      "totalUsage": 710.59,
+      "totalUsage": 715.14,
       "threshold": 50,
       "watchThreshold": 60,
-      "status": "🔴 CRITICAL — below $50 and declining",
-      "note": "Balance $39.41 at noon March 3. Was $43.88 at 9 AM — ~$4.47 spent in 3 hours. Tom alerted via Slack at 09:03 AM. No second alert sent (Tom already notified). Monitor: if not topped up by early afternoon, escalate again."
+      "status": "🔴 CRITICAL — $34.86, continuing to decline",
+      "note": "Balance $34.86 at 15:00 March 3. Was $39.41 at noon, $43.88 at 9 AM. ~$9 burned since morning alert. Tom alerted again via Slack at 15:00. If not topped up tonight, hits $0 ~02:00 Wednesday."
     }
   },
   "urgentFlags": {
@@ -31,7 +31,7 @@
       "2026-02-25.md",
       "2026-02-26.md"
     ],
-    "memoryStatus": "Noon maintenance heartbeat March 3. MEMORY.md fully current. No new signals to consolidate. Balance critical and declining.",
+    "memoryStatus": "15:00 maintenance heartbeat March 3. MEMORY.md fully current. Balance critical at $34.86 and still declining. Tom re-alerted via Slack.",
     "nextArchivalDate": "2026-03-06 (Feb 27 files eligible)",
     "weekSummary": "Week of March 3. Top priority: Kevin Lyon outreach (Day 3, send TODAY — last comfortable day). OpenRouter balance critical ($39.41 and declining). Outstanding: BP outreach, Eni multi-project, Papua LNG FID, Palantir counter-narrative, ConocoPhillips engagement, Hormuz content piece."
   }
