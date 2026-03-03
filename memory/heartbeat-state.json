@@ -3,16 +3,17 @@
     "memoryScan": 1772787600,
     "creditCheck": 1772874000
   },
-  "lastHeartbeat": "2026-03-03T00:00:00+01:00",
+  "lastHeartbeat": "2026-03-03T03:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-03T00:00:00+01:00",
-      "balance": 70.90,
+      "lastChecked": "2026-03-03T03:00:00+01:00",
+      "balance": 66.92,
       "totalCredits": 750.0,
-      "totalUsage": 679.10,
+      "totalUsage": 683.08,
       "threshold": 50,
-      "status": "WATCH",
-      "note": "Balance $70.90 at midnight March 3. Down ~$5 since 9 PM March 2. Flag Tom if balance drops below $60 at next morning check."
+      "watchThreshold": 60,
+      "status": "WATCH — approaching $60",
+      "note": "Balance $66.92 at 3 AM March 3. Down ~$4 since midnight. Burning ~$2/hour overnight. Flag Tom if it drops below $60 at next check."
     }
   },
   "urgentFlags": {
@@ -23,14 +24,14 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-03T00:00:00+01:00",
+    "lastRun": "2026-03-03T03:00:00+01:00",
     "archivedFiles": [
       "2026-02-23.md",
       "2026-02-24.md",
       "2026-02-25.md",
       "2026-02-26.md"
     ],
-    "memoryStatus": "Midnight heartbeat March 3. Balance $70.90/$750 — watch. Feb 25+26 archived. MEMORY.md fully current. Kevin Lyon outreach day 2 — send this morning.",
+    "memoryStatus": "3 AM heartbeat March 3. Balance $66.92/$750 — approaching watch threshold. MEMORY.md fully current. Kevin Lyon outreach day 2 — send this morning.",
     "nextArchivalDate": "2026-03-06 (Feb 27 files eligible)",
     "weekSummary": "Week of March 2. Top priority: Kevin Lyon outreach (day 2, send morning). Outstanding: BP outreach, Eni multi-project, Papua LNG FID, Palantir counter-narrative, ConocoPhillips engagement, Hormuz content piece."
   }
