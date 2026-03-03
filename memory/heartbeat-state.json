@@ -1,19 +1,19 @@
 {
   "lastChecks": {
-    "memoryScan": 1772920800,
-    "creditCheck": 1772920800
+    "memoryScan": 1772956800,
+    "creditCheck": 1772956800
   },
-  "lastHeartbeat": "2026-03-03T09:03:00+01:00",
+  "lastHeartbeat": "2026-03-03T12:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-03T09:03:00+01:00",
-      "balance": 43.88,
+      "lastChecked": "2026-03-03T12:00:00+01:00",
+      "balance": 39.41,
       "totalCredits": 750.0,
-      "totalUsage": 706.12,
+      "totalUsage": 710.59,
       "threshold": 50,
       "watchThreshold": 60,
-      "status": "🔴 ALERT — below $50",
-      "note": "Balance $43.88 at 9 AM March 3. Below $50 alert threshold. Tom alerted via Slack at 09:03 AM."
+      "status": "🔴 CRITICAL — below $50 and declining",
+      "note": "Balance $39.41 at noon March 3. Was $43.88 at 9 AM — ~$4.47 spent in 3 hours. Tom alerted via Slack at 09:03 AM. No second alert sent (Tom already notified). Monitor: if not topped up by early afternoon, escalate again."
     }
   },
   "urgentFlags": {
@@ -24,15 +24,15 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-03T09:03:00+01:00",
+    "lastRun": "2026-03-03T12:00:00+01:00",
     "archivedFiles": [
       "2026-02-23.md",
       "2026-02-24.md",
       "2026-02-25.md",
       "2026-02-26.md"
     ],
-    "memoryStatus": "9 AM maintenance heartbeat March 3. MEMORY.md updated: March 3 daily scan signals consolidated, outstanding actions updated (Kevin Lyon Day 3), balance alert updated to $43.88 (below threshold, Tom alerted).",
+    "memoryStatus": "Noon maintenance heartbeat March 3. MEMORY.md fully current. No new signals to consolidate. Balance critical and declining.",
     "nextArchivalDate": "2026-03-06 (Feb 27 files eligible)",
-    "weekSummary": "Week of March 3. Top priority: Kevin Lyon outreach (Day 3, send today — LAST comfortable day). OpenRouter balance critical ($43.88). Outstanding: BP outreach, Eni multi-project, Papua LNG FID, Palantir counter-narrative, ConocoPhillips engagement, Hormuz content piece."
+    "weekSummary": "Week of March 3. Top priority: Kevin Lyon outreach (Day 3, send TODAY — last comfortable day). OpenRouter balance critical ($39.41 and declining). Outstanding: BP outreach, Eni multi-project, Papua LNG FID, Palantir counter-narrative, ConocoPhillips engagement, Hormuz content piece."
   }
 }
