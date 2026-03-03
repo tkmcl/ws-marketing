@@ -1,0 +1,200 @@
+{
+  "parent": { "database_id": "2fe1cf93fe62804789a7f53a1887db80" },
+  "properties": {
+    "Title": {
+      "title": [{ "text": { "content": "Daily Scan: March 3, 2026" } }]
+    },
+    "Type": {
+      "select": { "name": "Daily Scan" }
+    },
+    "Status": {
+      "status": { "name": "Not started" }
+    },
+    "Date": {
+      "date": { "start": "2026-03-03" }
+    }
+  },
+  "children": [
+    {
+      "object": "block",
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [{ "type": "text", "text": { "content": "Daily Scan — Tuesday, March 3, 2026" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "✨ Marketing Spark" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{ "type": "text", "text": { "content": "David Ogilvy: \"If it does not sell, it is not creative.\"\n\nThe lesson: in B2B, obsession with clever positioning is often a distraction. The most powerful thing you can do is make your value crystal clear — not artful, not clever, just undeniably useful. When Michiel talks to an E&P executive who just FID'd a $15B project, creativity is specificity. Tell them exactly what WhiteSpace does, for whom, and what it saves them. That is your best creative." } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "🔴 HIGH Signals" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "1. New Project — Equinor (Tier 0 Customer)" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{ "type": "text", "text": { "content": "Equinor and partners confirmed a commercial oil discovery (\"Omega South Alfa\") near the Snorre field in the Norwegian North Sea. Recoverable volumes: 25–89 MMboe. The headline signal: Equinor is piloting a radically compressed field development approach — planning the FDP before discovery, reusing exploration well foundations, targeting production in 2–3 years vs. the industry norm of 5–7.\n\nSo what: Equinor is compressing their FDP cycle. That is exactly WhiteSpace's use case — faster, better-informed field development decisions under time pressure. This is live proof of the problem we solve.\n\nSuggested action: No new outreach needed (existing customer), but flag internally — does this acceleration apply pressure to their FDP planning tools? Potential upsell or expansion conversation. Also strong LinkedIn content angle: Equinor's 'plan before you drill' model proves fast FDP is possible.\n\nSignal type: New Project | Account: Equinor (Tier 0) | Region: Norwegian North Sea\nSource: equinor.com, Reuters, Rigzone (March 2, 2026)" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "2. M&A / Asset Activity — Eni + Shell (Tier 0 & Tier 1)" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{ "type": "text", "text": { "content": "Nigeria has broken up the long-disputed OPL 245 block (\"Malabu\") into four new assets to be co-operated by Eni and Shell, ending a decades-long legal standoff. Both companies now face new operational complexity: four separate asset structures where one existed before.\n\nSo what: New block structures = new FDP exercises. Both Eni (existing customer portfolio) and Shell (Tier 1 target) will need to stand up field development workflows for previously frozen assets. This is a genuine entry point.\n\nSuggested action: Playbook 1 for Shell — fresh project hook for outreach. For Eni, flag as expansion signal to account team.\n\nSignal type: M&A / Asset Activity | Accounts: Eni (Tier 0), Shell (Tier 1) | Region: Nigeria / West Africa\nSource: Reuters, CNBC Africa (March 2, 2026)" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "3. Digital/AI — Industry-Wide (SPE Journal of Petroleum Technology)" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{ "type": "text", "text": { "content": "SPE's Journal of Petroleum Technology published a guest editorial: \"The Agentic Oil Field — No Longer a Vision, It Is Inevitable.\" The piece calls out the upstream industry's repeated failure to adopt digital at pace (OSDU Forum is 7+ years old and hasn't cracked it), arguing the industry must leapfrog to agentic AI. It frames slow digital adoption as a capital destruction risk.\n\nSo what: The industry's flagship publication is saying what WhiteSpace has positioned around for years. The framing — complexity, slow cycles, human judgment under pressure — maps directly to our narrative pillars. This is a thought leadership gift.\n\nSuggested action: Playbook 2 (Content Activation). Draft a LinkedIn post anchoring WhiteSpace in this conversation. Don't chase 'agentic AI' as a buzzword — be the voice that says: the technology is arriving; the bottleneck is always the quality of decisions made with it.\n\nSignal type: Digital/AI | Account: Industry-wide | Region: Global\nSource: JPT / SPE (March 1, 2026)" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "🟡 MEDIUM Signals" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "4. New Project — TotalEnergies Papua LNG (Tier 1)" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{ "type": "text", "text": { "content": "Papua LNG (TotalEnergies-operated, PNG) continues tracking toward a 2026 FID. Capex optimised to $14–15B. CEO Pouyanne publicly confirmed 2026 FID target. EPC contracts of $3B+ planned. Partners: ExxonMobil, Santos, ENEOS.\n\nSo what: Live FID pipeline — the moment when FDP decisions crystallise. TotalEnergies planning teams will be under real pressure. Previous outreach angle remains strong.\n\nSuggested action: Revisit TotalEnergies Papua LNG outreach draft from Jan 2026. FID is getting closer — timing is right.\n\nSignal type: New Project | Account: TotalEnergies (Tier 1) | Region: Asia Pacific / Papua New Guinea\nSource: LNG Prime, oedigital.com (Feb-Mar 2026)" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "5. Competitor Move — Palantir (Direct Competitor)" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{ "type": "text", "text": { "content": "Palantir shares rebounded sharply in early March. Commercial growth: 137% YoY in 2025; 61% revenue growth guided for 2026. Positioning hardening: private cloud/on-premise AI with data sovereignty as a core differentiator — directly relevant in energy markets.\n\nSo what: Palantir is actively selling into enterprise and energy with real momentum. Their data-sovereignty angle competes with how some E&P companies evaluate platforms. WhiteSpace's counter-narrative (domain-specific decision-intelligence vs. horizontal data OS) matters more now.\n\nSuggested action: Palantir counter-narrative from Jan 2026 backlog is still outstanding. Good week to tackle it given their market momentum.\n\nSignal type: Competitor Move | Competitor: Palantir | Region: Global\nSource: ibtimes.com.au, multiple financial press (March 2-3, 2026)" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "6. M&A / Asset Activity — Eni + TotalEnergies in Africa (Tier 0 + Tier 1)" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{ "type": "text", "text": { "content": "Eni and TotalEnergies are in intensifying competition across African upstream — new licenses, accelerated development, reactivated suspended projects. TotalEnergies officially restarted Mozambique LNG (January 2026). Both expanding African portfolios aggressively.\n\nSo what: African upstream is live again. Multiple projects moving from suspended/deferred to active — FDP restarts. Both Eni (customer) and TotalEnergies (Tier 1) in the mix.\n\nSuggested action: Monitor closely. If a specific FID is announced for either company in Africa in next 2-3 weeks, activate Playbook 1.\n\nSignal type: M&A / Asset Activity | Accounts: Eni (Tier 0), TotalEnergies (Tier 1) | Region: Sub-Saharan Africa\nSource: Jeune Afrique, LNG Prime (March 2-3, 2026)" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "🟢 LOW / Context Signals" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{ "type": "text", "text": { "content": "• Middle East escalation (Iran-Israel conflict) sending oil prices sharply higher. QatarEnergy reportedly halted LNG production after drone strikes. Short-cycle capex acceleration likely for supermajors — watch for budget revisions in coming weeks.\n\n• Chevron: Post-Hess analysis highlights disciplined Permian growth focus. Kevin Lyon outreach draft (Chevron CSO, week 1) still valid this week — act on it.\n\n• Asia Pacific upstream: 2026 shaping up as busiest frontier drilling year in a decade. Multiple Tier 1/2 accounts active. Monitor for specific FID announcements.\n\n• J.P. Morgan upgraded Eni and TotalEnergies to Overweight on Middle East supply risk — analyst attention on both accounts is elevated." } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "📋 Playbook Activations" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{ "type": "text", "text": { "content": "• Playbook 1 (Account Outreach) → Shell: Nigeria OPL 245 split — new project entry point\n• Playbook 2 (Content Activation) → SPE 'Agentic Oil Field' editorial — LinkedIn post draft\n• Backlog revisit: Palantir counter-narrative, Kevin Lyon (Chevron) outreach, TotalEnergies Papua LNG outreach refresh" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [{ "type": "text", "text": { "content": "📝 Session Note" } }]
+      }
+    },
+    {
+      "object": "block",
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [{ "type": "text", "text": { "content": "First daily scan after Ada's pause (approx. Feb 8–Mar 3, 2026). Several signals from the pause period remain actionable — Kevin Lyon Chevron outreach, Eni Indonesia FID, BP/TotalEnergies outreach angles. See memory/2026-03-03.md for priority actions." } }]
+      }
+    }
+  ]
+}

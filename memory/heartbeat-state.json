@@ -1,38 +1,38 @@
 {
   "lastChecks": {
-    "memoryScan": 1772874000,
+    "memoryScan": 1772920800,
     "creditCheck": 1772920800
   },
-  "lastHeartbeat": "2026-03-03T06:00:00+01:00",
+  "lastHeartbeat": "2026-03-03T09:03:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-03T06:00:00+01:00",
-      "balance": 64.58,
+      "lastChecked": "2026-03-03T09:03:00+01:00",
+      "balance": 43.88,
       "totalCredits": 750.0,
-      "totalUsage": 685.42,
+      "totalUsage": 706.12,
       "threshold": 50,
       "watchThreshold": 60,
-      "status": "WATCH — below $60",
-      "note": "Balance $64.58 at 6 AM March 3. Down ~$2.34 since 3 AM. Rate has slowed overnight. Still above $50 alert threshold. Flag Tom if it drops below $50."
+      "status": "🔴 ALERT — below $50",
+      "note": "Balance $43.88 at 9 AM March 3. Below $50 alert threshold. Tom alerted via Slack at 09:03 AM."
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Day 3 (March 3, first-week window closing). Draft at drafts/outreach-chevron-kevin-lyon.md. Michiel should send today — last comfortable day.",
-      "status": "URGENT — Day 3, last good day to send"
+      "note": "Kevin Lyon CSO at Chevron. Day 3 (March 3, last comfortable day). Draft at drafts/outreach-chevron-kevin-lyon.md. Michiel should send today.",
+      "status": "URGENT — Day 3, last comfortable window"
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-03T06:00:00+01:00",
+    "lastRun": "2026-03-03T09:03:00+01:00",
     "archivedFiles": [
       "2026-02-23.md",
       "2026-02-24.md",
       "2026-02-25.md",
       "2026-02-26.md"
     ],
-    "memoryStatus": "6 AM maintenance heartbeat March 3. Balance $64.58/$750 — watch territory. MEMORY.md updated: balance entry + outstanding actions header. Kevin Lyon outreach Day 3 — last comfortable window.",
+    "memoryStatus": "9 AM maintenance heartbeat March 3. MEMORY.md updated: March 3 daily scan signals consolidated, outstanding actions updated (Kevin Lyon Day 3), balance alert updated to $43.88 (below threshold, Tom alerted).",
     "nextArchivalDate": "2026-03-06 (Feb 27 files eligible)",
-    "weekSummary": "Week of March 2. Top priority: Kevin Lyon outreach (Day 3, send today). Outstanding: BP outreach, Eni multi-project, Papua LNG FID, Palantir counter-narrative, ConocoPhillips engagement, Hormuz content piece."
+    "weekSummary": "Week of March 3. Top priority: Kevin Lyon outreach (Day 3, send today — LAST comfortable day). OpenRouter balance critical ($43.88). Outstanding: BP outreach, Eni multi-project, Papua LNG FID, Palantir counter-narrative, ConocoPhillips engagement, Hormuz content piece."
   }
 }
