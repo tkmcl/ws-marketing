@@ -93,7 +93,7 @@
 
 ## Operational Costs & Budget
 - **OpenRouter Credit Resolved (Feb 25, 2026)**: Balance dropped to $18.60 at 06:00 (Tom alerted at midnight). By 09:04 balance recovered to $260.28 — Tom topped it up. Alert resolved. Monitor for future drops below $50.
-- **OpenRouter Balance (March 3, 2026 15:00)**: $34.86 (total credits $750, usage $715.14). 🔴 CRITICAL — still declining. ~$9 burned since 9 AM alert. Tom re-alerted via Slack at 15:00. If not topped up, hits $0 ~02:00 Wednesday.
+- **OpenRouter Balance (March 3, 2026 18:00)**: $32.36 (total credits $750, usage $717.64). 🔴 CRITICAL — still declining. ~$2.50 burned since 15:00. Tom alerted at 09:03 AM and again at 15:00. Third alert sent at 18:00. If not topped up, hits $0 ~02:00–04:00 Wednesday.
 
 ## Content Drafts In Progress
 - **FDT Asia 2026 LinkedIn Post** (`drafts/fdt-asia-2026-data-to-decision-ready.md`): Thought leadership piece on AI in energy ("less than 1% of operational data is used for decisions"). Status: DRAFT, awaiting Michiel review.
