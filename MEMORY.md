@@ -93,7 +93,7 @@
 
 ## Operational Costs & Budget
 - **OpenRouter Credit Resolved (Feb 25, 2026)**: Balance dropped to $18.60 at 06:00 (Tom alerted at midnight). By 09:04 balance recovered to $260.28 — Tom topped it up. Alert resolved. Monitor for future drops below $50.
-- **OpenRouter Balance (March 3, 2026 18:00)**: $32.36 (total credits $750, usage $717.64). 🔴 CRITICAL — still declining. ~$2.50 burned since 15:00. Tom alerted at 09:03 AM and again at 15:00. Third alert sent at 18:00. If not topped up, hits $0 ~02:00–04:00 Wednesday.
+- **OpenRouter Balance (March 3, 2026 21:00)**: $29.79 (total credits $750, usage $720.21). 🔴 CRITICAL — still declining. ~$0.86/hr burn rate. Tom alerted at 09:03, 15:00, 18:00, and 21:00. If not topped up, hits $0 ~11:30 AM Wednesday.
 
 ## Content Drafts In Progress
 - **FDT Asia 2026 LinkedIn Post** (`drafts/fdt-asia-2026-data-to-decision-ready.md`): Thought leadership piece on AI in energy ("less than 1% of operational data is used for decisions"). Status: DRAFT, awaiting Michiel review.
@@ -119,7 +119,7 @@
 - **Chevron Yoyo-Yolanda (March 2026)**: Unitisation agreement signed with EG + Cameroon for 2.5 Tcf cross-border gas field. Feeds Alen infrastructure + Punta Europa LNG. Adds to Kevin Lyon's first-week portfolio complexity.
 
 ## Outstanding Actions (as of March 3, 2026)
-- [ ] **Chevron Kevin Lyon outreach** — 🔴 DAY 3 of his first week. Window closing. Draft at `drafts/outreach-chevron-kevin-lyon.md`. Send TODAY — last comfortable day.
+- [ ] **Chevron Kevin Lyon outreach** — 🟡 Day 3 window has closed (EOD March 3). Still sendable this week (Day 4-5) but "first week" hook weakening. Draft at `drafts/outreach-chevron-kevin-lyon.md`. Send ASAP.
 - [ ] **BP outreach** — Two angles: Tiber-Guadalupe (deepwater FID) + BPX shale expansion (8% growth, $800M capex savings). Michiel to choose contact before Meg O'Neill arrives (April).
 - [ ] **Eni multi-project outreach** — Playbook 1; Indonesia FID (Geng North + Gendalo-Gendang) gives a fresh, specific hook. $15B JV with Petronas. Do this week.
 - [ ] **TotalEnergies Papua LNG outreach** — FID target mid-2026; window open now

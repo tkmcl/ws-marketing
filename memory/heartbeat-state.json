@@ -1,26 +1,26 @@
 {
   "lastChecks": {
-    "memoryScan": 1772978400,
-    "creditCheck": 1772978400
+    "memoryScan": 1772989200,
+    "creditCheck": 1772989200
   },
-  "lastHeartbeat": "2026-03-03T18:00:00+01:00",
+  "lastHeartbeat": "2026-03-03T21:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-03T18:00:00+01:00",
-      "balance": 32.36,
+      "lastChecked": "2026-03-03T21:00:00+01:00",
+      "balance": 29.79,
       "totalCredits": 750.0,
-      "totalUsage": 717.64,
+      "totalUsage": 720.21,
       "threshold": 50,
       "watchThreshold": 60,
-      "status": "🔴 CRITICAL — $32.36, continuing to decline",
-      "note": "Balance $32.36 at 18:00 March 3. Was $34.86 at 15:00, $39.41 at noon, $43.88 at 9 AM. ~$2.50/3h burn rate. Tom alerted at 09:03, 15:00, and 18:00. If not topped up, hits $0 ~02:00–04:00 Wednesday."
+      "status": "🔴 CRITICAL — $29.79, continuing to decline",
+      "note": "Balance $29.79 at 21:00 March 3. Was $32.36 at 18:00, $34.86 at 15:00. ~$0.86/hr burn. Tom alerted at 09:03, 15:00, 18:00, and 21:00. Hits $0 ~11:30 AM Wednesday if not topped up."
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Day 3 (March 3, last comfortable day). Draft at drafts/outreach-chevron-kevin-lyon.md. Michiel should send today.",
-      "status": "URGENT — Day 3, last comfortable window (EOD)"
+      "note": "Kevin Lyon CSO at Chevron. Day 3 window closed EOD March 3. Still sendable Day 4-5 but 'first week' hook weakening. Draft at drafts/outreach-chevron-kevin-lyon.md.",
+      "status": "🟡 MEDIUM — Day 3 window closed, send ASAP while still Week 1"
     }
   },
   "memoryMaintenance": {
@@ -36,7 +36,7 @@
       "2026-02-28.md": "eligible 2026-03-07",
       "2026-02-27-weekly-roundup.md": "eligible 2026-03-06"
     },
-    "memoryStatus": "18:00 maintenance heartbeat March 3. MEMORY.md updated with current balance ($32.36). Kevin Lyon Day 3 context current. All March 3 daily signals consolidated. No archival needed today.",
+    "memoryStatus": "21:00 maintenance heartbeat March 3. MEMORY.md updated with current balance ($29.79). Kevin Lyon Day 3 window closed EOD. All March 3 daily signals consolidated. No archival needed today.",
     "nextArchivalDate": "2026-03-06 (Feb 27 files eligible)",
     "weekSummary": "Week of March 3. Top priority: Kevin Lyon outreach (Day 3 — EOD last comfortable day). OpenRouter balance critical ($32.36 and declining, Tom alerted 3x today). Outstanding: BP outreach, Eni multi-project, Papua LNG FID, Palantir counter-narrative, ConocoPhillips engagement, Hormuz content piece, Malaysia trip March 4-5."
   }
