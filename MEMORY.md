@@ -93,7 +93,7 @@
 
 ## Operational Costs & Budget
 - **OpenRouter Credit Resolved (Feb 25, 2026)**: Balance dropped to $18.60 at 06:00 (Tom alerted at midnight). By 09:04 balance recovered to $260.28 — Tom topped it up. Alert resolved. Monitor for future drops below $50.
-- **OpenRouter Balance (March 4, 2026 06:00)**: $21.05 (total credits $750, usage $728.95). 🔴 CRITICAL — declining for 21+ hours uninterrupted. Tom alerted 6x total; all Slack attempts failed (missing_scope error). Burn rate ~$0.85/hr. Daily scan this morning at risk if not topped up. Previous top-up was Feb 25 (~$260). This burn appears to be resumption of daily scan + heartbeat activity after March 3 resumption.
+- **OpenRouter Balance (March 4, 2026 09:01)**: **$9.72** (total credits $750, usage $740.28). 🔴 EMERGENCY — Burned $11.33 in 3 hours during morning daily scan (06:00 → 09:01). At current rate, hits $0 by ~10:30 AM today. Tom has been alerted 6+ times but all Slack attempts failed (missing_scope error) — alerts NOT reaching Tom. Immediate top-up required. Previous top-up: Feb 25 (~$260 added). If balance hits $0, all AI operations cease.
 
 ## Content Drafts In Progress
 - **FDT Asia 2026 LinkedIn Post** (`drafts/fdt-asia-2026-data-to-decision-ready.md`): Thought leadership piece on AI in energy ("less than 1% of operational data is used for decisions"). Status: DRAFT, awaiting Michiel review.
@@ -118,17 +118,25 @@
 - **Equinor Norwegian Sea Discovery (March 2026)**: PL 124B, Othello South prospect near Heidrun. 0.95-12.6 MMboe preliminary range. Åre Formation, 208m thickness.
 - **Chevron Yoyo-Yolanda (March 2026)**: Unitisation agreement signed with EG + Cameroon for 2.5 Tcf cross-border gas field. Feeds Alen infrastructure + Punta Europa LNG. Adds to Kevin Lyon's first-week portfolio complexity.
 
-## Outstanding Actions (as of March 3, 2026)
-- [ ] **Chevron Kevin Lyon outreach** — 🟡 Day 3 window has closed (EOD March 3). Still sendable this week (Day 4-5) but "first week" hook weakening. Draft at `drafts/outreach-chevron-kevin-lyon.md`. Send ASAP.
+## March 4, 2026 — Daily Scan Signals
+- **Equinor + BP Bay du Nord Benefits Agreement** (New Project 🔴): $11.9B deepwater project, FID 2027, first oil 2031, 430M boe. Canada's first deepwater. Playbook 1 triggered for both Equinor (Tore Loseth) and BP.
+- **ExxonMobil + TotalEnergies + Shell — Hormuz Production at Risk** (Capex/Budget 🔴): Day 4 of Hormuz closure. Jefferies: TotalEnergies 29% Middle East production, Exxon 20%, Shell 20%. QatarEnergy LNG halted. Brent +11%, EU gas +40%. Three Tier 1 accounts in forced replanning. Playbook 2 triggered (LinkedIn content).
+- **Palantir — "War Underscores Value"** (Competitor Move 🟡): Rosenblatt raised PT $150→$200. FY2026 guidance $7.19B (+61%). Defense AI positioning accelerating. Counter-narrative opportunity: disruption doesn't need surveillance, it needs better decisions.
+- **Chevron Leviathan Third Pipeline Completed** (New Project 🟡): 494 Bcf/year capacity. Kevin Lyon (Day 4 as CSO) managing Leviathan (conflict zone), West Qurna 2, Libya S4, Greece, Egypt simultaneously. Outreach hook sharpening.
+- Notion Daily Scan saved: https://www.notion.so/Daily-Scan-March-4-2026-3191cf93fe6281719601de086f1f5929
+
+## Outstanding Actions (as of March 4, 2026)
+- [ ] **Equinor + BP Bay du Nord outreach** — 🔴 NEW. Playbook 1. Contact: Tore Loseth (Equinor Canada). BP contact TBD. Hook: pre-FID deepwater planning, Canada's first deepwater project, FID 2027.
+- [ ] **Chevron Kevin Lyon outreach** — 🔴 Day 4 window. Hormuz crisis + Leviathan complexity = even richer hook. Draft at `drafts/outreach-chevron-kevin-lyon.md`. Send this week.
+- [ ] **Palantir counter-narrative** — 🔴 Playbook 4; URGENT now given Rosenblatt "war underscores value" narrative. Hormuz = perfect moment.
+- [ ] **LinkedIn content — Hormuz scenario planning** — 🔴 Playbook 2. "When the world changes overnight, your development plan shouldn't fall apart." Draft ASAP.
 - [ ] **BP outreach** — Two angles: Tiber-Guadalupe (deepwater FID) + BPX shale expansion (8% growth, $800M capex savings). Michiel to choose contact before Meg O'Neill arrives (April).
-- [ ] **Eni multi-project outreach** — Playbook 1; Indonesia FID (Geng North + Gendalo-Gendang) gives a fresh, specific hook. $15B JV with Petronas. Do this week.
+- [ ] **Eni multi-project outreach** — Playbook 1; Indonesia FID (Geng North + Gendalo-Gendang) gives a fresh, specific hook. $15B JV with Petronas.
 - [ ] **TotalEnergies Papua LNG outreach** — FID target mid-2026; window open now
-- [ ] **Palantir counter-narrative** — Playbook 4; still outstanding
 - [ ] **ConocoPhillips engagement** — Tier 0 customer in portfolio review mode ($2B Permian sale)
 - [ ] **TenneT dashboard mockup** — Awaiting Glu's response on WhiteSpace design patterns
 - [ ] **Hibiscus contact names** — Needed for personalized outreach drafts
 - [ ] **SPE Stavanger/Aker attendee names** — Needed for follow-up emails
-- [ ] **Hormuz content piece** — Playbook 2; LinkedIn post on real-time scenario planning triggered by $80+ Brent spike
 
 ## March 3, 2026 — Daily Scan Signals
 - **Equinor Omega South Alfa** (New Project 🔴): Commercial discovery near Snorre, 25-89 MMboe. Pilot for compressed FDP cycle (2-3 yr vs 5-7 yr). Tier 0 customer. Strong FDP expansion angle for WhiteSpace.

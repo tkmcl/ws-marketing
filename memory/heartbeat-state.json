@@ -1,30 +1,29 @@
 {
   "lastChecks": {
-    "memoryScan": 1772992800,
-    "creditCheck": 1773014400
+    "memoryScan": 1773003660,
+    "creditCheck": 1773003660
   },
-  "lastHeartbeat": "2026-03-04T06:00:00+01:00",
+  "lastHeartbeat": "2026-03-04T09:01:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-04T06:00:00+01:00",
-      "balance": 21.05,
+      "lastChecked": "2026-03-04T09:01:00+01:00",
+      "balance": 9.72,
       "totalCredits": 750.0,
-      "totalUsage": 728.95,
+      "totalUsage": 740.28,
       "threshold": 50,
-      "watchThreshold": 60,
-      "status": "🔴 CRITICAL — $21.05, declining ~$0.85/hr, 21h uninterrupted",
-      "note": "Balance $21.05 at 06:00 March 4. Was $23.61 at 03:00. Tom alerted 6x total — all Slack attempts failed (missing_scope error). Daily scan this morning at risk. Must be topped up ASAP."
+      "status": "🔴 EMERGENCY — $9.72, expected to hit $0 by ~10:30 AM",
+      "note": "Balance dropped from $21.05 at 06:00 to $9.72 at 09:01 — $11.33 burned during morning daily scan. Tom alerted 7x total; all Slack attempts failed (missing_scope error). Immediate top-up required. Operations will cease at $0."
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Day 4 window has closed. Draft at drafts/outreach-chevron-kevin-lyon.md. 'First week' framing needs updating — send when Michiel is back from Malaysia (March 5+) but the hook has weakened.",
-      "status": "🟡 STALE — Day 4 passed. Revise hook before sending."
+      "note": "Kevin Lyon CSO at Chevron. Day 5 post-window. Draft at drafts/outreach-chevron-kevin-lyon.md. Revise hook to 'First month as CSO' before sending — 'first week' framing is expired.",
+      "status": "🟡 STALE — Day 5. Revise hook before sending. Michiel back from Malaysia March 5+."
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-04T06:00:00+01:00",
+    "lastRun": "2026-03-04T09:01:00+01:00",
     "archivedFiles": [
       "2026-02-23.md",
       "2026-02-24.md",
@@ -36,8 +35,8 @@
       "2026-02-28.md": "eligible 2026-03-07",
       "2026-02-27-weekly-roundup.md": "eligible 2026-03-06"
     },
-    "memoryStatus": "06:00 AM maintenance heartbeat March 4. Balance updated to $21.05. Kevin Lyon flag downgraded to STALE. No new signals. No archival needed (Feb 27 files eligible March 6).",
-    "nextArchivalDate": "2026-03-06 (Feb 27 files eligible)",
-    "weekSummary": "Week of March 3-4. Michiel in Malaysia March 4-5 (12 contacts outreached). OpenRouter balance CRITICAL ($21.05 and still declining, 6 alerts sent, all Slack attempts failed - missing_scope). Kevin Lyon Day 4 window passed — hook needs revision. Outstanding: BP outreach, Eni multi-project, Papua LNG FID, Palantir counter-narrative, ConocoPhillips engagement, Hormuz content piece."
+    "memoryStatus": "09:01 AM heartbeat March 4. Balance updated to $9.72 EMERGENCY. MEMORY.md updated. Kevin Lyon flag updated to Day 5 stale. No archival (Feb 27 files eligible March 6 — tomorrow).",
+    "nextArchivalDate": "2026-03-06 (Feb 27 files eligible tomorrow — archive at next heartbeat after midnight)",
+    "weekSummary": "Week of March 3-4. Michiel in Malaysia March 4-5. OpenRouter balance at $9.72 EMERGENCY — all Slack alerts failing (missing_scope). Outstanding: Bay du Nord outreach (Equinor/BP), Chevron Kevin Lyon outreach (hook revision needed), Palantir counter-narrative, LinkedIn Hormuz content, BP outreach, Eni multi-project, Papua LNG FID, ConocoPhillips engagement."
   }
 }
