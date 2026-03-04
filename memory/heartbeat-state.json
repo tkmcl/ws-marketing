@@ -3,17 +3,17 @@
     "memoryScan": 1772992800,
     "creditCheck": 1772992800
   },
-  "lastHeartbeat": "2026-03-04T00:00:00+01:00",
+  "lastHeartbeat": "2026-03-04T03:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-04T00:00:00+01:00",
-      "balance": 27.05,
+      "lastChecked": "2026-03-04T03:00:00+01:00",
+      "balance": 23.61,
       "totalCredits": 750.0,
-      "totalUsage": 722.95,
+      "totalUsage": 726.39,
       "threshold": 50,
       "watchThreshold": 60,
-      "status": "🔴 CRITICAL — $27.05, continuing to decline overnight",
-      "note": "Balance $27.05 at midnight March 4. Was $29.79 at 21:00 March 3. ~$0.86/hr burn. Tom alerted 4x on March 3. 5th alert sent midnight March 4. Hits $0 ~07:00 AM Wednesday if not topped up. URGENT."
+      "status": "🔴 CRITICAL — $23.61, burn rate accelerating (~$1.15/hr)",
+      "note": "Balance $23.61 at 03:00 March 4 (was $27.05 at midnight). Burn rate accelerated from $0.86/hr to $1.15/hr. Tom alerted 5x on March 3 + 1 failed Slack attempt at 03:00 (missing_scope error). Estimated $0 by ~05:30 AM. Daily scan at risk if not topped up."
     }
   },
   "urgentFlags": {
@@ -24,7 +24,7 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-04T00:00:00+01:00",
+    "lastRun": "2026-03-04T03:00:00+01:00",
     "archivedFiles": [
       "2026-02-23.md",
       "2026-02-24.md",
@@ -36,8 +36,8 @@
       "2026-02-28.md": "eligible 2026-03-07",
       "2026-02-27-weekly-roundup.md": "eligible 2026-03-06"
     },
-    "memoryStatus": "Midnight maintenance heartbeat March 4. Created 2026-03-04.md daily note. MEMORY.md current. No new signals since 21:00. No archival needed (Feb 27 files eligible March 6).",
+    "memoryStatus": "03:00 AM maintenance heartbeat March 4. Daily log updated. MEMORY.md updated with accelerating burn rate. No new signals. No archival needed (Feb 27 files eligible March 6).",
     "nextArchivalDate": "2026-03-06 (Feb 27 files eligible)",
-    "weekSummary": "Week of March 3-4. Michiel in Malaysia March 4-5 (12 contacts outreached). OpenRouter balance CRITICAL ($27.05 and declining, Tom alerted 5x). Kevin Lyon Day 4 — last Week 1 outreach window. Outstanding: BP outreach, Eni multi-project, Papua LNG FID, Palantir counter-narrative, ConocoPhillips engagement, Hormuz content piece."
+    "weekSummary": "Week of March 3-4. Michiel in Malaysia March 4-5 (12 contacts outreached). OpenRouter balance CRITICAL ($23.61 and accelerating decline, 5 alerts sent + 1 failed). Kevin Lyon Day 4 — last Week 1 outreach window. Outstanding: BP outreach, Eni multi-project, Papua LNG FID, Palantir counter-narrative, ConocoPhillips engagement, Hormuz content piece."
   }
 }
