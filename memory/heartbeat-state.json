@@ -1,23 +1,23 @@
 {
   "lastChecks": {
-    "memoryScan": 1741341600,
-    "creditCheck": 1741341600,
+    "memoryScan": 1741427400,
+    "creditCheck": 1741427400,
     "weeklyRoundup": 1741254000
   },
-  "lastHeartbeat": "2026-03-07T10:00:00+01:00",
+  "lastHeartbeat": "2026-03-08T10:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-07T10:00:00+01:00",
-      "balance": 244.40,
+      "lastChecked": "2026-03-08T10:00:00+01:00",
+      "dailyRemaining": 97.31,
       "threshold": 50,
-      "status": "✅ HEALTHY — $244.40"
+      "status": "✅ HEALTHY — $97.31 remaining today"
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Now in first month. Hook: 'first month as CSO + Leviathan conflict complexity.' Outreach draft at drafts/outreach-chevron-kevin-lyon.md. SEND MONDAY MARCH 9.",
-      "status": "🔴 URGENT — Monday March 9 is the deadline"
+      "note": "Kevin Lyon CSO at Chevron. MONDAY MARCH 9 = first business day of second month. Outreach draft at drafts/outreach-chevron-kevin-lyon.md. SEND MONDAY MARCH 9.",
+      "status": "🔴 URGENT — Tomorrow (March 9) is the deadline"
     },
     "eniIDDFID": {
       "flaggedAt": "2026-03-04T07:30:00+01:00",
@@ -31,15 +31,14 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-07T10:00:00+01:00",
+    "lastRun": "2026-03-08T10:00:00+01:00",
     "pendingArchival": {
-      "2026-03-01.md": "eligible 2026-03-08",
       "2026-03-02.md": "eligible 2026-03-09",
       "2026-03-03.md": "eligible 2026-03-10",
       "2026-03-04.md": "eligible 2026-03-11",
       "2026-03-05.md": "eligible 2026-03-12"
     },
-    "nextArchivalDate": "2026-03-08 (Mar 1 eligible)"
+    "nextArchivalDate": "2026-03-09 (Mar 2 eligible)"
   },
   "weeklyRoundup": {
     "lastDelivered": "2026-03-06T10:00:00+01:00",
