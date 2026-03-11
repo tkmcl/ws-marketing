@@ -1,22 +1,22 @@
 {
   "lastChecks": {
-    "memoryScan": 1741597200,
-    "creditCheck": 1741597200,
+    "memoryScan": 1741683600,
+    "creditCheck": 1741683600,
     "weeklyRoundup": 1741254000
   },
-  "lastHeartbeat": "2026-03-10T10:00:00+01:00",
+  "lastHeartbeat": "2026-03-11T10:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-10T10:00:00+01:00",
-      "balance": 222.94,
+      "lastChecked": "2026-03-11T10:00:00+01:00",
+      "balance": 220.11,
       "threshold": 50,
-      "status": "✅ HEALTHY — $222.94 remaining"
+      "status": "✅ HEALTHY — $220.11 remaining"
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Was MONDAY MARCH 9 deadline (first business day). Now week 2 — still sendable, framing shifts to 'settling into role.' Draft at drafts/outreach-chevron-kevin-lyon.md.",
+      "note": "Kevin Lyon CSO at Chevron. Now week 2+ as CSO. Still sendable — 'settling into role' framing. Draft at drafts/outreach-chevron-kevin-lyon.md.",
       "status": "🔴 OVERDUE — send this week or lose the hook"
     },
     "eniIDDFID": {
@@ -27,20 +27,19 @@
     "hormuzLinkedIn": {
       "flaggedAt": "2026-03-04T00:00:00+01:00",
       "note": "Playbook 2 LinkedIn post triggered. Publish while Hormuz crisis is live.",
-      "status": "🟡 ACTIVE — draft pending, crisis still ongoing"
+      "status": "🟡 ACTIVE — draft pending, monitor crisis status"
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-10T10:00:00+01:00",
+    "lastRun": "2026-03-11T10:00:00+01:00",
     "pendingArchival": {
-      "2026-03-04.md": "eligible 2026-03-11",
       "2026-03-05.md": "eligible 2026-03-12",
       "2026-03-06.md": "eligible 2026-03-13",
       "2026-03-06-weekly-roundup.md": "eligible 2026-03-13",
       "2026-03-07.md": "eligible 2026-03-14",
       "2026-03-08.md": "eligible 2026-03-15"
     },
-    "nextArchivalDate": "2026-03-11 (Mar 4 eligible)"
+    "nextArchivalDate": "2026-03-12 (Mar 5 eligible)"
   },
   "weeklyRoundup": {
     "lastDelivered": "2026-03-06T10:00:00+01:00",
