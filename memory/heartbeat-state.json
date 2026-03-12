@@ -1,16 +1,16 @@
 {
   "lastChecks": {
-    "memoryScan": 1741683600,
-    "creditCheck": 1741683600,
+    "memoryScan": 1741773660,
+    "creditCheck": 1741773660,
     "weeklyRoundup": 1741254000
   },
-  "lastHeartbeat": "2026-03-11T10:00:00+01:00",
+  "lastHeartbeat": "2026-03-12T10:01:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-11T10:00:00+01:00",
-      "balance": 220.11,
+      "lastChecked": "2026-03-12T10:01:00+01:00",
+      "balance": 216.03,
       "threshold": 50,
-      "status": "✅ HEALTHY — $220.11 remaining"
+      "status": "✅ HEALTHY — $216.03 remaining"
     }
   },
   "urgentFlags": {
@@ -31,15 +31,15 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-11T10:00:00+01:00",
+    "lastRun": "2026-03-12T10:01:00+01:00",
     "pendingArchival": {
-      "2026-03-05.md": "eligible 2026-03-12",
       "2026-03-06.md": "eligible 2026-03-13",
       "2026-03-06-weekly-roundup.md": "eligible 2026-03-13",
       "2026-03-07.md": "eligible 2026-03-14",
-      "2026-03-08.md": "eligible 2026-03-15"
+      "2026-03-08.md": "eligible 2026-03-15",
+      "2026-03-10.md": "eligible 2026-03-17"
     },
-    "nextArchivalDate": "2026-03-12 (Mar 5 eligible)"
+    "nextArchivalDate": "2026-03-13 (Mar 6 eligible)"
   },
   "weeklyRoundup": {
     "lastDelivered": "2026-03-06T10:00:00+01:00",
