@@ -1,22 +1,22 @@
 {
   "lastChecks": {
-    "memoryScan": 1741773660,
-    "creditCheck": 1741773660,
-    "weeklyRoundup": 1741254000
+    "memoryScan": 1741860000,
+    "creditCheck": 1741860000,
+    "weeklyRoundup": 1741860000
   },
-  "lastHeartbeat": "2026-03-12T10:01:00+01:00",
+  "lastHeartbeat": "2026-03-13T10:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-12T10:01:00+01:00",
-      "balance": 216.03,
+      "lastChecked": "2026-03-13T10:00:00+01:00",
+      "balance": 212.73,
       "threshold": 50,
-      "status": "✅ HEALTHY — $216.03 remaining"
+      "status": "✅ HEALTHY — $212.73 remaining"
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Now week 2+ as CSO. Still sendable — 'settling into role' framing. Draft at drafts/outreach-chevron-kevin-lyon.md.",
+      "note": "Kevin Lyon CSO at Chevron. Now week 3 as CSO. Still sendable — 'settling into role' framing. Draft at drafts/outreach-chevron-kevin-lyon.md.",
       "status": "🔴 OVERDUE — send this week or lose the hook"
     },
     "eniIDDFID": {
@@ -28,18 +28,19 @@
       "flaggedAt": "2026-03-04T00:00:00+01:00",
       "note": "Playbook 2 LinkedIn post triggered. Publish while Hormuz crisis is live.",
       "status": "🟡 ACTIVE — draft pending, monitor crisis status"
+    },
+    "weeklyRoundup": {
+      "status": "🔴 DUE TODAY — Friday March 13"
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-12T10:01:00+01:00",
+    "lastRun": "2026-03-13T10:00:00+01:00",
     "pendingArchival": {
-      "2026-03-06.md": "eligible 2026-03-13",
-      "2026-03-06-weekly-roundup.md": "eligible 2026-03-13",
       "2026-03-07.md": "eligible 2026-03-14",
       "2026-03-08.md": "eligible 2026-03-15",
       "2026-03-10.md": "eligible 2026-03-17"
     },
-    "nextArchivalDate": "2026-03-13 (Mar 6 eligible)"
+    "nextArchivalDate": "2026-03-14 (Mar 7 eligible)"
   },
   "weeklyRoundup": {
     "lastDelivered": "2026-03-06T10:00:00+01:00",
