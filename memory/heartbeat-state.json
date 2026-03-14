@@ -1,49 +1,47 @@
 {
   "lastChecks": {
-    "memoryScan": 1741860000,
-    "creditCheck": 1741860000,
-    "weeklyRoundup": 1741860000
+    "memoryScan": 1742036400,
+    "creditCheck": 1742036400,
+    "weeklyRoundup": 1742036400
   },
-  "lastHeartbeat": "2026-03-13T10:00:00+01:00",
+  "lastHeartbeat": "2026-03-14T10:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-13T10:00:00+01:00",
-      "balance": 212.73,
+      "lastChecked": "2026-03-14T10:00:00+01:00",
+      "balance": 209.89,
       "threshold": 50,
-      "status": "✅ HEALTHY — $212.73 remaining"
+      "status": "✅ HEALTHY — $209.89 remaining"
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Now week 3 as CSO. Still sendable — 'settling into role' framing. Draft at drafts/outreach-chevron-kevin-lyon.md.",
-      "status": "🔴 OVERDUE — send this week or lose the hook"
+      "note": "Kevin Lyon CSO at Chevron. Week 3+ as CSO. Venezuela deals imminent + Iraq WQ2 + Greece + Libya = most complex portfolio in his career. Draft at drafts/outreach-chevron-kevin-lyon.md. MONDAY MARCH 16 priority.",
+      "status": "🔴 OVERDUE — send Monday March 16, highest priority"
     },
     "eniIDDFID": {
       "flaggedAt": "2026-03-04T07:30:00+01:00",
-      "note": "Eni Gendalo-Gandang + Geng North FID expected March 2026. Now or never.",
-      "status": "🔴 URGENT — FID imminent"
+      "note": "Eni Gendalo-Gandang + Geng North FID expected March 2026. Maha-3 confirmed. IDD still pending.",
+      "status": "🔴 URGENT — monitor daily for FID announcement"
     },
     "hormuzLinkedIn": {
       "flaggedAt": "2026-03-04T00:00:00+01:00",
-      "note": "Playbook 2 LinkedIn post triggered. Publish while Hormuz crisis is live.",
-      "status": "🟡 ACTIVE — draft pending, monitor crisis status"
-    },
-    "weeklyRoundup": {
-      "status": "🔴 DUE TODAY — Friday March 13"
+      "note": "Playbook 2 LinkedIn post. WTI peaked $119, now $85–92. Crisis live. 'Your price deck is already wrong' angle. Highest content urgency of 2026.",
+      "status": "🔴 PUBLISH THIS WEEK — crisis is live"
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-13T10:00:00+01:00",
+    "lastRun": "2026-03-14T10:00:00+01:00",
     "pendingArchival": {
-      "2026-03-07.md": "eligible 2026-03-14",
       "2026-03-08.md": "eligible 2026-03-15",
-      "2026-03-10.md": "eligible 2026-03-17"
+      "2026-03-10.md": "eligible 2026-03-17",
+      "2026-03-11.md": "eligible 2026-03-18"
     },
-    "nextArchivalDate": "2026-03-14 (Mar 7 eligible)"
+    "nextArchivalDate": "2026-03-15 (Mar 8 eligible)"
   },
   "weeklyRoundup": {
-    "lastDelivered": "2026-03-06T10:00:00+01:00",
-    "notionUrl": "https://www.notion.so/Weekly-Roundup-March-6-2026-31b1cf93fe6281eab2d8cd2255bc0fde"
+    "lastDelivered": "2026-03-14T10:00:00+01:00",
+    "notionUrl": "https://www.notion.so/Weekly-Roundup-March-9-13-2026-3231cf93fe62819b8757f16953b00ad9",
+    "note": "Mar 13 roundup was missed and delivered Mar 14 morning"
   }
 }
