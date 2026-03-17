@@ -1,16 +1,16 @@
 {
   "lastChecks": {
-    "memoryScan": 1742036400,
-    "creditCheck": 1742036400,
-    "weeklyRoundup": 1742036400
+    "memoryScan": 1742032800,
+    "creditCheck": 1742032800,
+    "archival": 1742032800
   },
-  "lastHeartbeat": "2026-03-14T10:00:00+01:00",
+  "lastHeartbeat": "2026-03-15T10:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-14T10:00:00+01:00",
-      "balance": 209.89,
+      "lastChecked": "2026-03-15T10:00:00+01:00",
+      "balance": 203.66,
       "threshold": 50,
-      "status": "✅ HEALTHY — $209.89 remaining"
+      "status": "✅ HEALTHY — $203.66 remaining"
     }
   },
   "urgentFlags": {
@@ -31,17 +31,16 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-14T10:00:00+01:00",
+    "lastRun": "2026-03-15T10:00:00+01:00",
     "pendingArchival": {
-      "2026-03-08.md": "eligible 2026-03-15",
       "2026-03-10.md": "eligible 2026-03-17",
       "2026-03-11.md": "eligible 2026-03-18"
     },
-    "nextArchivalDate": "2026-03-15 (Mar 8 eligible)"
+    "nextArchivalDate": "2026-03-17 (Mar 10 eligible)"
   },
   "weeklyRoundup": {
     "lastDelivered": "2026-03-14T10:00:00+01:00",
     "notionUrl": "https://www.notion.so/Weekly-Roundup-March-9-13-2026-3231cf93fe62819b8757f16953b00ad9",
-    "note": "Mar 13 roundup was missed and delivered Mar 14 morning"
+    "note": "Next roundup due Friday March 20"
   }
 }
