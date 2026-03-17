@@ -1,42 +1,42 @@
 {
   "lastChecks": {
-    "memoryScan": 1742032800,
-    "creditCheck": 1742032800,
-    "archival": 1742032800
+    "memoryScan": 1742209200,
+    "creditCheck": 1742209200,
+    "archival": 1742209200
   },
-  "lastHeartbeat": "2026-03-15T10:00:00+01:00",
+  "lastHeartbeat": "2026-03-17T10:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-15T10:00:00+01:00",
-      "balance": 203.66,
+      "lastChecked": "2026-03-17T10:00:00+01:00",
+      "balance": 194.21,
       "threshold": 50,
-      "status": "✅ HEALTHY — $203.66 remaining"
+      "status": "\u2705 HEALTHY \u2014 $194.21 remaining"
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Week 3+ as CSO. Venezuela deals imminent + Iraq WQ2 + Greece + Libya = most complex portfolio in his career. Draft at drafts/outreach-chevron-kevin-lyon.md. MONDAY MARCH 16 priority.",
-      "status": "🔴 OVERDUE — send Monday March 16, highest priority"
+      "note": "Kevin Lyon CSO at Chevron. Week 3 as CSO (started March 1). Draft at drafts/outreach-chevron-kevin-lyon.md. OVERDUE \u2014 send ASAP.",
+      "status": "\ud83d\udd34 OVERDUE \u2014 send now"
     },
     "eniIDDFID": {
       "flaggedAt": "2026-03-04T07:30:00+01:00",
-      "note": "Eni Gendalo-Gandang + Geng North FID expected March 2026. Maha-3 confirmed. IDD still pending.",
-      "status": "🔴 URGENT — monitor daily for FID announcement"
+      "note": "Eni Gendalo-Gandang + Geng North FID expected March 2026. Monitor daily.",
+      "status": "\ud83d\udd34 URGENT \u2014 monitor daily for FID announcement"
     },
     "hormuzLinkedIn": {
       "flaggedAt": "2026-03-04T00:00:00+01:00",
-      "note": "Playbook 2 LinkedIn post. WTI peaked $119, now $85–92. Crisis live. 'Your price deck is already wrong' angle. Highest content urgency of 2026.",
-      "status": "🔴 PUBLISH THIS WEEK — crisis is live"
+      "note": "Playbook 2 LinkedIn post. Crisis still live.",
+      "status": "\ud83d\udd34 PUBLISH THIS WEEK \u2014 crisis is live"
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-15T10:00:00+01:00",
+    "lastRun": "2026-03-17T10:00:00+01:00",
     "pendingArchival": {
-      "2026-03-10.md": "eligible 2026-03-17",
-      "2026-03-11.md": "eligible 2026-03-18"
+      "2026-03-11.md": "eligible 2026-03-18",
+      "2026-03-12.md": "eligible 2026-03-19"
     },
-    "nextArchivalDate": "2026-03-17 (Mar 10 eligible)"
+    "nextArchivalDate": "2026-03-18 (Mar 11 eligible)"
   },
   "weeklyRoundup": {
     "lastDelivered": "2026-03-14T10:00:00+01:00",
