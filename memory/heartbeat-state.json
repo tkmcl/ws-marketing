@@ -1,16 +1,16 @@
 {
   "lastChecks": {
-    "memoryScan": 1742292000,
-    "creditCheck": 1742292000,
-    "archival": 1742292000
+    "memoryScan": 1742378520,
+    "creditCheck": 1742378520,
+    "archival": 1742378520
   },
-  "lastHeartbeat": "2026-03-18T10:00:00+01:00",
+  "lastHeartbeat": "2026-03-19T10:02:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-18T10:00:00+01:00",
-      "balance": 188.55,
+      "lastChecked": "2026-03-19T10:02:00+01:00",
+      "balance": 180.05,
       "threshold": 50,
-      "status": "✅ HEALTHY — $188.55 remaining"
+      "status": "✅ HEALTHY — $180.05 remaining"
     }
   },
   "urgentFlags": {
@@ -31,16 +31,15 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-18T10:00:00+01:00",
+    "lastRun": "2026-03-19T10:02:00+01:00",
     "pendingArchival": {
-      "2026-03-12.md": "eligible 2026-03-19",
       "2026-03-13.md": "eligible 2026-03-20"
     },
-    "nextArchivalDate": "2026-03-19 (Mar 12 eligible)"
+    "nextArchivalDate": "2026-03-20 (Mar 13 eligible)"
   },
   "weeklyRoundup": {
     "lastDelivered": "2026-03-14T10:00:00+01:00",
     "notionUrl": "https://www.notion.so/Weekly-Roundup-March-9-13-2026-3231cf93fe62819b8757f16953b00ad9",
-    "note": "Next roundup due Friday March 20"
+    "note": "Next roundup due Friday March 20 — TOMORROW"
   }
 }
