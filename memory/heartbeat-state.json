@@ -1,33 +1,33 @@
 {
   "lastChecks": {
-    "memoryScan": 1742464920,
-    "creditCheck": 1742464920,
-    "archival": 1742464920
+    "memoryScan": 1742550120,
+    "creditCheck": 1742550120,
+    "archival": 1742550120
   },
-  "lastHeartbeat": "2026-03-20T10:02:00+01:00",
+  "lastHeartbeat": "2026-03-21T10:02:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-20T10:02:00+01:00",
-      "balance": 172.14,
+      "lastChecked": "2026-03-21T10:02:00+01:00",
+      "balance": 162.04,
       "threshold": 50,
-      "status": "✅ HEALTHY — $172.14 remaining"
+      "status": "✅ HEALTHY — $162.04 remaining"
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Week 4 as CSO (started March 1). Draft at drafts/outreach-chevron-kevin-lyon.md. CRITICAL — send this week.",
-      "status": "🔴 CRITICAL — week 4, must send week of March 23"
+      "note": "Kevin Lyon CSO at Chevron. Week 4+ as CSO (started March 1). Draft at drafts/outreach-chevron-kevin-lyon.md. CRITICAL — must send week of March 23.",
+      "status": "🔴 CRITICAL — overdue, must send week of March 23"
     },
     "eniIDDFID": {
       "flaggedAt": "2026-03-18T00:00:00+01:00",
       "note": "Eni IDD dual FID confirmed March 18. Gendalo-Gandang + Geng North/Gehem. $15B. Playbook 1 triggered. Outreach draft needed week of March 23.",
-      "status": "🔴 URGENT — Playbook 1 triggered, outreach draft due March 23"
+      "status": "🔴 URGENT — Playbook 1 triggered, outreach draft due"
     },
     "hormuzLinkedIn": {
       "flaggedAt": "2026-03-04T00:00:00+01:00",
-      "note": "Playbook 2 LinkedIn post. Crisis in week 3. $107 oil. Window still live but closing.",
-      "status": "🔴 PUBLISH NOW — week 3 of crisis, window still open"
+      "note": "Playbook 2 LinkedIn post. Crisis entering week 4. Window still live but closing fast.",
+      "status": "🔴 PUBLISH NOW — week 4 of crisis, window closing"
     },
     "palantirCounterNarrative": {
       "flaggedAt": "2026-03-20T00:00:00+01:00",
@@ -36,11 +36,11 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-20T10:02:00+01:00",
+    "lastRun": "2026-03-21T10:02:00+01:00",
     "pendingArchival": {
-      "2026-03-14.md": "eligible 2026-03-21"
+      "2026-03-15.md": "eligible 2026-03-22"
     },
-    "nextArchivalDate": "2026-03-21 (Mar 14 eligible)"
+    "nextArchivalDate": "2026-03-22 (Mar 15 eligible)"
   },
   "weeklyRoundup": {
     "lastDelivered": "2026-03-20T10:02:00+01:00",
