@@ -1,23 +1,23 @@
 {
   "lastChecks": {
-    "memoryScan": 1742550120,
-    "creditCheck": 1742550120,
-    "archival": 1742550120
+    "memoryScan": 1742634120,
+    "creditCheck": 1742634120,
+    "archival": 1742634120
   },
-  "lastHeartbeat": "2026-03-21T10:02:00+01:00",
+  "lastHeartbeat": "2026-03-22T10:02:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-21T10:02:00+01:00",
-      "balance": 162.04,
+      "lastChecked": "2026-03-22T10:02:00+01:00",
+      "balance": 157.48,
       "threshold": 50,
-      "status": "✅ HEALTHY — $162.04 remaining"
+      "status": "✅ HEALTHY — $157.48 remaining"
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Week 4+ as CSO (started March 1). Draft at drafts/outreach-chevron-kevin-lyon.md. CRITICAL — must send week of March 23.",
-      "status": "🔴 CRITICAL — overdue, must send week of March 23"
+      "note": "Kevin Lyon CSO at Chevron. Week 4 as CSO (started March 1). Draft at drafts/outreach-chevron-kevin-lyon.md. CRITICAL — send this week (March 23–27).",
+      "status": "🔴 CRITICAL — week of March 23 is the last viable window"
     },
     "eniIDDFID": {
       "flaggedAt": "2026-03-18T00:00:00+01:00",
@@ -26,8 +26,8 @@
     },
     "hormuzLinkedIn": {
       "flaggedAt": "2026-03-04T00:00:00+01:00",
-      "note": "Playbook 2 LinkedIn post. Crisis entering week 4. Window still live but closing fast.",
-      "status": "🔴 PUBLISH NOW — week 4 of crisis, window closing"
+      "note": "Playbook 2 LinkedIn post. Crisis entering week 4. Window closing — must publish this week.",
+      "status": "🔴 CRITICAL — week 4 of crisis, window closing fast"
     },
     "palantirCounterNarrative": {
       "flaggedAt": "2026-03-20T00:00:00+01:00",
@@ -36,11 +36,11 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-03-21T10:02:00+01:00",
+    "lastRun": "2026-03-22T10:02:00+01:00",
     "pendingArchival": {
-      "2026-03-15.md": "eligible 2026-03-22"
+      "2026-03-16.md": "eligible 2026-03-29"
     },
-    "nextArchivalDate": "2026-03-22 (Mar 15 eligible)"
+    "nextArchivalDate": "2026-03-29 (Mar 16 eligible)"
   },
   "weeklyRoundup": {
     "lastDelivered": "2026-03-20T10:02:00+01:00",
