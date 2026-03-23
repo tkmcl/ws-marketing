@@ -1,38 +1,38 @@
 {
   "lastChecks": {
-    "memoryScan": 1742634120,
-    "creditCheck": 1742634120,
+    "memoryScan": 1774256546,
+    "creditCheck": 1774256546,
     "archival": 1742634120
   },
-  "lastHeartbeat": "2026-03-22T10:02:00+01:00",
+  "lastHeartbeat": "2026-03-23T10:02:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-22T10:02:00+01:00",
-      "balance": 157.48,
+      "lastChecked": "2026-03-23T10:02:00+01:00",
+      "balance": 151.79,
       "threshold": 50,
-      "status": "✅ HEALTHY — $157.48 remaining"
+      "status": "\u2705 HEALTHY \u2014 $151.79 remaining"
     }
   },
   "urgentFlags": {
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Week 4 as CSO (started March 1). Draft at drafts/outreach-chevron-kevin-lyon.md. CRITICAL — send this week (March 23–27).",
-      "status": "🔴 CRITICAL — week of March 23 is the last viable window"
+      "note": "Kevin Lyon CSO at Chevron. Week 4 as CSO (started March 1). Draft at drafts/outreach-chevron-kevin-lyon.md. CRITICAL \u2014 send this week (March 23\u201327).",
+      "status": "\ud83d\udd34 CRITICAL \u2014 week of March 23 is the last viable window"
     },
     "eniIDDFID": {
       "flaggedAt": "2026-03-18T00:00:00+01:00",
       "note": "Eni IDD dual FID confirmed March 18. Gendalo-Gandang + Geng North/Gehem. $15B. Playbook 1 triggered. Outreach draft needed week of March 23.",
-      "status": "🔴 URGENT — Playbook 1 triggered, outreach draft due"
+      "status": "\ud83d\udd34 URGENT \u2014 Playbook 1 triggered, outreach draft due"
     },
     "hormuzLinkedIn": {
       "flaggedAt": "2026-03-04T00:00:00+01:00",
-      "note": "Playbook 2 LinkedIn post. Crisis entering week 4. Window closing — must publish this week.",
-      "status": "🔴 CRITICAL — week 4 of crisis, window closing fast"
+      "note": "Playbook 2 LinkedIn post. Crisis entering week 4. Window closing \u2014 must publish this week.",
+      "status": "\ud83d\udd34 CRITICAL \u2014 week 4 of crisis, window closing fast"
     },
     "palantirCounterNarrative": {
       "flaggedAt": "2026-03-20T00:00:00+01:00",
       "note": "Hormuz crisis accelerating operator interest in AI tools. Palantir agentic AI repositioning. Playbook 4 counter-narrative now urgent.",
-      "status": "🔴 URGENT — Playbook 4, needed before it becomes a sales objection"
+      "status": "\ud83d\udd34 URGENT \u2014 Playbook 4, needed before it becomes a sales objection"
     }
   },
   "memoryMaintenance": {
