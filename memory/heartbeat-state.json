@@ -4,11 +4,11 @@
     "creditCheck": 1742896800,
     "archival": 1742634120
   },
-  "lastHeartbeat": "2026-03-25T10:00:00+01:00",
+  "lastHeartbeat": "2026-03-26T10:00:00+01:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-25T10:00:00+01:00",
-      "balance": 144.45,
+      "lastChecked": "2026-03-26T10:00:00+01:00",
+      "balance": 141.39,
       "threshold": 50,
       "status": "✅ HEALTHY — $144.45 remaining"
     }
