@@ -1,33 +1,38 @@
 {
   "lastChecks": {
-    "memoryScan": 1774602304,
-    "creditCheck": 1774602304,
+    "memoryScan": 1743494460,
+    "creditCheck": 1743494460,
     "archival": 1743153600
   },
-  "lastHeartbeat": "2026-03-28T10:00:00+01:00",
+  "lastHeartbeat": "2026-04-01T10:01:00+02:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-03-28T10:00:00+01:00",
-      "balance": 131.49,
+      "lastChecked": "2026-04-01T10:01:00+02:00",
+      "balance": 117.99,
       "threshold": 50,
-      "status": "HEALTHY — $131.49 remaining"
+      "status": "HEALTHY — $117.99 remaining"
     }
   },
   "urgentFlags": {
+    "bpMegONeill": {
+      "flaggedAt": "2026-03-27T10:00:00+01:00",
+      "note": "Meg O'Neill starts as BP CEO April 1 (TODAY). Prepare one-pager + intro message for Michiel to send in her first week.",
+      "status": "🔴 CRITICAL — She started today. First week is highest receptivity window."
+    },
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Week 4+ as CSO. Draft at drafts/outreach-chevron-kevin-lyon.md. Window effectively closing — send Monday or drop.",
-      "status": "🔴 CRITICAL — last viable window is Monday March 30"
+      "note": "Kevin Lyon CSO at Chevron. Week 5+ as CSO. Draft at drafts/outreach-chevron-kevin-lyon.md. Window closing.",
+      "status": "🔴 CRITICAL — needs decision: send this week or drop"
     },
     "eniIDDFID": {
       "flaggedAt": "2026-03-18T00:00:00+01:00",
       "note": "Eni IDD dual FID confirmed March 18. Gendalo-Gandang + Geng North/Gehem. $15B. Playbook 1 triggered.",
-      "status": "🔴 URGENT — Playbook 1 outreach overdue"
+      "status": "🔴 URGENT — 2+ weeks overdue, send this week"
     },
     "hormuzLinkedIn": {
       "flaggedAt": "2026-03-04T00:00:00+01:00",
-      "note": "Playbook 2 LinkedIn post. Crisis in week 4. Decide publish or drop.",
-      "status": "🔴 CRITICAL — week 4+ of crisis, decide this week"
+      "note": "Playbook 2 LinkedIn post. Crisis ongoing. Decide publish or drop.",
+      "status": "🟡 DECISION NEEDED — publish now or drop"
     },
     "palantirCounterNarrative": {
       "flaggedAt": "2026-03-20T00:00:00+01:00",
@@ -38,18 +43,15 @@
       "flaggedAt": "2026-03-27T10:00:00+01:00",
       "note": "Vicki Hollub (Oxy CEO) retiring. Richard Jackson (COO) to succeed. Build Jackson profile before formal announcement. Playbook 3.",
       "status": "🟡 Monitoring — build profile before announcement"
-    },
-    "bpMegONeill": {
-      "flaggedAt": "2026-03-27T10:00:00+01:00",
-      "note": "Meg O'Neill starts as BP CEO April 1. Prepare one-pager + intro message for Michiel to send in her first week.",
-      "status": "🔴 URGENT — April 1 start, brief due by Monday March 30"
     }
   },
   "memoryMaintenance": {
     "lastRun": "2026-03-28T10:00:00+01:00",
-    "archivedToday": ["2026-03-02.md","2026-03-03.md","2026-03-04.md","2026-03-05.md","2026-03-10.md","2026-03-11.md","2026-03-12.md","2026-03-13.md","2026-03-14-weekly-roundup.md","2026-03-15.md","2026-03-17.md","2026-03-18.md","2026-03-19.md","2026-03-20-weekly-roundup.md","2026-03-20.md"],
-    "pendingArchival": {},
-    "nextArchivalDate": "2026-04-04 (Mar 21-27 eligible after 7 days)"
+    "pendingArchival": {
+      "eligible": ["2026-03-21.md","2026-03-22.md","2026-03-23.md","2026-03-24.md","2026-03-25.md","2026-03-26.md","2026-03-27.md","2026-03-27-weekly-roundup.md","2026-03-28.md"],
+      "note": "All >7 days old — archive in next maintenance pass"
+    },
+    "nextArchivalDate": "2026-04-01 (March 21-28 eligible)"
   },
   "weeklyRoundup": {
     "lastDelivered": "2026-03-27T10:00:00+01:00",
