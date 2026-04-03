@@ -1,48 +1,48 @@
 {
   "lastChecks": {
-    "memoryScan": 1743588060,
-    "creditCheck": 1743588060,
+    "memoryScan": 1775203495,
+    "creditCheck": 1775203495,
     "archival": 1743588060
   },
-  "lastHeartbeat": "2026-04-02T10:01:00+02:00",
+  "lastHeartbeat": "2026-04-03T10:01:00+02:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-04-02T10:01:00+02:00",
-      "balance": 112.90,
+      "lastChecked": "2026-04-03T10:01:00+02:00",
+      "balance": 109.96,
       "threshold": 50,
-      "status": "HEALTHY — $112.90 remaining"
+      "status": "HEALTHY \u2014 $109.96 remaining"
     }
   },
   "urgentFlags": {
     "bpMegONeill": {
       "flaggedAt": "2026-03-27T10:00:00+01:00",
       "note": "Meg O'Neill started as BP CEO April 1. Day 2 today. First week = highest receptivity. Brief + intro message status unknown.",
-      "status": "🔴 CRITICAL — Act this week"
+      "status": "\ud83d\udd34 CRITICAL \u2014 Act this week"
     },
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
       "note": "Kevin Lyon CSO at Chevron. Week 5+ as CSO. Draft at drafts/outreach-chevron-kevin-lyon.md. Window closing.",
-      "status": "🔴 CRITICAL — needs decision: send or drop"
+      "status": "\ud83d\udd34 CRITICAL \u2014 needs decision: send or drop"
     },
     "eniIDDFID": {
       "flaggedAt": "2026-03-18T00:00:00+01:00",
       "note": "Eni IDD dual FID confirmed March 18. Gendalo-Gandang + Geng North/Gehem. $15B. Playbook 1 triggered.",
-      "status": "🔴 URGENT — 2+ weeks overdue"
+      "status": "\ud83d\udd34 URGENT \u2014 2+ weeks overdue"
     },
     "hormuzLinkedIn": {
       "flaggedAt": "2026-03-04T00:00:00+01:00",
       "note": "Playbook 2 LinkedIn post. Decide publish or drop.",
-      "status": "🟡 DECISION NEEDED"
+      "status": "\ud83d\udfe1 DECISION NEEDED"
     },
     "palantirCounterNarrative": {
       "flaggedAt": "2026-03-20T00:00:00+01:00",
       "note": "Palantir repositioning. Playbook 4 counter-narrative overdue.",
-      "status": "🔴 URGENT"
+      "status": "\ud83d\udd34 URGENT"
     },
     "oxyHollubSuccession": {
       "flaggedAt": "2026-03-27T10:00:00+01:00",
       "note": "Vicki Hollub (Oxy CEO) retiring. Richard Jackson (COO) to succeed. Build Jackson profile before formal announcement. Playbook 3.",
-      "status": "🟡 Monitoring"
+      "status": "\ud83d\udfe1 Monitoring"
     }
   },
   "memoryMaintenance": {
@@ -54,8 +54,8 @@
     "nextArchivalDate": "2026-04-09 (April 1 file eligible)"
   },
   "weeklyRoundup": {
-    "lastDelivered": "2026-03-27T10:00:00+01:00",
-    "notionUrl": "https://www.notion.so/Weekly-Roundup-March-23-27-2026-3301cf93fe62814d9fefe23cd75aa397",
-    "note": "Next roundup due Friday April 3 — tomorrow"
+    "lastDelivered": "2026-04-03T10:01:00+02:00",
+    "notionUrl": "https://www.notion.so/Weekly-Roundup-March-31-to-April-3-2026-3371cf93fe6281f7851ef5e04cb894fe",
+    "note": "Next roundup due Friday April 10"
   }
 }
