@@ -1,55 +1,55 @@
 {
   "lastChecks": {
     "memoryScan": 1775203495,
-    "creditCheck": 1775203495,
+    "creditCheck": 1743843660,
     "archival": 1743588060
   },
-  "lastHeartbeat": "2026-04-03T10:01:00+02:00",
+  "lastHeartbeat": "2026-04-05T10:01:00+02:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-04-03T10:01:00+02:00",
-      "balance": 109.96,
+      "lastChecked": "2026-04-05T10:01:00+02:00",
+      "balance": 102.48,
       "threshold": 50,
-      "status": "HEALTHY \u2014 $109.96 remaining"
+      "status": "HEALTHY — $102.48 remaining"
     }
   },
   "urgentFlags": {
     "bpMegONeill": {
       "flaggedAt": "2026-03-27T10:00:00+01:00",
-      "note": "Meg O'Neill started as BP CEO April 1. Day 2 today. First week = highest receptivity. Brief + intro message status unknown.",
-      "status": "\ud83d\udd34 CRITICAL \u2014 Act this week"
+      "note": "Meg O'Neill started as BP CEO April 1. Day 5 today. AGM April 23. Brief + intro message still pending — first week highest receptivity window closing.",
+      "status": "🔴 CRITICAL — Act this week before AGM April 23"
     },
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Week 5+ as CSO. Draft at drafts/outreach-chevron-kevin-lyon.md. Window closing.",
-      "status": "\ud83d\udd34 CRITICAL \u2014 needs decision: send or drop"
+      "note": "Kevin Lyon CSO at Chevron. Week 6 as CSO. Draft at drafts/outreach-chevron-kevin-lyon.md. Final window.",
+      "status": "🔴 CRITICAL — send or close this week"
     },
     "eniIDDFID": {
       "flaggedAt": "2026-03-18T00:00:00+01:00",
       "note": "Eni IDD dual FID confirmed March 18. Gendalo-Gandang + Geng North/Gehem. $15B. Playbook 1 triggered.",
-      "status": "\ud83d\udd34 URGENT \u2014 2+ weeks overdue"
+      "status": "🔴 URGENT — 2.5+ weeks overdue"
     },
     "hormuzLinkedIn": {
       "flaggedAt": "2026-03-04T00:00:00+01:00",
       "note": "Playbook 2 LinkedIn post. Decide publish or drop.",
-      "status": "\ud83d\udfe1 DECISION NEEDED"
+      "status": "🟡 DECISION NEEDED"
     },
     "palantirCounterNarrative": {
       "flaggedAt": "2026-03-20T00:00:00+01:00",
       "note": "Palantir repositioning. Playbook 4 counter-narrative overdue.",
-      "status": "\ud83d\udd34 URGENT"
+      "status": "🔴 URGENT"
     },
     "oxyHollubSuccession": {
       "flaggedAt": "2026-03-27T10:00:00+01:00",
       "note": "Vicki Hollub (Oxy CEO) retiring. Richard Jackson (COO) to succeed. Build Jackson profile before formal announcement. Playbook 3.",
-      "status": "\ud83d\udfe1 Monitoring"
+      "status": "🟡 Monitoring"
     }
   },
   "memoryMaintenance": {
     "lastRun": "2026-04-02T10:01:00+02:00",
     "pendingArchival": {
       "eligible": [],
-      "note": "Archival complete. March 21-28 moved to memory/archive/. Next eligible: April 1 (>7 days: April 9+)"
+      "note": "Next eligible: April 1 file on April 9+"
     },
     "nextArchivalDate": "2026-04-09 (April 1 file eligible)"
   },
