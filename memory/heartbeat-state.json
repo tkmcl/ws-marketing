@@ -1,23 +1,23 @@
 {
   "lastChecks": {
     "memoryScan": 1775203495,
-    "creditCheck": 1744103460,
-    "archival": 1743588060
+    "creditCheck": 1744190580,
+    "archival": 1744190580
   },
-  "lastHeartbeat": "2026-04-08T10:01:00+02:00",
+  "lastHeartbeat": "2026-04-09T10:03:00+02:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-04-08T10:01:00+02:00",
-      "balance": 88.11,
+      "lastChecked": "2026-04-09T10:03:00+02:00",
+      "balance": 84.11,
       "threshold": 50,
-      "status": "HEALTHY — $88.11 remaining"
+      "status": "HEALTHY — $84.11 remaining"
     }
   },
   "urgentFlags": {
     "bpMegONeill": {
       "flaggedAt": "2026-03-27T10:00:00+01:00",
-      "note": "Meg O'Neill started as BP CEO April 1. Day 8 today. AGM April 23. Brief + intro message still pending — week 2 is last high-receptivity window.",
-      "status": "🔴 CRITICAL — Week 2 window. AGM April 23."
+      "note": "Meg O'Neill started as BP CEO April 1. Day 9 today. AGM April 23 — 2 weeks away. Brief + intro message still pending — this week is the last high-receptivity window before AGM prep.",
+      "status": "🔴 CRITICAL — Day 9. AGM April 23. This week is the last window."
     },
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
@@ -27,7 +27,7 @@
     "eniIDDFID": {
       "flaggedAt": "2026-03-18T00:00:00+01:00",
       "note": "Eni IDD dual FID confirmed March 18. Gendalo-Gandang + Geng North/Gehem. $15B. Playbook 1 triggered.",
-      "status": "🔴 URGENT — 3 weeks overdue"
+      "status": "🔴 URGENT — 3+ weeks overdue"
     },
     "hormuzLinkedIn": {
       "flaggedAt": "2026-03-04T00:00:00+01:00",
@@ -46,12 +46,12 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-04-02T10:01:00+02:00",
+    "lastRun": "2026-04-09T10:03:00+02:00",
     "pendingArchival": {
-      "eligible": ["2026-04-01.md"],
-      "note": "April 1 file now 7 days old — archive today or tomorrow"
+      "eligible": [],
+      "note": "2026-04-01.md archived April 9. Next: 2026-04-02.md eligible April 9 (just 7 days) — will archive tomorrow"
     },
-    "nextArchivalDate": "2026-04-09 (April 1 file eligible — action today)"
+    "nextArchivalDate": "2026-04-10 (April 2 file eligible)"
   },
   "weeklyRoundup": {
     "lastDelivered": "2026-04-03T10:01:00+02:00",
