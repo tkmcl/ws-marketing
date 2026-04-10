@@ -1,42 +1,42 @@
 {
   "lastChecks": {
     "memoryScan": 1775203495,
-    "creditCheck": 1744190580,
-    "archival": 1744190580
+    "creditCheck": 1744276860,
+    "archival": 1744276860
   },
-  "lastHeartbeat": "2026-04-09T10:03:00+02:00",
+  "lastHeartbeat": "2026-04-10T10:01:00+02:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-04-09T10:03:00+02:00",
-      "balance": 84.11,
+      "lastChecked": "2026-04-10T10:01:00+02:00",
+      "balance": 79.27,
       "threshold": 50,
-      "status": "HEALTHY — $84.11 remaining"
+      "status": "HEALTHY — $79.27 remaining"
     }
   },
   "urgentFlags": {
     "bpMegONeill": {
       "flaggedAt": "2026-03-27T10:00:00+01:00",
-      "note": "Meg O'Neill started as BP CEO April 1. Day 9 today. AGM April 23 — 2 weeks away. Brief + intro message still pending — this week is the last high-receptivity window before AGM prep.",
-      "status": "🔴 CRITICAL — Day 9. AGM April 23. This week is the last window."
+      "note": "Meg O'Neill started as BP CEO April 1. Day 10 today. AGM April 23 — 13 days away. THIS WEEK is the last high-receptivity window before AGM prep consumes attention. Carol Howle named Deputy CEO April 3.",
+      "status": "🔴 CRITICAL — Day 10. AGM April 23. Hard deadline."
     },
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Week 6+ as CSO. Draft at drafts/outreach-chevron-kevin-lyon.md. Final window.",
+      "note": "Kevin Lyon CSO at Chevron. Week 7 as CSO. Draft at drafts/outreach-chevron-kevin-lyon.md. Aseng Gas FID + West Qurna 2 provide fresh hooks. Final window — send or close.",
       "status": "🔴 CRITICAL — send or close this week"
     },
     "eniIDDFID": {
       "flaggedAt": "2026-03-18T00:00:00+01:00",
-      "note": "Eni IDD dual FID confirmed March 18. Gendalo-Gandang + Geng North/Gehem. $15B. Playbook 1 triggered.",
-      "status": "🔴 URGENT — 3+ weeks overdue"
+      "note": "Eni IDD dual FID confirmed March 18. Gendalo-Gandang + Geng North/Gehem. $15B. Playbook 1 triggered. FRESH HOOK: Denise W-1 Egypt discovery (2 Tcf, April 7). Use for outreach.",
+      "status": "🔴 URGENT — 3+ weeks overdue. New hook available."
     },
     "hormuzLinkedIn": {
       "flaggedAt": "2026-03-04T00:00:00+01:00",
-      "note": "Playbook 2 LinkedIn post. Decide publish or drop.",
-      "status": "🟡 DECISION NEEDED"
+      "note": "Playbook 2 LinkedIn post. Partially superseded by ceasefire. New angle: 'Planning Through Volatility' (Hormuz + 126 FIDs). Decide publish or drop old draft.",
+      "status": "🟡 DECISION NEEDED — pivot to new angle or drop"
     },
     "palantirCounterNarrative": {
       "flaggedAt": "2026-03-20T00:00:00+01:00",
-      "note": "Palantir repositioning. Playbook 4 counter-narrative overdue.",
+      "note": "Palantir repositioning. Playbook 4 counter-narrative overdue. Q1 earnings season approaching — window narrowing.",
       "status": "🔴 URGENT"
     },
     "oxyHollubSuccession": {
@@ -46,16 +46,16 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-04-09T10:03:00+02:00",
+    "lastRun": "2026-04-10T10:01:00+02:00",
     "pendingArchival": {
       "eligible": [],
-      "note": "2026-04-01.md archived April 9. Next: 2026-04-02.md eligible April 9 (just 7 days) — will archive tomorrow"
+      "note": "2026-04-02.md archived April 10. Next: 2026-04-03.md eligible April 10 (just 7 days) — will archive tomorrow"
     },
-    "nextArchivalDate": "2026-04-10 (April 2 file eligible)"
+    "nextArchivalDate": "2026-04-11 (April 3 file eligible)"
   },
   "weeklyRoundup": {
-    "lastDelivered": "2026-04-03T10:01:00+02:00",
-    "notionUrl": "https://www.notion.so/Weekly-Roundup-March-31-to-April-3-2026-3371cf93fe6281f7851ef5e04cb894fe",
-    "note": "Next roundup due Friday April 10"
+    "lastDelivered": "2026-04-10T10:01:00+02:00",
+    "notionUrl": "https://www.notion.so/Weekly-Roundup-April-7-10-2026-33e1cf93fe62811db9a3c4369a345455",
+    "note": "Next roundup due Friday April 17"
   }
 }
