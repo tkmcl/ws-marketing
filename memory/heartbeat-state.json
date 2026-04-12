@@ -1,27 +1,27 @@
 {
   "lastChecks": {
     "memoryScan": 1775203495,
-    "creditCheck": 1744276860,
-    "archival": 1744276860
+    "creditCheck": 1744449720,
+    "archival": 1744449720
   },
-  "lastHeartbeat": "2026-04-10T10:01:00+02:00",
+  "lastHeartbeat": "2026-04-12T10:02:00+02:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-04-10T10:01:00+02:00",
-      "balance": 79.27,
+      "lastChecked": "2026-04-12T10:02:00+02:00",
+      "balance": 68.00,
       "threshold": 50,
-      "status": "HEALTHY — $79.27 remaining"
+      "status": "HEALTHY — $68.00 remaining (burn slightly elevated, monitor)"
     }
   },
   "urgentFlags": {
     "bpMegONeill": {
       "flaggedAt": "2026-03-27T10:00:00+01:00",
-      "note": "Meg O'Neill started as BP CEO April 1. Day 10 today. AGM April 23 — 13 days away. THIS WEEK is the last high-receptivity window before AGM prep consumes attention. Carol Howle named Deputy CEO April 3.",
-      "status": "🔴 CRITICAL — Day 10. AGM April 23. Hard deadline."
+      "note": "Meg O'Neill started as BP CEO April 1. Day 12 today. AGM April 23 — 11 days away. LAST window before AGM prep consumes attention. Carol Howle named Deputy CEO April 3.",
+      "status": "🔴 CRITICAL — Day 12. AGM April 23. Hard deadline."
     },
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Week 7 as CSO. Draft at drafts/outreach-chevron-kevin-lyon.md. Aseng Gas FID + West Qurna 2 provide fresh hooks. Final window — send or close.",
+      "note": "Kevin Lyon CSO at Chevron. Week 7 as CSO. Draft at drafts/outreach-chevron-kevin-lyon.md. Final window — send or close.",
       "status": "🔴 CRITICAL — send or close this week"
     },
     "eniIDDFID": {
@@ -46,12 +46,12 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-04-10T10:01:00+02:00",
+    "lastRun": "2026-04-12T10:02:00+02:00",
     "pendingArchival": {
       "eligible": [],
-      "note": "2026-04-02.md archived April 10. Next: 2026-04-03.md eligible April 10 (just 7 days) — will archive tomorrow"
+      "note": "2026-04-03.md archived April 12. Next: 2026-04-05.md eligible April 12 (7 days)"
     },
-    "nextArchivalDate": "2026-04-11 (April 3 file eligible)"
+    "nextArchivalDate": "2026-04-13 (April 5 file eligible)"
   },
   "weeklyRoundup": {
     "lastDelivered": "2026-04-10T10:01:00+02:00",
