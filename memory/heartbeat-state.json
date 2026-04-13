@@ -1,23 +1,23 @@
 {
   "lastChecks": {
     "memoryScan": 1775203495,
-    "creditCheck": 1744449720,
-    "archival": 1744449720
+    "creditCheck": 1744534920,
+    "archival": 1744534920
   },
-  "lastHeartbeat": "2026-04-12T10:02:00+02:00",
+  "lastHeartbeat": "2026-04-13T10:02:00+02:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-04-12T10:02:00+02:00",
-      "balance": 68.00,
+      "lastChecked": "2026-04-13T10:02:00+02:00",
+      "balance": 62.34,
       "threshold": 50,
-      "status": "HEALTHY — $68.00 remaining (burn slightly elevated, monitor)"
+      "status": "⚠️ MONITOR — $62.34 remaining. Burn ~$6/day. ~2 weeks runway at current rate."
     }
   },
   "urgentFlags": {
     "bpMegONeill": {
       "flaggedAt": "2026-03-27T10:00:00+01:00",
-      "note": "Meg O'Neill started as BP CEO April 1. Day 12 today. AGM April 23 — 11 days away. LAST window before AGM prep consumes attention. Carol Howle named Deputy CEO April 3.",
-      "status": "🔴 CRITICAL — Day 12. AGM April 23. Hard deadline."
+      "note": "Meg O'Neill started as BP CEO April 1. Day 13 today. AGM April 23 — 10 days away. LAST window before AGM prep consumes attention. Carol Howle named Deputy CEO April 3.",
+      "status": "🔴 CRITICAL — Day 13. AGM April 23. 10 days left. Act today."
     },
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
@@ -27,7 +27,7 @@
     "eniIDDFID": {
       "flaggedAt": "2026-03-18T00:00:00+01:00",
       "note": "Eni IDD dual FID confirmed March 18. Gendalo-Gandang + Geng North/Gehem. $15B. Playbook 1 triggered. FRESH HOOK: Denise W-1 Egypt discovery (2 Tcf, April 7). Use for outreach.",
-      "status": "🔴 URGENT — 3+ weeks overdue. New hook available."
+      "status": "🔴 URGENT — 4 weeks overdue. New hook available."
     },
     "hormuzLinkedIn": {
       "flaggedAt": "2026-03-04T00:00:00+01:00",
@@ -37,7 +37,7 @@
     "palantirCounterNarrative": {
       "flaggedAt": "2026-03-20T00:00:00+01:00",
       "note": "Palantir repositioning. Playbook 4 counter-narrative overdue. Q1 earnings season approaching — window narrowing.",
-      "status": "🔴 URGENT"
+      "status": "🔴 URGENT — Q1 earnings season starts this week"
     },
     "oxyHollubSuccession": {
       "flaggedAt": "2026-03-27T10:00:00+01:00",
@@ -46,12 +46,12 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-04-12T10:02:00+02:00",
+    "lastRun": "2026-04-13T10:02:00+02:00",
     "pendingArchival": {
       "eligible": [],
-      "note": "2026-04-03.md archived April 12. Next: 2026-04-05.md eligible April 12 (7 days)"
+      "note": "2026-04-05.md archived April 13. Next: 2026-04-06.md eligible April 13 (7 days)"
     },
-    "nextArchivalDate": "2026-04-13 (April 5 file eligible)"
+    "nextArchivalDate": "2026-04-14 (April 6 file eligible tomorrow)"
   },
   "weeklyRoundup": {
     "lastDelivered": "2026-04-10T10:01:00+02:00",
