@@ -1,33 +1,33 @@
 {
   "lastChecks": {
     "memoryScan": 1775203495,
-    "creditCheck": 1744534920,
-    "archival": 1744534920
+    "creditCheck": 1744710120,
+    "archival": 1744710120
   },
-  "lastHeartbeat": "2026-04-13T10:02:00+02:00",
+  "lastHeartbeat": "2026-04-15T10:02:00+02:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-04-13T10:02:00+02:00",
-      "balance": 62.34,
+      "lastChecked": "2026-04-15T10:02:00+02:00",
+      "balance": 54.86,
       "threshold": 50,
-      "status": "⚠️ MONITOR — $62.34 remaining. Burn ~$6/day. ~2 weeks runway at current rate."
+      "status": "⚠️ WATCH — $54.86 remaining. Burn ~$3-6/day. ~1.5-2 weeks runway. Approaching $50 alert threshold."
     }
   },
   "urgentFlags": {
     "bpMegONeill": {
       "flaggedAt": "2026-03-27T10:00:00+01:00",
-      "note": "Meg O'Neill started as BP CEO April 1. Day 13 today. AGM April 23 — 10 days away. LAST window before AGM prep consumes attention. Carol Howle named Deputy CEO April 3.",
-      "status": "🔴 CRITICAL — Day 13. AGM April 23. 10 days left. Act today."
+      "note": "Meg O'Neill started as BP CEO April 1. Day 15 today. AGM April 23 — 8 days away. First earnings call April 28. Carol Howle named Deputy CEO April 3.",
+      "status": "🔴 CRITICAL — Day 15. AGM April 23. 8 days left. Act today."
     },
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Week 7 as CSO. Draft at drafts/outreach-chevron-kevin-lyon.md. Final window — send or close.",
+      "note": "Kevin Lyon CSO at Chevron. Week 7+ as CSO. Draft at drafts/outreach-chevron-kevin-lyon.md. Final window — send or close.",
       "status": "🔴 CRITICAL — send or close this week"
     },
     "eniIDDFID": {
       "flaggedAt": "2026-03-18T00:00:00+01:00",
       "note": "Eni IDD dual FID confirmed March 18. Gendalo-Gandang + Geng North/Gehem. $15B. Playbook 1 triggered. FRESH HOOK: Denise W-1 Egypt discovery (2 Tcf, April 7). Use for outreach.",
-      "status": "🔴 URGENT — 4 weeks overdue. New hook available."
+      "status": "🔴 URGENT — 4+ weeks overdue. New hook available. Window closing."
     },
     "hormuzLinkedIn": {
       "flaggedAt": "2026-03-04T00:00:00+01:00",
@@ -36,8 +36,8 @@
     },
     "palantirCounterNarrative": {
       "flaggedAt": "2026-03-20T00:00:00+01:00",
-      "note": "Palantir repositioning. Playbook 4 counter-narrative overdue. Q1 earnings season approaching — window narrowing.",
-      "status": "🔴 URGENT — Q1 earnings season starts this week"
+      "note": "Palantir repositioning. Playbook 4 counter-narrative overdue. Q1 earnings season now underway.",
+      "status": "🔴 URGENT — Q1 earnings season underway"
     },
     "oxyHollubSuccession": {
       "flaggedAt": "2026-03-27T10:00:00+01:00",
@@ -46,12 +46,12 @@
     }
   },
   "memoryMaintenance": {
-    "lastRun": "2026-04-13T10:02:00+02:00",
+    "lastRun": "2026-04-15T10:02:00+02:00",
     "pendingArchival": {
       "eligible": [],
-      "note": "2026-04-05.md archived April 13. Next: 2026-04-06.md eligible April 13 (7 days)"
+      "note": "2026-04-08.md archived April 15. Next: 2026-04-09.md eligible April 22."
     },
-    "nextArchivalDate": "2026-04-14 (April 6 file eligible tomorrow)"
+    "nextArchivalDate": "2026-04-22 (April 9 file eligible)"
   },
   "weeklyRoundup": {
     "lastDelivered": "2026-04-10T10:01:00+02:00",
