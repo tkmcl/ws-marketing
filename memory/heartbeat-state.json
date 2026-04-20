@@ -1,43 +1,43 @@
 {
   "lastChecks": {
     "memoryScan": 1775203495,
-    "creditCheck": 1744710120,
+    "creditCheck": 1745056920,
     "archival": 1744710120
   },
-  "lastHeartbeat": "2026-04-15T10:02:00+02:00",
+  "lastHeartbeat": "2026-04-19T10:02:00+02:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-04-15T10:02:00+02:00",
-      "balance": 54.86,
+      "lastChecked": "2026-04-19T10:02:00+02:00",
+      "balance": 37.35,
       "threshold": 50,
-      "status": "⚠️ WATCH — $54.86 remaining. Burn ~$3-6/day. ~1.5-2 weeks runway. Approaching $50 alert threshold."
+      "status": "🔴 CRITICAL — $37.35 remaining. Burn ~$5-6/day. ~7 days runway. Slack to Tom FAILED again (user_not_found). Michiel alerted via Telegram (msg 518)."
     }
   },
   "urgentFlags": {
     "bpMegONeill": {
       "flaggedAt": "2026-03-27T10:00:00+01:00",
-      "note": "Meg O'Neill started as BP CEO April 1. Day 15 today. AGM April 23 — 8 days away. First earnings call April 28. Carol Howle named Deputy CEO April 3.",
-      "status": "🔴 CRITICAL — Day 15. AGM April 23. 8 days left. Act today."
+      "note": "Meg O'Neill started as BP CEO April 1. AGM April 23 — 4 days away. First earnings call April 28. Carol Howle named Deputy CEO April 3. BP entered Namibia as operator (April 13).",
+      "status": "🔴 CRITICAL — AGM April 23 in 4 days. Send outreach NOW."
     },
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Week 7+ as CSO. Draft at drafts/outreach-chevron-kevin-lyon.md. Final window — send or close.",
-      "status": "🔴 CRITICAL — send or close this week"
+      "note": "Kevin Lyon CSO at Chevron. Week 8+ as CSO. NEW HOOK: Venezuela Petroindependencia 49% (April 13) — 3 frontier expansions in 8 weeks. Draft at drafts/outreach-chevron-kevin-lyon.md. SEND OR CLOSE.",
+      "status": "🔴 CRITICAL — send or close this week. New hook: Venezuela 49% consolidation."
     },
     "eniIDDFID": {
       "flaggedAt": "2026-03-18T00:00:00+01:00",
-      "note": "Eni IDD dual FID confirmed March 18. Gendalo-Gandang + Geng North/Gehem. $15B. Playbook 1 triggered. FRESH HOOK: Denise W-1 Egypt discovery (2 Tcf, April 7). Use for outreach.",
-      "status": "🔴 URGENT — 4+ weeks overdue. New hook available. Window closing."
+      "note": "Eni IDD dual FID confirmed March 18. $15B with Petronas. HOOK: Denise W-1 Egypt discovery (2 Tcf, April 7). 5+ weeks overdue.",
+      "status": "🔴 URGENT — 5+ weeks overdue. Window closing."
     },
     "hormuzLinkedIn": {
       "flaggedAt": "2026-03-04T00:00:00+01:00",
-      "note": "Playbook 2 LinkedIn post. Partially superseded by ceasefire. New angle: 'Planning Through Volatility' (Hormuz + 126 FIDs). Decide publish or drop old draft.",
-      "status": "🟡 DECISION NEEDED — pivot to new angle or drop"
+      "note": "LinkedIn post. Pivot to 'Frontier Rush' / 'War Windfall' angle (see April 18 roundup). Drop old Hormuz draft.",
+      "status": "🟡 DECISION NEEDED — pivot to Frontier Rush / War Windfall angle"
     },
     "palantirCounterNarrative": {
       "flaggedAt": "2026-03-20T00:00:00+01:00",
-      "note": "Palantir repositioning. Playbook 4 counter-narrative overdue. Q1 earnings season now underway.",
-      "status": "🔴 URGENT — Q1 earnings season underway"
+      "note": "Palantir repositioning. Playbook 4 counter-narrative overdue. Q1 earnings season underway. Publish before Palantir Q1 earnings.",
+      "status": "🔴 URGENT — Q1 earnings season underway. Publish this week."
     },
     "oxyHollubSuccession": {
       "flaggedAt": "2026-03-27T10:00:00+01:00",
@@ -45,17 +45,19 @@
       "status": "🟡 Monitoring"
     }
   },
+  "weeklyRoundup": {
+    "lastDelivered": "2026-04-18T10:02:00+02:00",
+    "notionUrl": "https://www.notion.so/Weekly-Roundup-April-14-18-2026-3461cf93fe62819aabd7e3deb404bdd5",
+    "note": "Delivered April 18 (1 day late). Next roundup due Friday April 24."
+  },
   "memoryMaintenance": {
     "lastRun": "2026-04-15T10:02:00+02:00",
     "pendingArchival": {
-      "eligible": [],
-      "note": "2026-04-08.md archived April 15. Next: 2026-04-09.md eligible April 22."
+      "eligible": ["2026-04-09.md"],
+      "note": "2026-04-09.md eligible for archival April 22"
     },
     "nextArchivalDate": "2026-04-22 (April 9 file eligible)"
   },
-  "weeklyRoundup": {
-    "lastDelivered": "2026-04-10T10:01:00+02:00",
-    "notionUrl": "https://www.notion.so/Weekly-Roundup-April-7-10-2026-33e1cf93fe62811db9a3c4369a345455",
-    "note": "Next roundup due Friday April 17"
-  }
+  "michielChatId": "8460242385",
+  "_note": "Michiel's Telegram chat ID recovered from session transcript on April 18. Store here for future sends."
 }
