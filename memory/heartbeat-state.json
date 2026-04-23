@@ -1,23 +1,23 @@
 {
   "lastChecks": {
     "memoryScan": 1775203495,
-    "creditCheck": 1745056920,
-    "archival": 1744710120
+    "creditCheck": 1745312640,
+    "archival": 1745312640
   },
-  "lastHeartbeat": "2026-04-19T10:02:00+02:00",
+  "lastHeartbeat": "2026-04-22T10:04:00+02:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-04-19T10:02:00+02:00",
-      "balance": 37.35,
+      "lastChecked": "2026-04-22T10:04:00+02:00",
+      "balance": 25.95,
       "threshold": 50,
-      "status": "🔴 CRITICAL — $37.35 remaining. Burn ~$5-6/day. ~7 days runway. Slack to Tom FAILED again (user_not_found). Michiel alerted via Telegram (msg 518)."
+      "status": "🔴 CRITICAL — $25.95 remaining. Burn ~$3.23/day. ~8 days runway. Slack to Tom STILL FAILING. Michiel alerted (Apr 22)."
     }
   },
   "urgentFlags": {
     "bpMegONeill": {
       "flaggedAt": "2026-03-27T10:00:00+01:00",
-      "note": "Meg O'Neill started as BP CEO April 1. AGM April 23 — 4 days away. First earnings call April 28. Carol Howle named Deputy CEO April 3. BP entered Namibia as operator (April 13).",
-      "status": "🔴 CRITICAL — AGM April 23 in 4 days. Send outreach NOW."
+      "note": "Meg O'Neill started as BP CEO April 1. AGM April 23 — TOMORROW. First earnings call April 28. Carol Howle named Deputy CEO April 3. BP entered Namibia as operator (April 13).",
+      "status": "🔴 CRITICAL — AGM April 23 TOMORROW. Last window for outreach NOW."
     },
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
@@ -26,8 +26,8 @@
     },
     "eniIDDFID": {
       "flaggedAt": "2026-03-18T00:00:00+01:00",
-      "note": "Eni IDD dual FID confirmed March 18. $15B with Petronas. HOOK: Denise W-1 Egypt discovery (2 Tcf, April 7). 5+ weeks overdue.",
-      "status": "🔴 URGENT — 5+ weeks overdue. Window closing."
+      "note": "Eni IDD dual FID confirmed March 18. $15B with Petronas. HOOK: Denise W-1 Egypt discovery (2 Tcf, April 7). 6+ weeks overdue.",
+      "status": "🔴 URGENT — 6+ weeks overdue. Window closing."
     },
     "hormuzLinkedIn": {
       "flaggedAt": "2026-03-04T00:00:00+01:00",
@@ -51,12 +51,12 @@
     "note": "Delivered April 18 (1 day late). Next roundup due Friday April 24."
   },
   "memoryMaintenance": {
-    "lastRun": "2026-04-15T10:02:00+02:00",
+    "lastRun": "2026-04-22T10:04:00+02:00",
     "pendingArchival": {
-      "eligible": ["2026-04-09.md"],
-      "note": "2026-04-09.md eligible for archival April 22"
+      "eligible": [],
+      "note": "2026-04-09.md archived April 22. Next eligible: 2026-04-15.md (April 29)"
     },
-    "nextArchivalDate": "2026-04-22 (April 9 file eligible)"
+    "nextArchivalDate": "2026-04-29 (April 15 file eligible)"
   },
   "michielChatId": "8460242385",
   "_note": "Michiel's Telegram chat ID recovered from session transcript on April 18. Store here for future sends."
