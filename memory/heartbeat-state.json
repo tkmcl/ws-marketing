@@ -1,48 +1,48 @@
 {
   "lastChecks": {
-    "memoryScan": 1775203495,
-    "creditCheck": 1745312640,
-    "archival": 1745312640
+    "memoryScan": 1745399040,
+    "creditCheck": 1745399040,
+    "archival": 1745399040
   },
-  "lastHeartbeat": "2026-04-22T10:04:00+02:00",
+  "lastHeartbeat": "2026-04-23T10:04:00+02:00",
   "alerts": {
     "openrouterBalance": {
-      "lastChecked": "2026-04-22T10:04:00+02:00",
-      "balance": 25.95,
+      "lastChecked": "2026-04-23T10:04:00+02:00",
+      "balance": 22.46,
       "threshold": 50,
-      "status": "🔴 CRITICAL — $25.95 remaining. Burn ~$3.23/day. ~8 days runway. Slack to Tom STILL FAILING. Michiel alerted (Apr 22)."
+      "status": "\ud83d\udd34 CRITICAL \u2014 $22.46 remaining. Burn ~$3.49/day. ~6 days runway. Michiel alerted Apr 23. Slack to Tom STILL FAILING (user_not_found)."
     }
   },
   "urgentFlags": {
     "bpMegONeill": {
       "flaggedAt": "2026-03-27T10:00:00+01:00",
-      "note": "Meg O'Neill started as BP CEO April 1. AGM April 23 — TOMORROW. First earnings call April 28. Carol Howle named Deputy CEO April 3. BP entered Namibia as operator (April 13).",
-      "status": "🔴 CRITICAL — AGM April 23 TOMORROW. Last window for outreach NOW."
+      "note": "Meg O'Neill started as BP CEO April 1. AGM April 23 \u2014 TOMORROW. First earnings call April 28. Carol Howle named Deputy CEO April 3. BP entered Namibia as operator (April 13).",
+      "status": "\ud83d\udd34 CRITICAL \u2014 AGM April 23 TOMORROW. Last window for outreach NOW."
     },
     "chevronKevinLyon": {
       "flaggedAt": "2026-02-25T15:00:00+01:00",
-      "note": "Kevin Lyon CSO at Chevron. Week 8+ as CSO. NEW HOOK: Venezuela Petroindependencia 49% (April 13) — 3 frontier expansions in 8 weeks. Draft at drafts/outreach-chevron-kevin-lyon.md. SEND OR CLOSE.",
-      "status": "🔴 CRITICAL — send or close this week. New hook: Venezuela 49% consolidation."
+      "note": "Kevin Lyon CSO at Chevron. Week 8+ as CSO. NEW HOOK: Venezuela Petroindependencia 49% (April 13) \u2014 3 frontier expansions in 8 weeks. Draft at drafts/outreach-chevron-kevin-lyon.md. SEND OR CLOSE.",
+      "status": "\ud83d\udd34 CRITICAL \u2014 send or close this week. New hook: Venezuela 49% consolidation."
     },
     "eniIDDFID": {
       "flaggedAt": "2026-03-18T00:00:00+01:00",
       "note": "Eni IDD dual FID confirmed March 18. $15B with Petronas. HOOK: Denise W-1 Egypt discovery (2 Tcf, April 7). 6+ weeks overdue.",
-      "status": "🔴 URGENT — 6+ weeks overdue. Window closing."
+      "status": "\ud83d\udd34 URGENT \u2014 6+ weeks overdue. Window closing."
     },
     "hormuzLinkedIn": {
       "flaggedAt": "2026-03-04T00:00:00+01:00",
       "note": "LinkedIn post. Pivot to 'Frontier Rush' / 'War Windfall' angle (see April 18 roundup). Drop old Hormuz draft.",
-      "status": "🟡 DECISION NEEDED — pivot to Frontier Rush / War Windfall angle"
+      "status": "\ud83d\udfe1 DECISION NEEDED \u2014 pivot to Frontier Rush / War Windfall angle"
     },
     "palantirCounterNarrative": {
       "flaggedAt": "2026-03-20T00:00:00+01:00",
       "note": "Palantir repositioning. Playbook 4 counter-narrative overdue. Q1 earnings season underway. Publish before Palantir Q1 earnings.",
-      "status": "🔴 URGENT — Q1 earnings season underway. Publish this week."
+      "status": "\ud83d\udd34 URGENT \u2014 Q1 earnings season underway. Publish this week."
     },
     "oxyHollubSuccession": {
       "flaggedAt": "2026-03-27T10:00:00+01:00",
       "note": "Vicki Hollub (Oxy CEO) retiring. Richard Jackson (COO) to succeed. Build Jackson profile before formal announcement. Playbook 3.",
-      "status": "🟡 Monitoring"
+      "status": "\ud83d\udfe1 Monitoring"
     }
   },
   "weeklyRoundup": {
